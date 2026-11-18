@@ -17,3 +17,5 @@ La portada incorpora últimas publicaciones, reloj internacional (Argentina, Chi
 - Dominio administrado en Hostinger
 
 **Nota:** el panel editorial actual guarda contenido en `localStorage`; no es todavía un CMS multiusuario ni dispone de autenticación segura. Las cotizaciones dependen de servicios externos y de su disponibilidad.
+
+GitHub Pages deployment configured.
