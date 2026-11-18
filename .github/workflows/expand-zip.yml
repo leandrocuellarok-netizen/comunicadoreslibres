@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "README.md"
+      - "*.zip"
 
 permissions:
   contents: write
@@ -15,7 +15,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Extract site files
         run: |
           ZIP_FILE="$(find . -maxdepth 1 -type f -name '*.zip' -print -quit)"
@@ -24,7 +23,6 @@ jobs:
           test -f extracted/comunicadores-libres/package.json
           cp -a extracted/comunicadores-libres/. .
           rm -rf extracted "$ZIP_FILE"
-
       - name: Commit extracted project
         run: |
           git config user.name "github-actions[bot]"
