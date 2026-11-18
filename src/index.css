@@ -11,3 +11,6 @@
 .anthropic-visual{margin:42px 0 20px;background:#eee5d8;border:1px solid #d9cbbb}.anthropic-visual svg{display:block;width:100%;height:auto}.anthropic-visual figcaption{padding:12px 16px;font-size:12px;color:#74685e;font-style:italic}
 
 .contact-overlay{position:fixed;inset:0;z-index:1000;background:rgba(8,15,30,.62);display:grid;place-items:center;padding:24px}.contact-panel{position:relative;width:min(100%,520px);background:#f4eee4;color:#171717;padding:42px;border:1px solid #c8b99f;box-shadow:0 24px 80px rgba(0,0,0,.25)}.contact-panel h2{font-family:Georgia,serif;font-size:34px;margin:8px 0 26px}.contact-panel p{margin:14px 0;font-size:16px}.contact-panel a{color:inherit;text-decoration:underline;text-underline-offset:3px}.contact-close{position:absolute;right:16px;top:10px;border:0;background:transparent;font-size:30px;cursor:pointer;color:inherit}@media(max-width:600px){.contact-panel{padding:32px 24px}}
+
+
+.event-visual{margin:2rem 0 2.5rem;}.event-visual img{display:block;width:100%;max-height:520px;object-fit:cover;border-radius:3px;}.event-visual figcaption{margin-top:.65rem;color:#777;font-size:.82rem;line-height:1.5;}
