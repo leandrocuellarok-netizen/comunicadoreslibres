@@ -5,3 +5,5 @@
 @media(max-width:1050px){nav{gap:10px;flex-wrap:wrap;justify-content:flex-end}nav button{font-size:9px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.clock-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:650px){.clock-panel{margin:24px 5% 0;padding:18px}.clock-grid{grid-template-columns:repeat(2,1fr)}.clock-city strong{font-size:20px}.cards{grid-template-columns:1fr}.market-wrap{padding:0 5% 50px}.market-panel{margin:0}.widget-title{align-items:flex-start;flex-direction:column;gap:5px}.daily-quote{padding:28px}}
 .rates-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:5px 0}.rates-grid>div{display:flex;flex-direction:column;gap:3px;padding:9px;background:#f4eee5}.rates-grid small{font-size:9px;color:#8c765f}.rates-grid strong{font:700 18px 'Playfair Display';color:#641f32}
+
+.brand-logo{width:66px;height:66px;object-fit:contain;display:block;flex:0 0 auto}@media(max-width:650px){.brand-logo{width:54px;height:54px}}
