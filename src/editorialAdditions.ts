@@ -27,4 +27,4 @@ export const editorialAdditions = [
     imageCredit: "Pileta municipal de Escobar. Fotografía: Municipalidad de Escobar.",
     sources: ["https://www.escobar.gob.ar/noticias/escobar-abre-la-inscripcion-para-la-colonia-de-verano-2027-y-anuncia-l/"]
   }
-] as const;
+];
