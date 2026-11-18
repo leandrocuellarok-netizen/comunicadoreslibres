@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import './index.css';
 
 type Article = { id: string; title: string; category: string; author: string; date: string; excerpt: string; body: string; published: boolean };
-const categories = ['Agenda política','Turismo y gastronomía','Ciencia, tecnología e IA','Empresas y negocios','Economía y finanzas','Comunicación, medios y redes'];
+const categories = ['Agenda política','Turismo, estilo de vida y gastronomía','Ciencia, tecnología e IA','Empresas y negocios','Economía y finanzas','Comunicación, medios y redes'];
 const seed: Article[] = [
  { id:'a1', title:'La agenda pública también se construye desde las preguntas', category:'Agenda política', author:'Redacción', date:'2026-11-16', excerpt:'Ideas, decisiones y debates que marcan la conversación política en Argentina y la región.', body:'La agenda pública no es solamente una sucesión de anuncios. También es el espacio donde se discuten prioridades, se contrastan perspectivas y se exige responsabilidad a quienes toman decisiones. Comunicar política requiere contexto, pluralidad y capacidad de escuchar.', published:true },
  { id:'a2', title:'Inteligencia artificial: de la novedad a la herramienta de trabajo', category:'Ciencia, tecnología e IA', author:'Equipo editorial', date:'2026-11-15', excerpt:'La IA empieza a transformar procesos, modelos de negocio y formas de comunicar.', body:'La inteligencia artificial ya no es una promesa lejana. Su impacto depende de cómo las organizaciones la integran en sus procesos, de la formación de sus equipos y de la capacidad de evaluar resultados. La adopción tecnológica necesita criterio, estrategia y responsabilidad.', published:true },
