@@ -1,6 +1,7 @@
 name: Expand uploaded site ZIP
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
@@ -11,7 +12,6 @@ permissions:
 
 jobs:
   expand:
-    if: ${{ !hashFiles('package.json') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
