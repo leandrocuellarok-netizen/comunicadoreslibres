@@ -1,11 +1,10 @@
 name: Expand uploaded site ZIP
 
 on:
-  workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - "*.zip"
+      - "README.md"
 
 permissions:
   contents: write
