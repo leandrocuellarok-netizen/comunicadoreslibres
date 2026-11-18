@@ -1,10 +1,19 @@
 # Comunicadores Libres
 
-Sitio editorial independiente. Dominio: https://libres.sbs/
+Plataforma editorial independiente. Dominio previsto: https://libres.sbs/
 
-Proyecto inicial preparado para publicación. La administración editorial de esta versión guarda los artículos localmente en el navegador; no constituye todavía un CMS multiusuario con autenticación y base de datos.
+## Secciones
+- Agenda política
+- Difusión empresarial e IA
+- Cultura, cine y eventos
+- Geopolítica desde LATAM
+- La frase del día
 
+La portada incorpora últimas publicaciones, reloj internacional (Argentina, Chile, México, Estados Unidos, China y Francia), cotizaciones de empresas tecnológicas/IA mediante TradingView y referencias USD/ARS mediante DolarApi.
 
-Source package uploaded; GitHub Actions will extract the application files.
+## Desarrollo
+- React + TypeScript + Vite
+- Despliegue previsto en GitHub Pages mediante GitHub Actions
+- Dominio administrado en Hostinger
 
-Extraction retry initiated.
+**Nota:** el panel editorial actual guarda contenido en `localStorage`; no es todavía un CMS multiusuario ni dispone de autenticación segura. Las cotizaciones dependen de servicios externos y de su disponibilidad.

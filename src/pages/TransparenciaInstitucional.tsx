@@ -1,0 +1,41 @@
+import PageLayout from '../components/PageLayout';
+import { TRANSPARENCIA } from '../content';
+
+export default function TransparenciaInstitucional() {
+  return (
+    <PageLayout title={TRANSPARENCIA.pageTitle} label={TRANSPARENCIA.pageLabel}>
+      <div style={{ fontFamily: 'var(--font-body)' }}>
+        <p className="text-xl text-gray-700 leading-relaxed mb-14">
+          {TRANSPARENCIA.paragraphs.map((line, i) => (
+            <p key={i} className="mb-2">
+              {line}
+            </p>
+          ))}
+        </p>
+
+        {/* <div className="border border-gray-200">
+          {TRANSPARENCIA.pillars.map(({ num, title, paragraphs }) => (
+            <div key={num} className="grid md:grid-cols-[80px_1fr] border-b border-gray-200 last:border-b-0">
+              <div className="bg-[#1c2b62] flex items-start justify-center pt-8 px-4">
+                <span className="text-[#ffe900] text-sm font-bold tracking-widest">{num}</span>
+              </div>
+              <div className="p-8">
+                <h2
+                  className="text-2xl font-bold text-[#1c2b62] mb-4"
+                  style={{ fontFamily: 'var(--font-display)' }}
+                >
+                  {title}
+                </h2>
+                {paragraphs.map((p, i) => (
+                  <p key={i} className={`text-gray-700 leading-relaxed ${i < paragraphs.length - 1 ? 'mb-4' : ''}`}>
+                    {p}
+                  </p>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div> */}
+      </div>
+    </PageLayout>
+  );
+}
