@@ -594,9 +594,7 @@ export const editorialAdditions = [
     "sources": [
       "https://www.argentina.gob.ar/noticias/world-cheese-awards-2026-argentina-se-destaco-entre-los-mejores-quesos-del-mundo-con-17"
     ]
-  }
-,
-[
+  },
   {
     "id": "agenda-diputados-quorum-ley-soberania-alcance-2026-11-19",
     "title": "La falta de quórum frenó el debate de la Ley de Soberanía y dejó a la vista el alcance del proyecto",
