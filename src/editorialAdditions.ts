@@ -490,4 +490,39 @@ export const editorialAdditions = [
       "https://www.argentina.gob.ar/noticias/la-secretaria-general-de-la-presidencia-recorrio-la-feria-argentina-alimenta"
     ]
   }
+,
+  {
+    "id": "economia-ied-egresos-netos-inversion-extranjera-segundo-trimestre-2026-11-19",
+    "title": "El BCRA registró egresos netos de USD 1.820 millones en flujos de inversión extranjera directa",
+    "excerpt": "El Banco Central atribuyó el saldo del segundo trimestre a la cancelación de deuda comercial entre empresas vinculadas. Los dividendos distribuidos alcanzaron un máximo de la serie, mientras la posición bruta de IED se ubicó en USD 202.359 millones.",
+    "category": "Economía y finanzas",
+    "body": "El Banco Central informó que en el segundo trimestre de 2026 se registraron egresos netos de capital e instrumentos de deuda vinculados con la inversión extranjera directa por USD 1.820 millones. El organismo explicó que el resultado respondió principalmente a la cancelación de deuda comercial entre empresas vinculadas, en un contexto de normalización del financiamiento al comercio exterior.\n\nEl informe también registró una distribución de utilidades y dividendos por USD 2.882 millones, el máximo de la serie, frente a una reinversión de USD 1.198 millones. En paralelo, hubo ingresos netos de aportes de capital por USD 679 millones; el 79% correspondió a capitalizaciones de deuda y la industria manufacturera recibió USD 578 millones.\n\nLos flujos trimestrales no deben confundirse con el stock acumulado de inversión extranjera. Al 30 de junio, la posición pasiva bruta de IED en Argentina ascendía a USD 202.359 millones, según el mismo informe. La lectura exige separar cancelaciones de deuda, distribución de utilidades, aportes de capital y posición acumulada: los egresos netos de un trimestre no describen por sí solos una salida generalizada de empresas del país.\n\nFuente oficial: BCRA, Informe de Inversión Extranjera Directa, segundo trimestre de 2026, publicado el 5 de noviembre.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200",
+    "imageAlt": "Equipo de trabajo revisa documentos y datos en una reunión, imagen ilustrativa de análisis económico y financiero",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://www.bcra.gob.ar/publicaciones/informe-sobre-inversion-extranjera-directa-segundo-trimestre-2026/",
+      "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-inversion-extranjera-directa-2026-T2.pdf"
+    ]
+  },
+  {
+    "id": "comunicacion-consejo-europa-guia-periodismo-etico-violencia-sexual-infancia-2026-11-19",
+    "title": "El Consejo de Europa lanzó una guía para informar sobre violencia sexual contra la infancia sin revictimizar",
+    "excerpt": "La herramienta propone diez principios para periodistas: proteger la identidad de las víctimas, evitar el sensacionalismo, recurrir a fuentes expertas y ofrecer contexto y recursos de apoyo.",
+    "category": "Comunicación, medios y redes",
+    "body": "El Consejo de Europa presentó el 18 de noviembre una guía práctica destinada a periodistas y medios que cubren casos de violencia sexual contra niños, niñas y adolescentes. La iniciativa forma parte de la edición 2026 del Día para la Protección de la Infancia contra la Explotación y el Abuso Sexual, centrada en la responsabilidad de los medios.\n\nEl material, disponible en español, reúne diez principios para una cobertura ética. Entre sus recomendaciones figuran proteger la identidad de las víctimas, evitar la revictimización y la culpabilización, recurrir a fuentes expertas, contextualizar los hechos y cuidar el lenguaje, los titulares y los materiales visuales.\n\nLa propuesta se vincula con el Convenio de Lanzarote, que insta a los Estados parte a promover una información adecuada sobre estos delitos y a impedir la difusión de datos que permitan identificar a las víctimas, respetando la libertad de prensa. El organismo también advierte contra el sensacionalismo.\n\nLa guía no reemplaza las normas profesionales ni las leyes de cada país: ofrece una referencia para adaptar las prácticas periodísticas a la protección de derechos. Para las redacciones, el desafío es informar con precisión y relevancia pública sin exponer nuevamente a quienes sufrieron violencia.\n\nFuentes oficiales: Consejo de Europa, edición 2026 del Día para la Protección de la Infancia; folleto en español sobre comunicación ética.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.coe.int/documents/9577501/301446138/Cover%2Bphoto_Media%2Bguidelines_870%2Bx%2B489.jpg/3fe11d34-5496-d9be-bfbe-ae732a61e519?t=1780309067004",
+    "imageAlt": "Periodista toma notas durante una entrevista, imagen utilizada por el Consejo de Europa para su material sobre cobertura ética",
+    "imageCredit": "Fotografía institucional: Consejo de Europa.",
+    "sources": [
+      "https://www.coe.int/es/web/children/2026-edition",
+      "https://rm.coe.int/comunicacion-etica-por-parte-de-los-medios-sobre-violencia-sexual-cont/48802ece00"
+    ]
+  }
 ];
