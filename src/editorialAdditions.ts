@@ -864,11 +864,11 @@ export const editorialAdditions = [
     ]
   },
   {
-    id: "turismo-ruta-trasandina-50-best-vineyards-2026-11-19",
-    title: "Ruta Trasandina: la gastronomía de Chile y Argentina se proyectó ante la escena global del vino",
-    excerpt: "En el marco de The 50 Best Vineyards 2026, restaurantes y cocineros de Chile, Argentina y Brasil protagonizaron encuentros en Santiago. La iniciativa busca convertir la cocina regional y las bodegas en un circuito turístico que cruce la cordillera.",
-    category: "Turismo, estilo de vida y gastronomía",
-    body: `La primera edición chilena de The 50 Best Vineyards tuvo una agenda que fue más allá de la premiación: restaurantes y cocineros de Chile, Argentina y Brasil compartieron mesas y cocinas en una serie de encuentros que pusieron en primer plano la diversidad gastronómica sudamericana. Las actividades, impulsadas por Grupo Liderazgo, acompañaron la ceremonia celebrada el 18 de noviembre en Viña Don Melchor, en Pirque.
+    "id": "turismo-ruta-trasandina-50-best-vineyards-2026-11-19",
+    "title": "Ruta Trasandina: la gastronomía de Chile y Argentina se proyectó ante la escena global del vino",
+    "excerpt": "En el marco de The 50 Best Vineyards 2026, restaurantes y cocineros de Chile, Argentina y Brasil protagonizaron encuentros en Santiago. La iniciativa busca convertir la cocina regional y las bodegas en un circuito turístico que cruce la cordillera.",
+    "category": "Turismo, estilo de vida y gastronomía",
+    "body": `La primera edición chilena de The 50 Best Vineyards tuvo una agenda que fue más allá de la premiación: restaurantes y cocineros de Chile, Argentina y Brasil compartieron mesas y cocinas en una serie de encuentros que pusieron en primer plano la diversidad gastronómica sudamericana. Las actividades, impulsadas por Grupo Liderazgo, acompañaron la ceremonia celebrada el 18 de noviembre en Viña Don Melchor, en Pirque.
 
 La agenda abrió en Casa Las Cujas, restaurante de los hermanos Max, Domingo y Juan Pablo Raide dedicado al producto del mar chileno. Participaron el enólogo argentino Alejandro Vigil y el chef Iván Azar, de Casa Vigil; Tássia Magalhães, de Nelita; y Gonzalo Aramburu, del restaurante porteño Aramburu, distinguido con dos estrellas Michelin.
 
@@ -901,13 +901,13 @@ Forbes Chile, “Siete viñas chilenas en la élite mundial del enoturismo” (1
 El Mostrador, “Chile destaca con siete viñas en el ranking The 50 Best Vineyards 2026” (19/11/2026).
 
 Prensa: Luciana Panniza.`,
-    author: "Redacción · Comunicadores Libres",
-    date: "2026-11-19",
-    published: true,
-    image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=85",
-    imageAlt: "Viñedos y paisaje vitivinícola, imagen ilustrativa de enoturismo",
-    imageCredit: "Imagen ilustrativa. Unsplash.",
-    sources: [
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Viñedos y paisaje vitivinícola, imagen ilustrativa de enoturismo",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
       "https://www.prnewswire.com/news-releases/se-revela-la-lista-de-the-50-best-vineyards-schloss-johannisberg-es-nombrado-the-worlds-best-vineyard-2026-302944629.html",
       "https://forbes.cl/life/2026-11-18/siete-vinas-chilenas-en-la-elite-mundial-del-enoturismo/",
       "https://www.elmostrador.cl/revista-jengibre/vinos/2026/11/19/chile-destaca-con-siete-vinas-en-el-ranking-the-50-best-vineyards-2026/"
