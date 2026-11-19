@@ -457,4 +457,39 @@ export const editorialAdditions = [
       "https://www.argentina.gob.ar/noticias/ritmos-argentinos-regresa-la-provincia-de-buenos-aires-con-su-escenario-movil"
     ]
   }
+,
+[
+  {
+    "id": "ciencia-conae-nasa-space-apps-incendios-2026-11-19",
+    "title": "La CONAE convocó a 866 equipos de más de 80 países a crear herramientas para monitorear incendios",
+    "excerpt": "El desafío argentino del NASA Space Apps Challenge 2026 propuso integrar datos satelitales MODIS y VIIRS para armonizar focos de calor. En Argentina participaron 75 equipos.",
+    "category": "Ciencia, tecnología e IA",
+    "body": "El desafío propuesto por la Comisión Nacional de Actividades Espaciales (CONAE) para el NASA Space Apps Challenge 2026 reunió 866 equipos registrados de más de 80 países, informó el organismo. La competencia se realizó el 14 y 15 de noviembre y convocó a desarrollar soluciones basadas en datos espaciales.\n\nLa consigna argentina, “Armonización de focos de calor detectados por MODIS y VIIRS”, planteó crear una aplicación web que integre registros de ambos sensores satelitales. El objetivo es facilitar la comparación de focos asociados a incendios forestales, quemas agrícolas y otras actividades, y construir calendarios regionales para identificar patrones históricos y períodos de mayor actividad.\n\nEn el país, 75 equipos eligieron el desafío de CONAE. La agencia informó que el evento tuvo 16 sedes locales y 2.936 participantes en total. La cifra de 866 corresponde a equipos registrados para trabajar en el desafío, no a soluciones terminadas ni validadas.\n\nEl uso de datos satelitales puede aportar herramientas para la investigación y la gestión de emergencias; su utilidad operativa dependerá de la calidad de los desarrollos y de su validación por las instituciones responsables.\n\nFuente oficial: CONAE, Argentina.gob.ar, 17/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/3_nsac_1.png",
+    "imageAlt": "Participantes trabajan en distintas sedes argentinas durante el NASA Space Apps Challenge 2026",
+    "imageCredit": "Fotografía: CONAE / Argentina.gob.ar.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/866-equipos-se-sumaron-al-desafio-de-conae-sobre-incendios-en-la-competencia-nasa-space"
+    ]
+  },
+  {
+    "id": "empresas-argentina-alimenta-ronda-negocios-exportaciones-2026-11-19",
+    "title": "Argentina Alimenta conecta a empresas locales con 43 importadores de 25 países",
+    "excerpt": "La primera edición de la feria se desarrolla del 17 al 19 de noviembre en La Rural, con más de 300 stands y una ronda internacional orientada a abrir canales para alimentos y bebidas argentinos.",
+    "category": "Empresas y negocios",
+    "body": "La primera edición de Argentina Alimenta se desarrolla entre el 17 y el 19 de noviembre en La Rural, con más de 300 stands y una agenda centrada en la industria de alimentos y bebidas, informó Presidencia de la Nación.\n\nOrganizada por PromArgentina, La Rural, la Coordinadora de las Industrias de Productos Alimenticios (COPAL) y Fira Barcelona, la feria reúne a productores, fabricantes, proveedores, distribuidores y compradores. Durante el encuentro, PromArgentina programó una ronda de negocios internacional con 43 empresas importadoras provenientes de 25 países de África, Asia, América y Europa.\n\nLa ronda busca acercar a firmas argentinas con distribuidores, cadenas de supermercados y compradores del canal HORECA (hoteles, restaurantes y cafeterías). Para las empresas participantes, estos espacios permiten establecer contactos comerciales; la información difundida no precisa cuántos acuerdos se concretaron ni el volumen de operaciones.\n\nEl evento ofrece una plataforma de promoción, pero su impacto exportador deberá medirse a partir de los negocios efectivamente cerrados y de su continuidad después de la feria.\n\nFuente oficial: Presidencia de la Nación, 17/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/argalimenta209090909.jpg",
+    "imageAlt": "Un expositor presenta productos durante la feria Argentina Alimenta 2026",
+    "imageCredit": "Fotografía: Presidencia de la Nación / Argentina.gob.ar.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/la-secretaria-general-de-la-presidencia-recorrio-la-feria-argentina-alimenta"
+    ]
+  }
+]
 ];
