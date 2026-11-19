@@ -7,26 +7,18 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 13,
-  "lastRunLocal": "2026-11-19T11:17:08-03:00",
+  "completedRuns": 14,
+  "lastRunLocal": "2026-11-19T13:17:45-03:00",
   "lastSections": [
     "Agenda política",
-    "Turismo, estilo de vida y gastronomía",
-    "Ciencia, tecnología e IA",
-    "Empresas y negocios",
-    "Economía y finanzas",
-    "Comunicación, medios y redes"
+    "Turismo, estilo de vida y gastronomía"
   ],
-  "nextIndex": 0,
+  "nextIndex": 2,
   "nextSections": [
-    "Agenda política",
-    "Turismo, estilo de vida y gastronomía",
     "Ciencia, tecnología e IA",
-    "Empresas y negocios",
-    "Economía y finanzas",
-    "Comunicación, medios y redes"
+    "Empresas y negocios"
   ],
-  "rule": "En cada ejecución cubrir las seis secciones y publicar hasta dos artículos originales por sección (12 en total), con fuentes y fotografías acreditadas. Si no hay información nueva y verificable suficiente en alguna sección, no inventar ni repetir: publicar menos, registrar la limitación y avanzar.",
+  "rule": "En cada ejecución evaluar las dos secciones indicadas por nextIndex/nextSections; preparar y publicar hasta dos artículos en total (uno por sección) si hay información reciente, útil y verificable. Si una sección no ofrece una novedad suficientemente diferenciada o sustentada, no publicar allí, registrar la limitación y avanzar dos posiciones en la secuencia circular. Aplicar SEO/GEO sin sacrificar calidad ni duplicar temas.",
   "publishedIds": [
     "agenda-argentina-italia-defensa-2026-11-18",
     "turismo-escobar-colonia-verano-2027-2026-11-18",
@@ -73,22 +65,14 @@
     "economia-indec-precios-mayoristas-octubre-2026-11-19",
     "economia-dnu-presupuesto-2026-deuda-gasto-2026-11-19",
     "comunicacion-encuesta-qsocial-reactivacion-marco-mediatico-2026-11-19",
-    "comunicacion-presupuesto-2026-medios-publicos-rtva-rca-2026-11-19"
+    "comunicacion-presupuesto-2026-medios-publicos-rtva-rca-2026-11-19",
+    "turismo-fugazzeta-fest-planetario-2026-11-19"
   ],
   "lastPublishedIds": [
-    "agenda-senado-discapacidad-regimen-permanente-2026-11-19",
-    "agenda-senado-tratado-patentes-pct-argentina-2026-11-19",
-    "turismo-cafecito-ba-plaza-naciones-unidas-noviembre-2026-11-19",
-    "turismo-museo-casa-rosada-talleres-familias-noviembre-2026-11-19",
-    "ciencia-inta-hlb-manejo-integrado-citricos-bella-vista-2026-11-19",
-    "ciencia-anlis-anmat-tablero-antimicrobianos-resistencia-2026-11-19",
-    "empresas-zona-franca-san-juan-reglamento-minero-2026-11-19",
-    "empresas-incaa-coproduccion-ficcion-fondos-2026-11-19",
-    "economia-indec-precios-mayoristas-octubre-2026-11-19",
-    "economia-dnu-presupuesto-2026-deuda-gasto-2026-11-19",
-    "comunicacion-encuesta-qsocial-reactivacion-marco-mediatico-2026-11-19",
-    "comunicacion-presupuesto-2026-medios-publicos-rtva-rca-2026-11-19"
+    "turismo-fugazzeta-fest-planetario-2026-11-19"
   ],
-  "lastIncompleteSections": [],
-  "lastNote": "Tanda de 12 notas en seis secciones, con fuentes enlazadas e imágenes identificadas como ilustrativas; se aplicaron pautas SEO/GEO sin afirmaciones de posicionamiento garantizado."
+  "lastIncompleteSections": [
+    "Agenda política"
+  ],
+  "lastNote": "Se publicó una guía práctica y original sobre Fugazzeta Fest 2026 en el Planetario, con horarios, ubicación, acceso y advertencia sobre los datos declarados por organizadores en la plataforma oficial. No se publicó en Agenda política: los temas legislativos recientes ya tenían cobertura en el sitio y la sesión del Senado seguía en curso sin una actualización primaria oficial suficientemente diferenciada; se evitó duplicar y se priorizó esperar confirmación oficial. La rotación avanzó dos secciones."
 }
