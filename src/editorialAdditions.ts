@@ -862,7 +862,7 @@ export const editorialAdditions = [
       "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074937/anthropicpbc-fwppricing.htm",
       "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649"
     ]
-  }
+  },
   {
     id: "turismo-ruta-trasandina-50-best-vineyards-2026-11-19",
     title: "Ruta Trasandina: la gastronomía de Chile y Argentina se proyectó ante la escena global del vino",
