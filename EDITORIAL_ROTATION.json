@@ -7,18 +7,26 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 11,
-  "lastRunLocal": "2026-11-19T06:26:59-03:00",
+  "completedRuns": 12,
+  "lastRunLocal": "2026-11-19T10:16:39-03:00",
   "lastSections": [
+    "Agenda política",
+    "Turismo, estilo de vida y gastronomía",
     "Ciencia, tecnología e IA",
-    "Empresas y negocios"
-  ],
-  "nextIndex": 4,
-  "nextSections": [
+    "Empresas y negocios",
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "rule": "En cada ejecución, evaluar las dos secciones señaladas por nextIndex y publicar hasta dos artículos en total. Luego avanzar dos posiciones, de forma circular. Si no hay noticias verificables, no inventar ni repetir: dejar constancia de la limitación y avanzar igualmente.",
+  "nextIndex": 0,
+  "nextSections": [
+    "Agenda política",
+    "Turismo, estilo de vida y gastronomía",
+    "Ciencia, tecnología e IA",
+    "Empresas y negocios",
+    "Economía y finanzas",
+    "Comunicación, medios y redes"
+  ],
+  "rule": "En cada ejecución cubrir las seis secciones y publicar hasta dos artículos originales por sección (12 en total), con fuentes y fotografías acreditadas. Si no hay información nueva y verificable suficiente en alguna sección, no inventar ni repetir: publicar menos, registrar la limitación y avanzar.",
   "publishedIds": [
     "agenda-argentina-italia-defensa-2026-11-18",
     "turismo-escobar-colonia-verano-2027-2026-11-18",
@@ -41,10 +49,32 @@
     "agenda-sigen-auditoria-secretaria-tratado-antartico-2026-11-19",
     "turismo-noche-casas-provincia-buenos-aires-2026-11-19",
     "ciencia-conicet-opaganib-venetoclax-leucemia-preclinica-2026-11-19",
-    "empresas-quesos-argentinos-world-cheese-awards-17-distinciones-2026-11-19"
+    "empresas-quesos-argentinos-world-cheese-awards-17-distinciones-2026-11-19",
+    "agenda-diputados-quorum-ley-soberania-alcance-2026-11-19",
+    "agenda-reforma-electoral-paso-2027-debate-participacion-2026-11-19",
+    "turismo-republica-folklore-parque-ciudad-2026-11-19",
+    "turismo-ratha-yatra-plaza-francia-buenos-aires-2026-11-19",
+    "ciencia-ia-proyectos-legislativos-citra-2026-11-19",
+    "ciencia-uspallata-fosiles-triasico-investigacion-2026-11-19",
+    "empresas-microbrew-ia-levaduras-cervecerias-2026-11-19",
+    "empresas-conicet-personal-vida-submarina-flow-2026-11-19",
+    "economia-costos-construccion-gba-octubre-2026-11-19",
+    "economia-canasta-crianza-octubre-cuidados-2026-11-19",
+    "comunicacion-ipsos-confianza-periodistas-argentina-2026-11-19",
+    "comunicacion-rating-canales-noticias-octubre-2026-11-19"
   ],
   "lastPublishedIds": [
-    "ciencia-conicet-opaganib-venetoclax-leucemia-preclinica-2026-11-19",
-    "empresas-quesos-argentinos-world-cheese-awards-17-distinciones-2026-11-19"
+    "agenda-diputados-quorum-ley-soberania-alcance-2026-11-19",
+    "agenda-reforma-electoral-paso-2027-debate-participacion-2026-11-19",
+    "turismo-republica-folklore-parque-ciudad-2026-11-19",
+    "turismo-ratha-yatra-plaza-francia-buenos-aires-2026-11-19",
+    "ciencia-ia-proyectos-legislativos-citra-2026-11-19",
+    "ciencia-uspallata-fosiles-triasico-investigacion-2026-11-19",
+    "empresas-microbrew-ia-levaduras-cervecerias-2026-11-19",
+    "empresas-conicet-personal-vida-submarina-flow-2026-11-19",
+    "economia-costos-construccion-gba-octubre-2026-11-19",
+    "economia-canasta-crianza-octubre-cuidados-2026-11-19",
+    "comunicacion-ipsos-confianza-periodistas-argentina-2026-11-19",
+    "comunicacion-rating-canales-noticias-octubre-2026-11-19"
   ]
 }
