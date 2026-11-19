@@ -490,5 +490,4 @@ export const editorialAdditions = [
       "https://www.argentina.gob.ar/noticias/la-secretaria-general-de-la-presidencia-recorrio-la-feria-argentina-alimenta"
     ]
   }
-]
 ];
