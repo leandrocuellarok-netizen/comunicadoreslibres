@@ -898,7 +898,9 @@ The 50 Best, comunicado oficial difundido por PR Newswire, “Se revela la lista
 
 Forbes Chile, “Siete viñas chilenas en la élite mundial del enoturismo” (18/11/2026).
 
-El Mostrador, “Chile destaca con siete viñas en el ranking The 50 Best Vineyards 2026” (19/11/2026).`,
+El Mostrador, “Chile destaca con siete viñas en el ranking The 50 Best Vineyards 2026” (19/11/2026).
+
+Prensa: Luciana Panniza.`,
     author: "Redacción · Comunicadores Libres",
     date: "2026-11-19",
     published: true,
