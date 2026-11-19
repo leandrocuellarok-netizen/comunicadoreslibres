@@ -251,5 +251,39 @@ export const editorialAdditions = [
     "sources": [
       "https://www.bcra.gob.ar/relevamiento-expectativas-mercado-rem/"
     ]
+  },
+  {
+    "id": "ciencia-sabia-mar-invap-2026-11-18",
+    "title": "SABIA-Mar avanza en INVAP y se prepara para su lanzamiento en 2027",
+    "excerpt": "La misión satelital de la CONAE continúa su integración y ensayos en Bariloche. Sus datos permitirán estudiar el Mar Argentino, las costas y los cuerpos de agua continentales.",
+    "category": "Ciencia, tecnología e IA",
+    "body": "La misión satelital SABIA-Mar continúa avanzando en las instalaciones de INVAP, en San Carlos de Bariloche. El 16 de noviembre, la secretaria de Innovación, Ciencia y Tecnología, Adriana Baravalle, recorrió la empresa y conoció el estado de integración y los ensayos del satélite, según informó el Gobierno nacional.\\n\\nEl proyecto pertenece a la Comisión Nacional de Actividades Espaciales (CONAE), que tiene a INVAP como contratista principal, junto con la participación de otras empresas e instituciones argentinas. La puesta en órbita está prevista para 2027.\\n\\nUna vez operativo, SABIA-Mar generará información sobre el Mar Argentino, las zonas costeras y los cuerpos de agua continentales. Esos datos podrán utilizarse en investigación científica y en actividades vinculadas con la producción, la seguridad y el seguimiento ambiental.\\n\\nEl desarrollo muestra la articulación entre organismos públicos, empresas tecnológicas y el sistema científico nacional. El anuncio oficial confirma el avance de la integración, pero no precisa en esta comunicación una fecha exacta de lanzamiento.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-18",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/1_foto_sabiamaroct26.png",
+    "imageAlt": "Satélite SABIA-Mar durante tareas de integración en las instalaciones de INVAP",
+    "imageCredit": "Fotografía: CONAE / Argentina.gob.ar. Campaña de ensayos de octubre de 2026.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/tecnologia-argentina-de-alta-complejidad-para-el-desarrollo-de-sectores-estrategicos",
+      "https://www.argentina.gob.ar/noticias/asi-se-prepara-el-satelite-argentino-sabia-mar-para-llegar-al-espacio"
+    ]
+  },
+  {
+    "id": "empresas-toyota-zarate-1300-millones-2026-11-18",
+    "title": "Toyota proyecta una nueva planta en Zárate con una inversión superior a US$1.300 millones",
+    "excerpt": "La automotriz presentó el proyecto en Casa Rosada. La instalación estará orientada a vehículos electrificados y prevé iniciar operaciones en 2030.",
+    "category": "Empresas y negocios",
+    "body": "Toyota presentó al Gobierno nacional un proyecto para construir una nueva planta industrial en Zárate, provincia de Buenos Aires, con una inversión anunciada superior a los US$1.300 millones. La iniciativa fue comunicada el 16 de noviembre, tras una reunión entre directivos de la compañía y el presidente Javier Milei en Casa Rosada.\\n\\nSegún Presidencia, el proyecto se encuadra en el Régimen de Incentivo para Grandes Inversiones (RIGI) y estará destinado a producir vehículos electrificados. La puesta en marcha está prevista para 2030, con la fabricación de la pick-up híbrida Tacoma.\\n\\nEl Gobierno presentó la iniciativa como la mayor inversión en la historia de la industria automotriz argentina y señaló que podría impulsar el desarrollo de proveedores locales y regionales, además de ampliar la capacidad exportadora.\\n\\nSe trata de un proyecto anunciado, no de una inversión ya desembolsada en su totalidad. El comunicado oficial no detalla un cronograma de ejecución ni una estimación de nuevos puestos de trabajo.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-18",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/toyota.jpg",
+    "imageAlt": "Reunión de autoridades argentinas con directivos de Toyota en Casa Rosada",
+    "imageCredit": "Fotografía: Presidencia de la Nación.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/toyota-anuncio-una-inversion-de-mas-de-usd-1300-millones-para-construir-una-nueva-planta-en",
+      "https://www.argentina.gob.ar/noticias/en-casa-rosada-karina-milei-participo-de-la-reunion-del-presidente-con-ejecutivos-de-toyota"
+    ]
   }
 ];
