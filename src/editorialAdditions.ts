@@ -458,7 +458,6 @@ export const editorialAdditions = [
     ]
   }
 ,
-[
   {
     "id": "ciencia-conae-nasa-space-apps-incendios-2026-11-19",
     "title": "La CONAE convocó a 866 equipos de más de 80 países a crear herramientas para monitorear incendios",
