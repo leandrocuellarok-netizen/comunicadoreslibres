@@ -7,22 +7,18 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 15,
-  "lastRunLocal": "2026-11-19T13:20:00-03:00",
+  "completedRuns": 16,
+  "lastRunLocal": "2026-11-19T13:57:00-03:00",
   "lastSections": [
+    "Agenda política",
+    "Turismo, estilo de vida y gastronomía"
+  ],
+  "nextIndex": 2,
+  "nextSections": [
     "Ciencia, tecnología e IA",
     "Empresas y negocios"
   ],
-  "nextIndex": 0,
-  "nextSections": [
-    "Agenda política",
-    "Turismo, estilo de vida y gastronomía",
-    "Ciencia, tecnología e IA",
-    "Empresas y negocios",
-    "Economía y finanzas",
-    "Comunicación, medios y redes"
-  ],
-  "rule": "En cada ejecución horaria, revisar y cubrir las seis secciones indicadas en sequence, con objetivo de publicar dos notas originales por sección (12 en total). nextIndex y nextSections son referencias del orden editorial y no limitan el alcance de la ejecución. Reducir el número de notas de una sección solo si no hay novedades recientes, diferenciadas y verificables suficientes; registrar las secciones incompletas y el motivo, sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
+  "rule": "En cada ejecución horaria, consultar nextIndex y evaluar las dos secciones indicadas por nextSections. Preparar hasta dos noticias en total, una por sección, solo cuando exista información reciente, diferenciada y verificable. La secuencia es circular y avanza dos posiciones por ejecución, incluso si una sección no ofrece novedades suficientes; registrar las secciones incompletas y el motivo sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
   "publishedIds": [
     "agenda-argentina-italia-defensa-2026-11-18",
     "turismo-escobar-colonia-verano-2027-2026-11-18",
@@ -72,12 +68,14 @@
     "comunicacion-presupuesto-2026-medios-publicos-rtva-rca-2026-11-19",
     "turismo-fugazzeta-fest-planetario-2026-11-19",
     "ciencia-conicet-adrian-diaz-arbovirus-humedales-2026-11-19",
-    "empresas-anthropic-ipo-nasdaq-2026-11-19"
+    "empresas-anthropic-ipo-nasdaq-2026-11-19",
+    "agenda-mercosur-seguridad-estado-derecho-2026-11-19",
+    "turismo-new-balance-milla-urbana-obelisco-2026-11-19"
   ],
   "lastPublishedIds": [
-    "ciencia-conicet-adrian-diaz-arbovirus-humedales-2026-11-19",
-    "empresas-anthropic-ipo-nasdaq-2026-11-19"
+    "agenda-mercosur-seguridad-estado-derecho-2026-11-19",
+    "turismo-new-balance-milla-urbana-obelisco-2026-11-19"
   ],
   "lastIncompleteSections": [],
-  "lastNote": "En la revisión de funcionamiento se corrigió la discrepancia entre el objetivo de 12 notas por ejecución horaria y la antigua regla de rotación que limitaba el trabajo a dos secciones. Las próximas ejecuciones deberán evaluar las seis secciones y apuntar a dos notas por sección, con publicaciones parciales solo cuando falte evidencia novedosa y verificable. La compilación ya pasó y el despliegue de las notas recientes fue verificado en la web."
+  "lastNote": "Se publicaron dos piezas diferenciadas en Agenda política y Turismo, estilo de vida y gastronomía. Se descartó una nueva nota sobre el Finde Gastronómico de Escobar por duplicación temática con una publicación existente en src/App.tsx; se eligió la New Balance Milla Urbana como tema turístico-deportivo distinto. La nota sobre Mercosur describe objetivos y posiciones oficiales, sin atribuir acuerdos finales que las fuentes consultadas no publican."
 }
