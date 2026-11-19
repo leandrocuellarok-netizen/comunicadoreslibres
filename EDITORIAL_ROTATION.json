@@ -13,12 +13,16 @@
     "Ciencia, tecnología e IA",
     "Empresas y negocios"
   ],
-  "nextIndex": 4,
+  "nextIndex": 0,
   "nextSections": [
+    "Agenda política",
+    "Turismo, estilo de vida y gastronomía",
+    "Ciencia, tecnología e IA",
+    "Empresas y negocios",
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "rule": "En cada ejecución evaluar las dos secciones indicadas por nextIndex/nextSections; preparar y publicar hasta dos artículos en total (uno por sección) si hay información reciente, útil y verificable. Si una sección no ofrece una novedad suficientemente diferenciada o sustentada, no publicar allí, registrar la limitación y avanzar dos posiciones en la secuencia circular. Aplicar SEO/GEO sin sacrificar calidad ni duplicar temas.",
+  "rule": "En cada ejecución horaria, revisar y cubrir las seis secciones indicadas en sequence, con objetivo de publicar dos notas originales por sección (12 en total). nextIndex y nextSections son referencias del orden editorial y no limitan el alcance de la ejecución. Reducir el número de notas de una sección solo si no hay novedades recientes, diferenciadas y verificables suficientes; registrar las secciones incompletas y el motivo, sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
   "publishedIds": [
     "agenda-argentina-italia-defensa-2026-11-18",
     "turismo-escobar-colonia-verano-2027-2026-11-18",
@@ -75,5 +79,5 @@
     "empresas-anthropic-ipo-nasdaq-2026-11-19"
   ],
   "lastIncompleteSections": [],
-  "lastNote": "Se publicaron dos artículos originales: una nota de ciencia sobre el proyecto del CONICET para investigar arbovirus en humedales argentinos y la participación internacional de Adrián Díaz; y una nota de negocios sobre la oferta pública inicial de Anthropic, con montos contrastados con el prospecto de la SEC. Ambos textos distinguen hechos de análisis y usan encabezados, respuestas autónomas y fuentes atribuibles para SEO/GEO. La rotación avanza a Economía y finanzas y Comunicación, medios y redes."
+  "lastNote": "En la revisión de funcionamiento se corrigió la discrepancia entre el objetivo de 12 notas por ejecución horaria y la antigua regla de rotación que limitaba el trabajo a dos secciones. Las próximas ejecuciones deberán evaluar las seis secciones y apuntar a dos notas por sección, con publicaciones parciales solo cuando falte evidencia novedosa y verificable. La compilación ya pasó y el despliegue de las notas recientes fue verificado en la web."
 }
