@@ -913,4 +913,39 @@ Prensa: Luciana Panniza.`,
       "https://www.elmostrador.cl/revista-jengibre/vinos/2026/11/19/chile-destaca-con-siete-vinas-en-el-ranking-the-50-best-vineyards-2026/"
     ]
   },
+  {
+    "id": "agenda-mercosur-seguridad-estado-derecho-2026-11-19",
+    "title": "Mercosur debate seguridad y democracia: la agenda regional contra el crimen organizado",
+    "excerpt": "La LVI Reunión de Ministros del Interior y Seguridad del Mercosur se realizó el 19 de noviembre en Montevideo. Uruguay propuso mejorar el intercambio de información y la inteligencia, y vinculó la seguridad con los derechos humanos y el control democrático.",
+    "category": "Agenda política",
+    "body": "La LVI Reunión de Ministros del Interior y de Seguridad del Mercosur y Estados Asociados se desarrolló el jueves 19 de noviembre de 2026 en Montevideo, bajo la presidencia pro tempore de Uruguay. La agenda reunió a delegaciones de Argentina, Bolivia, Brasil y Paraguay, junto con representantes de los Estados asociados Chile, Colombia, Ecuador, Guyana, Panamá, Perú y Surinam. El encuentro fue convocado como un espacio de coordinación política e institucional sobre seguridad regional.\n\nEn la apertura, el ministro del Interior uruguayo, Carlos Negro, sostuvo que la cooperación entre países es necesaria para responder a redes criminales que operan a través de las fronteras. Entre las prioridades que Uruguay planteó para la instancia mencionó mejorar el intercambio de información, fortalecer la inteligencia y la persecución patrimonial sobre las organizaciones criminales, y ampliar capacidades mediante formación y aprendizaje compartido.\n\nNegro también sostuvo que la política de seguridad debe evaluarse por sus resultados y por el respeto de los derechos humanos, el control judicial y la rendición de cuentas. Esa perspectiva introduce una discusión institucional relevante: la eficacia frente al crimen organizado y la legitimidad democrática no deberían tratarse como objetivos opuestos.\n\nLa participación argentina en la agenda regional quedó documentada en la XXXV Reunión de Jefes de Policía y Fuerzas de Seguridad del Mercosur, realizada el 18 de noviembre. La Prefectura Naval informó que su titular, Guillermo José Giménez Pérez, presentó las tareas de control en zonas de frontera, en la Hidrovía Paraguay-Paraná y en los espacios marítimos fronterizos.\n\nLas fuentes oficiales consultadas describen la agenda y las posiciones expuestas, pero no informan un acuerdo final con compromisos, plazos o presupuesto. Para medir el alcance de la reunión será necesario conocer los documentos aprobados y su implementación. La coordinación regional puede fortalecer la respuesta frente a delitos transnacionales; su evaluación también requiere transparencia, controles institucionales y resultados verificables.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.gub.uy/presidencia/sites/presidencia/files/inline-images/UYPRESC020275%20%281%29.jpg",
+    "imageAlt": "Delegaciones reunidas durante la LVI Reunión de Ministros del Interior y de Seguridad del Mercosur en Montevideo.",
+    "imageCredit": "Presidencia de la República Oriental del Uruguay.",
+    "sources": [
+      "https://www.gub.uy/presidencia/comunicacion/noticias/negro-hay-seguridad-duradera-se-debilitan-instituciones-democraticas",
+      "https://www.gub.uy/ministerio-interior/comunicacion/noticias/montevideo-sera-sede-lvi-reunion-ministros-del-interior-seguridad-del",
+      "https://www.argentina.gob.ar/noticias/el-prefecto-nacional-participo-de-la-xxxv-reunion-de-jefes-de-policia-y-fuerzas-de"
+    ]
+  },
+  {
+    "id": "turismo-new-balance-milla-urbana-obelisco-2026-11-19",
+    "title": "New Balance Milla Urbana 2026: horarios, recorrido y retiro de kits en el Obelisco",
+    "excerpt": "La 10.ª edición se correrá el sábado 21 de noviembre, de 13 a 18, sobre la avenida 9 de Julio. Habrá prueba individual de 1.609 metros, postas mixtas y categoría infantil; la organización publicó el cronograma y los datos para retirar el kit.",
+    "category": "Turismo, estilo de vida y gastronomía",
+    "body": "La New Balance Milla Urbana 2026 se realizará el sábado 21 de noviembre, de 13 a 18, sobre la avenida 9 de Julio, entre Sarmiento y Juan Domingo Perón, frente al Obelisco de la Ciudad de Buenos Aires. La décima edición propone una carrera individual de 1.609 metros, relevos mixtos de 4 × 400 metros y una categoría infantil para que también participen chicos y chicas.\n\nLa programación publicada por la organización comienza a las 13 con las categorías por edad. Los relevos mixtos están previstos para las 14; la competencia de élite femenina, para las 15:45; la masculina, para las 16:15; y la actividad Kids junto con adultos, para las 17. El horario general informado por la plataforma oficial de la Ciudad es de 13 a 18.\n\nEl retiro de kits está previsto para el viernes 20 de noviembre, de 11 a 19, en Go Sport | New Balance Martínez, Vélez Sarsfield 3180, Martínez. La organización exige presentar Eventick Pass, apto físico cargado en la cuenta de Eventick y DNI o pasaporte. Si el kit lo retira otra persona, también se solicita fotocopia del documento del titular y de quien realiza el trámite.\n\nLa plataforma Linda Buenos Aires clasifica el evento con entrada paga. La ficha consultada no publica el precio, por lo que conviene revisar el enlace de inscripción y las condiciones vigentes antes de participar. Tampoco se detallan allí condiciones específicas para espectadores; no corresponde asumir que el acceso a la zona de carrera sea gratuito.\n\nLa carrera combina deporte urbano y uso del espacio público en uno de los corredores más reconocibles de Buenos Aires. Para quienes participen, los datos más importantes son la distancia, el horario de su categoría, el retiro del kit y la documentación obligatoria. La organización puede actualizar horarios o requisitos, por lo que se recomienda comprobarlos en sus canales oficiales antes de trasladarse.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://buenosaires.gob.ar/sites/default/files/2026-11/nb01.png",
+    "imageAlt": "Imagen de difusión de la New Balance Milla Urbana 2026, carrera de una milla en la avenida 9 de Julio frente al Obelisco.",
+    "imageCredit": "Buenos Aires Ciudad / plataforma Linda; imagen de difusión del evento.",
+    "sources": [
+      "https://linda.buenosaires.gob.ar/eventos/new-balance-milla-urbana",
+      "https://www.newbalance.com.ar/milla-urbana-2026/race-series-milla-urbana.html"
+    ]
+  }
 ];
