@@ -319,4 +319,37 @@ export const editorialAdditions = [
       "https://www.itu.int/es/mediacentre/Pages/PR-2026-11-09-PP-opening.aspx"
     ]
   }
+,
+  {
+    "id": "agenda-pettovello-orrego-san-juan-educacion-2026-11-18",
+    "title": "Pettovello y Orrego revisaron políticas educativas y de protección social en San Juan",
+    "excerpt": "La ministra de Capital Humano visitó escuelas de Albardón, recorrió el complejo Casa Activa y mantuvo una reunión con el gobernador. La agenda combinó alfabetización, innovación escolar y coordinación federal.",
+    "category": "Agenda política",
+    "body": "El Ministerio de Capital Humano informó que la ministra Sandra Pettovello realizó el 18 de noviembre una visita oficial a San Juan, donde recorrió la Escuela Ejército de los Andes, en Albardón, y la Escuela Secundaria Juan Mantovani. En la primera conoció la articulación del plan provincial “Comprendo y Aprendo” con “Escuelas Alfa en Red”; en la segunda, propuestas de educación financiera, habilidades socioemocionales y nuevas tecnologías, incluido un taller de robótica.\n\nLa agenda continuó en Chimbas, con una recorrida por el complejo Casa Activa junto al gobernador Marcelo Orrego. Según el comunicado nacional, los proyectos de Chimbas y Pocito están próximos a inaugurarse y tendrán capacidad conjunta para recibir a 130 niños y adolescentes sin cuidados parentales.\n\nLa jornada cerró con una reunión entre autoridades nacionales y provinciales sobre programas educativos y sociales. El anuncio confirma la visita y los temas tratados, pero no detalla nuevos convenios ni partidas presupuestarias; esos datos serán necesarios para evaluar el alcance concreto de la coordinación anunciada.\n\nFuente oficial: Ministerio de Capital Humano, 18/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-18",
+    "published": true,
+    "image": "https://lanotasj.com.ar/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-14.11.37-1280x640.jpeg",
+    "imageAlt": "Sandra Pettovello y autoridades provinciales durante la visita oficial a San Juan",
+    "imageCredit": "Fotografía: La Nota San Juan.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/visita-oficial-la-provincia-de-san-juan"
+    ]
+  },
+  {
+    "id": "turismo-agenda-cultural-kimchi-museos-2026-11-18",
+    "title": "La agenda cultural del fin de semana suma exposiciones, conciertos y cocina coreana",
+    "excerpt": "La programación oficial para el 21, 22 y 23 de noviembre incluye muestras en el Bellas Artes, teatro, música y talleres de gastronomía coreana en el Palacio Libertad.",
+    "category": "Turismo, estilo de vida y gastronomía",
+    "body": "La Secretaría de Cultura de la Nación difundió una agenda para el sábado 21, domingo 22 y lunes 23 de noviembre, con actividades en museos y espacios culturales de distintas provincias. La programación reúne exposiciones, visitas guiadas, cine, teatro, conciertos y propuestas para toda la familia.\n\nEntre los destacados aparecen las muestras “Tapices de Goya” y “Susana Rodríguez. Historia íntima” en el Museo Nacional de Bellas Artes, además de actividades en el Palacio Libertad y el Centro Cultural Borges. El domingo 22, el Palacio Libertad será sede del Día Nacional del Kimchi en Argentina, con talleres participativos de gastronomía coreana previstos para las 14:30 y las 16:30, demostraciones y música tradicional.\n\nLa agenda combina actividades con distintas modalidades de acceso: algunas requieren reserva o tienen cupos limitados. Antes de organizar una visita, conviene consultar la ficha oficial de cada propuesta para confirmar horarios y condiciones.\n\nFuente oficial: Secretaría de Cultura de la Nación, 18/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-18",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/tapices_goya.jpg",
+    "imageAlt": "Exposición Tapices de Goya en el Museo Nacional de Bellas Artes",
+    "imageCredit": "Imagen institucional publicada por la Secretaría de Cultura de la Nación / Argentina.gob.ar.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/agenda-de-cultura-para-el-fin-de-semana-107"
+    ]
+  }
 ];
