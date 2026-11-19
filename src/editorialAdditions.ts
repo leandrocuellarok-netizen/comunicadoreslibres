@@ -1067,7 +1067,6 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
       "https://www.argentina.gob.ar/orsna/obras-en-aeropuertos-del-sna/ezeiza-1"
     ]
   },
-[
   {
     "id": "economia-comercio-exterior-octubre-superavit-2026-11-19",
     "title": "Argentina registró un superávit comercial de US$3.394 millones en octubre",
@@ -1102,5 +1101,4 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
       "https://www.unesco.org/es/event/42665"
     ]
   }
-]
 ];
