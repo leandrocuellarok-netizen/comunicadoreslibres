@@ -285,5 +285,38 @@ export const editorialAdditions = [
       "https://www.argentina.gob.ar/noticias/toyota-anuncio-una-inversion-de-mas-de-usd-1300-millones-para-construir-una-nueva-planta-en",
       "https://www.argentina.gob.ar/noticias/en-casa-rosada-karina-milei-participo-de-la-reunion-del-presidente-con-ejecutivos-de-toyota"
     ]
+  },
+  {
+    "id": "economia-superavit-sector-publico-octubre-2026-11-18",
+    "title": "El sector público cerró octubre con un superávit financiero de $1,58 billones",
+    "excerpt": "El Ministerio de Economía informó un resultado primario de $1,93 billones y un saldo financiero positivo de $1,58 billones. En diez meses, el superávit financiero acumulado rondó el 0,4% del PIB.",
+    "category": "Economía y finanzas",
+    "body": "El Sector Público Nacional registró en octubre un superávit financiero de $1.578.627 millones, luego de alcanzar un resultado primario positivo de $1.931.156 millones y afrontar intereses netos de deuda por $352.530 millones, informó el Ministerio de Economía el 16 de noviembre.\n\nLos ingresos totales sumaron $15.725.627 millones, con una variación interanual del 31,2%, mientras que los gastos primarios alcanzaron $13.794.471 millones, un 23,6% más que en octubre de 2025. El comunicado oficial señaló que, en los primeros diez meses del año, el resultado financiero acumulado se ubicó en torno al 0,4% del PIB y el primario en aproximadamente 1,4%.\n\nEl balance fiscal es uno de los indicadores centrales para seguir la política económica, pero no explica por sí solo cómo se distribuyen los ingresos y gastos ni sus efectos sobre hogares, empresas y servicios públicos. Para evaluar su alcance también deben observarse la composición del gasto, la recaudación y la evolución de la actividad.\n\nFuente oficial: Ministerio de Economía, resultado fiscal de octubre de 2026, publicado el 16/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-18",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1773266110858-acb9b6c43b15?auto=format&fit=crop&fm=jpg&ixid=NHwxMjA3fDA%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "imageAlt": "Pantalla con datos del mercado financiero",
+    "imageCredit": "Daniel Brzdęk / Unsplash. Imagen ilustrativa.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/en-octubre-el-sector-publico-nacional-volvio-registrar-superavit-financiero-1578627-0"
+    ]
+  },
+  {
+    "id": "comunicacion-enacom-uit-pp26-doha-2026-11-18",
+    "title": "Argentina llevó a la UIT su propuesta para simplificar las reglas de telecomunicaciones",
+    "excerpt": "El titular del ENACOM expuso en la Conferencia de Plenipotenciarios PP-26, en Doha. La agenda internacional incluye conectividad, resiliencia digital, comunicaciones de emergencia y redes satelitales.",
+    "category": "Comunicación, medios y redes",
+    "body": "El interventor del Ente Nacional de Comunicaciones (ENACOM), Andrés Michelazzo, encabezó la delegación argentina en la Conferencia de Plenipotenciarios de la Unión Internacional de Telecomunicaciones (UIT), que se desarrolla en Doha, Qatar, del 9 al 27 de noviembre de 2026. El organismo informó que Michelazzo presentó ante el plenario los lineamientos del país para el sector.\n\nSegún ENACOM, la posición argentina plantea simplificar normas, reducir cargas burocráticas y mantener reglas claras para favorecer la competencia y la inversión. La agenda de la conferencia abarca la expansión de la conectividad, la resiliencia de la infraestructura digital, las comunicaciones de emergencia y la sostenibilidad de las redes satelitales.\n\nLa UIT es el organismo de Naciones Unidas especializado en tecnologías de la información y la comunicación. Su conferencia plenipotenciaria define políticas generales y la hoja de ruta estratégica del organismo. El debate importa porque las decisiones sobre espectro, estándares y acceso pueden incidir en el despliegue de redes y en la inclusión digital.\n\nFuentes oficiales: ENACOM, 16/11/2026; Unión Internacional de Telecomunicaciones, apertura de la PP-26, 09/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-18",
+    "published": true,
+    "image": "https://enacom.gob.ar/multimedia/noticias/N/202611/archivo_20261113024531_307_730x476.jpg",
+    "imageAlt": "El interventor de ENACOM, Andrés Michelazzo, durante su intervención en la Conferencia PP-26 de la UIT en Doha",
+    "imageCredit": "Fotografía: UIT / ENACOM.",
+    "sources": [
+      "https://enacom.gob.ar/institucional/andres-michelazzo-expuso-los-ejes-de-gestion-de-enacom-en-la-conferencia-de-la-uit_n4882",
+      "https://www.itu.int/es/mediacentre/Pages/PR-2026-11-09-PP-opening.aspx"
+    ]
   }
 ];
