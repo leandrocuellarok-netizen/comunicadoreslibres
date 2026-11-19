@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 10,
-  "lastRunLocal": "2026-11-19T05:34:20-03:00",
+  "completedRuns": 11,
+  "lastRunLocal": "2026-11-19T06:26:59-03:00",
   "lastSections": [
-    "Agenda política",
-    "Turismo, estilo de vida y gastronomía"
-  ],
-  "nextIndex": 2,
-  "nextSections": [
     "Ciencia, tecnología e IA",
     "Empresas y negocios"
+  ],
+  "nextIndex": 4,
+  "nextSections": [
+    "Economía y finanzas",
+    "Comunicación, medios y redes"
   ],
   "rule": "En cada ejecución, evaluar las dos secciones señaladas por nextIndex y publicar hasta dos artículos en total. Luego avanzar dos posiciones, de forma circular. Si no hay noticias verificables, no inventar ni repetir: dejar constancia de la limitación y avanzar igualmente.",
   "publishedIds": [
@@ -39,10 +39,12 @@
     "economia-ied-egresos-netos-inversion-extranjera-segundo-trimestre-2026-11-19",
     "comunicacion-consejo-europa-guia-periodismo-etico-violencia-sexual-infancia-2026-11-19",
     "agenda-sigen-auditoria-secretaria-tratado-antartico-2026-11-19",
-    "turismo-noche-casas-provincia-buenos-aires-2026-11-19"
+    "turismo-noche-casas-provincia-buenos-aires-2026-11-19",
+    "ciencia-conicet-opaganib-venetoclax-leucemia-preclinica-2026-11-19",
+    "empresas-quesos-argentinos-world-cheese-awards-17-distinciones-2026-11-19"
   ],
   "lastPublishedIds": [
-    "agenda-sigen-auditoria-secretaria-tratado-antartico-2026-11-19",
-    "turismo-noche-casas-provincia-buenos-aires-2026-11-19"
+    "ciencia-conicet-opaganib-venetoclax-leucemia-preclinica-2026-11-19",
+    "empresas-quesos-argentinos-world-cheese-awards-17-distinciones-2026-11-19"
   ]
 }
