@@ -7,20 +7,22 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 1,
-  "lastRunLocal": "2026-11-18T20:25:14-03:00",
+  "completedRuns": 2,
+  "lastRunLocal": "2026-11-18T21:33:32-03:00",
   "lastSections": [
-    "Agenda política",
-    "Turismo, estilo de vida y gastronomía"
-  ],
-  "nextIndex": 2,
-  "nextSections": [
     "Ciencia, tecnología e IA",
     "Empresas y negocios"
+  ],
+  "nextIndex": 4,
+  "nextSections": [
+    "Economía y finanzas",
+    "Comunicación, medios y redes"
   ],
   "rule": "En cada ejecución, evaluar las dos secciones señaladas por nextIndex y publicar hasta dos artículos en total. Luego avanzar dos posiciones, de forma circular. Si no hay noticias verificables, no inventar ni repetir: dejar constancia de la limitación y avanzar igualmente.",
   "publishedIds": [
     "agenda-argentina-italia-defensa-2026-11-18",
-    "turismo-escobar-colonia-verano-2027-2026-11-18"
+    "turismo-escobar-colonia-verano-2027-2026-11-18",
+    "ciencia-sabia-mar-invap-2026-11-18",
+    "empresas-toyota-zarate-1300-millones-2026-11-18"
   ]
 }
