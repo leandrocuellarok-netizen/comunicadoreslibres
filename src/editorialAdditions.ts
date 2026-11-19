@@ -986,4 +986,24 @@ Prensa: Luciana Panniza.`,
     "https://www.argentina.gob.ar/economia/ecosistema-emprendedor/concurso-emprendimiento/premios"
   ]
 }
+,
+{
+  "id": "comunicacion-unesco-gobernanza-plataformas-digitales-sur-asia-2026-11-19",
+  "title": "UNESCO impulsa herramientas para exigir transparencia a las plataformas digitales",
+  "excerpt": "Dos guías publicadas el 19 de noviembre proponen mecanismos de supervisión independiente, rendición de cuentas y participación civil para examinar la moderación de contenidos y el impacto de los algoritmos en Nepal, Bangladesh y Sri Lanka.",
+  "category": "Comunicación, medios y redes",
+  "body": "La UNESCO presentó el 19 de noviembre de 2026 dos herramientas para fortalecer la gobernanza de las plataformas digitales en Bangladesh, Nepal y Sri Lanka. Elaboradas con universidades de esos países y dentro de un proyecto apoyado por la Unión Europea, las publicaciones ofrecen orientaciones diferenciadas para organismos reguladores y organizaciones de la sociedad civil.\\n\\n## El poder de decidir qué se ve\\n\\nLa discusión no se limita a retirar publicaciones falsas o dañinas. Las plataformas también organizan la circulación de información mediante sistemas de recomendación, criterios de moderación y reglas que determinan qué contenidos ganan visibilidad, cuáles se restringen y qué vías tiene una persona para reclamar. Esas decisiones privadas pueden influir en la conversación pública, el acceso a información y la pluralidad de voces.\\n\\nLa guía destinada a reguladores aborda la supervisión independiente, la rendición de cuentas de las empresas, las auditorías de los mecanismos de autorregulación y los modelos de corregulación. También incluye herramientas para examinar prácticas de moderación y evaluar cómo los sistemas algorítmicos pueden amplificar contenidos perjudiciales.\\n\\nLa guía para organizaciones civiles propone mecanismos para documentar daños en línea, verificar información, examinar la transparencia de las plataformas, acompañar reclamos de usuarios y promover alfabetización mediática e informacional. Según la UNESCO, más de 300 personas aportaron perspectivas durante consultas, entrevistas y talleres realizados entre diciembre de 2025 y marzo de 2026.\\n\\n## Transparencia sin censura arbitraria\\n\\nEl problema institucional es doble: las empresas concentran capacidad para ordenar la visibilidad de los contenidos, pero una respuesta estatal sin controles también puede convertirse en una herramienta de censura o persecución. Por eso, las directrices de la UNESCO plantean un enfoque basado en derechos humanos, supervisión independiente, procedimientos verificables y participación de múltiples actores.\\n\\n## ¿Qué alcance tiene para Argentina?\\n\\nLas nuevas herramientas fueron diseñadas para Bangladesh, Nepal y Sri Lanka; no son una ley ni modifican por sí mismas las reglas argentinas. Su interés para el debate local es comparativo: aportan criterios para discutir quién controla los algoritmos, cómo se revisan las decisiones de moderación y qué información deben ofrecer las plataformas a usuarios, investigadores y autoridades. La UNESCO ya había publicado en 2023 sus directrices globales sobre gobernanza de plataformas digitales, que sirven de marco general para este trabajo regional.",
+  "author": "Redacción · Comunicadores Libres",
+  "date": "2026-11-19",
+  "published": true,
+  "image": "https://www.unesco.org/sites/default/files/styles/paragraph_medium_desktop/public/2025-12/20.png.webp?itok=IPTXQw4n",
+  "imageAlt": "Portada de un documento complementario de la UNESCO sobre gobernanza de plataformas digitales e inteligencia artificial generativa.",
+  "imageCredit": "UNESCO. Portada de un documento complementario de sus directrices sobre gobernanza digital; imagen ilustrativa.",
+  "sources": [
+    "https://www.unesco.org/en/articles/strengthening-digital-platform-governance-south-asia-through-practical-toolkits",
+    "https://portal.tu.edu.np/publications/491/ToolkitforRegulatorsonDigi_2026_10_28_18_07_19.pdf",
+    "https://portal.tu.edu.np/publications/490/AToolkitforCivilSocietyon_2026_10_30_21_35_29.pdf",
+    "https://www.unesco.org/en/internet-trust/guidelines"
+  ]
+}
 ];
