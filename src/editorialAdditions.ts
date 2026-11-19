@@ -863,4 +863,52 @@ export const editorialAdditions = [
       "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649"
     ]
   }
+  {
+    id: "turismo-ruta-trasandina-50-best-vineyards-2026-11-19",
+    title: "Ruta Trasandina: la gastronomía de Chile y Argentina se proyectó ante la escena global del vino",
+    excerpt: "En el marco de The 50 Best Vineyards 2026, restaurantes y cocineros de Chile, Argentina y Brasil protagonizaron encuentros en Santiago. La iniciativa busca convertir la cocina regional y las bodegas en un circuito turístico que cruce la cordillera.",
+    category: "Turismo, estilo de vida y gastronomía",
+    body: `La primera edición chilena de The 50 Best Vineyards tuvo una agenda que fue más allá de la premiación: restaurantes y cocineros de Chile, Argentina y Brasil compartieron mesas y cocinas en una serie de encuentros que pusieron en primer plano la diversidad gastronómica sudamericana. Las actividades, impulsadas por Grupo Liderazgo, acompañaron la ceremonia celebrada el 18 de noviembre en Viña Don Melchor, en Pirque.
+
+La agenda abrió en Casa Las Cujas, restaurante de los hermanos Max, Domingo y Juan Pablo Raide dedicado al producto del mar chileno. Participaron el enólogo argentino Alejandro Vigil y el chef Iván Azar, de Casa Vigil; Tássia Magalhães, de Nelita; y Gonzalo Aramburu, del restaurante porteño Aramburu, distinguido con dos estrellas Michelin.
+
+Las colaboraciones continuaron en distintos puntos de Santiago. Germán Sitz y Pedro Peña, de Niño Gordo, cocinaron junto a Martín Cosmelli, de Fiero, y Francesco Vannucci, de Brunapoli. En Pulpería Santa Elvira, el chef Javier Avilés recibió a Sebastián Cardamoni y al equipo de Fogón Asado. Pedro Bargero participó de una experiencia en Tengu, en el barrio El Golf, mientras que Mariano Ramón, de Gran Dabbang, compartió cocina con Pedro Chavarría, de Demo Magnolia, en el Hotel Magnolia.
+
+La propuesta se inscribe en la Ruta Trasandina, una iniciativa de Grupo Liderazgo que busca conectar las escenas gastronómicas de Chile, Argentina y otros países latinoamericanos. Su objetivo es fortalecer los vínculos entre cocineros y productores, dar a conocer ingredientes y tradiciones locales y construir un circuito turístico que no quede limitado por las fronteras nacionales.
+
+En palabras de Max Raide, presidente de Grupo Liderazgo, resulta importante profundizar el trabajo conjunto entre Chile y Argentina para que ambos países puedan ser recorridos como un destino turístico integrado. La idea supone pensar la cordillera no solo como una frontera geográfica, sino también como un corredor de intercambio cultural, gastronómico y productivo.
+
+## El vino como puerta de entrada al territorio
+
+El itinerario incluyó visitas a bodegas chilenas como Santa Rita, Almaviva, Montes, Viu Manent y Clos Apalta. Estos establecimientos muestran cómo la experiencia enoturística combina degustaciones y conocimiento del vino con paisaje, hospitalidad, patrimonio y gastronomía.
+
+La edición 2026 de The 50 Best Vineyards dejó además resultados destacados para ambos países. El primer puesto mundial fue para Schloss Johannisberg, en Alemania; Bodegas Ysios, de España, quedó segunda. Montes, del Valle de Colchagua, alcanzó el tercer lugar y recibió el reconocimiento a la mejor viña de Sudamérica. Clos Apalta se ubicó sexto.
+
+Argentina también ingresó en el top ten con Durigutti Family Winemakers, de Mendoza, en el décimo puesto. En el listado aparecen además Bodegas Salentein (15), Riccitelli Wine Company (32), El Enemigo (33), Viña Cobos (35) y Bodega Colomé (50). Por Chile, la selección incluyó también Casas del Bosque (13), Viu Manent (19), Concha y Toro (23), Almaviva (28) y Santa Rita (48).
+
+La presencia de bodegas de ambos países entre las cincuenta experiencias reconocidas refuerza el potencial de una oferta regional que puede articular vino, cocina y viajes. Para los destinos, el desafío es que ese reconocimiento se traduzca en recorridos accesibles, servicios de calidad, empleo local y oportunidades para productores y restaurantes.
+
+La Ruta Trasandina propone justamente ese horizonte: que cada visita a una bodega pueda conectarse con una mesa, una localidad y una historia; y que la gastronomía sudamericana se presente ante el visitante internacional como una experiencia compartida, sin perder la singularidad de cada territorio.
+
+## Fuentes y referencias
+
+Material de prensa provisto por Grupo Liderazgo / Majoloss PR: “Restaurantes de la Ruta Trasandina dijeron presente en The 50 Best Vineyards 2026 en Chile” (19/11/2026). Contacto de prensa consignado en el documento: prensa@majoloss.com; Instagram @majolosspr.
+
+The 50 Best, comunicado oficial difundido por PR Newswire, “Se revela la lista de The 50 Best Vineyards: Schloss Johannisberg es nombrado The World's Best Vineyard 2026” (18/11/2026).
+
+Forbes Chile, “Siete viñas chilenas en la élite mundial del enoturismo” (18/11/2026).
+
+El Mostrador, “Chile destaca con siete viñas en el ranking The 50 Best Vineyards 2026” (19/11/2026).`,
+    author: "Redacción · Comunicadores Libres",
+    date: "2026-11-19",
+    published: true,
+    image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=85",
+    imageAlt: "Viñedos y paisaje vitivinícola, imagen ilustrativa de enoturismo",
+    imageCredit: "Imagen ilustrativa. Unsplash.",
+    sources: [
+      "https://www.prnewswire.com/news-releases/se-revela-la-lista-de-the-50-best-vineyards-schloss-johannisberg-es-nombrado-the-worlds-best-vineyard-2026-302944629.html",
+      "https://forbes.cl/life/2026-11-18/siete-vinas-chilenas-en-la-elite-mundial-del-enoturismo/",
+      "https://www.elmostrador.cl/revista-jengibre/vinos/2026/11/19/chile-destaca-con-siete-vinas-en-el-ranking-the-50-best-vineyards-2026/"
+    ]
+  },
 ];
