@@ -1031,4 +1031,40 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
       "https://gba.gob.ar/jag/noticias/llega_la_noche_de_las_casas_de_provincia_2026"
     ]
   }
+,
+  {
+    "id": "ciencia-conicet-expedicion-inka-el-shincal-streaming-2026-11-19",
+    "title": "CONICET transmite en vivo una excavación arqueológica en El Shincal de Quimivil",
+    "excerpt": "La Expedición Inka 2026 muestra hasta el 20 de noviembre el trabajo de campo en el sitio incaico de Londres, Catamarca. La transmisión permite observar excavación, registro y análisis de materiales.",
+    "category": "Ciencia, tecnología e IA",
+    "body": "El Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) informó el 19 de noviembre de 2026 que investigadores del organismo participan de “Expedición Inka”, una transmisión en vivo desde El Shincal de Quimivil, en la localidad de Londres, Catamarca. La campaña reúne al CONICET, la Universidad Nacional de La Plata (UNLP), la Universidad Nacional de Catamarca (UNCA) y la Fundación de Historia Natural Félix de Azara, entre otras instituciones.\n\nEl streaming fue programado del 17 al 20 de noviembre, de 11 a 13, a través del canal de YouTube de la Fundación Azara. El viernes 20 será la última jornada anunciada. La información institucional no confirma si la grabación quedará disponible después de la transmisión.\n\nQué investiga el equipo\n\nLa campaña se concentra en la excavación de una estructura arquitectónica de tipo kancha, un recinto perimetral compuesto característico de la arquitectura incaica. El equipo busca documentar su construcción, organización espacial, materiales arqueológicos asociados y las actividades que pudieron desarrollarse en ese sector.\n\nLa transmisión permite observar distintas etapas del trabajo científico: prospección, planificación, excavación, procesamiento de muestras de sedimentos y restos vegetales y animales, registro y análisis de los materiales recuperados.\n\nPor qué importa El Shincal\n\nSegún la reseña del CONICET, El Shincal de Quimivil fue un centro político, administrativo y ceremonial planificado, construido y habitado por los incas entre 1471 y 1536. El equipo interdisciplinario que trabaja en el sitio desarrolla investigaciones arqueológicas en el noroeste argentino desde 1983.\n\nLa propuesta no se presenta como el anuncio de un hallazgo puntual. Su aporte consiste en acercar al público los métodos, las preguntas y las decisiones que forman parte de una investigación arqueológica, además de mostrar el trabajo conjunto de especialistas de distintas disciplinas.\n\nCómo seguir la transmisión\n\nLa última emisión anunciada está prevista para el viernes 20 de noviembre, de 11 a 13, en el canal de YouTube de la Fundación Azara. Para consultar la información del proyecto y sus instituciones participantes, se puede visitar la página oficial de Expedición Inka 2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://fundacionazara.org.ar/wp-content/uploads/2026/10/expedicion-inka-logo-ocre.png",
+    "imageAlt": "Identidad gráfica oficial de Expedición Inka 2026, la transmisión de arqueología en El Shincal de Quimivil.",
+    "imageCredit": "Fundación de Historia Natural Félix de Azara. Identidad gráfica oficial de Expedición Inka 2026.",
+    "sources": [
+      "https://www.conicet.gov.ar/investigadores-del-conicet-participan-de-un-streaming-sobre-arqueologia-en-catamarca/",
+      "https://fundacionazara.org.ar/expedicion-inka/",
+      "https://www.youtube.com/fundacionazara"
+    ]
+  },
+  {
+    "id": "empresas-ezeiza-terminal-unica-courier-importacion-2026-11-19",
+    "title": "Ezeiza inauguró la Terminal Única de Courier para concentrar los envíos de importación",
+    "excerpt": "La nueva infraestructura del aeropuerto suma 10.000 m² cubiertos, 44 oficinas para operadores y un espacio de coworking. La ampliación busca ordenar el procesamiento de paquetes y fortalecer la logística de cargas.",
+    "category": "Empresas y negocios",
+    "body": "El Aeropuerto Internacional Ministro Pistarini, en Ezeiza, inauguró el 19 de noviembre de 2026 la Terminal Única de Courier (TUC), un edificio destinado a reunir y procesar operaciones de courier de importación. El anuncio fue difundido por el Gobierno nacional.\n\nLa nueva infraestructura cuenta con 10.000 metros cuadrados cubiertos dentro de un predio de 20.000 metros cuadrados. Incorpora 44 oficinas para empresas de courier que operan grandes volúmenes mensuales y un área de coworking para operadores con demanda eventual, estacional o variable.\n\nQué cambia para las empresas\n\nLa terminal busca concentrar en un edificio específico los circuitos de ingreso, tratamiento y egreso de envíos internacionales por courier. La infraestructura puede resultar relevante para operadores logísticos, importadores, comercios electrónicos y empresas que dependen de paquetes internacionales. Sin embargo, el comunicado oficial no cuantifica reducciones de costos, plazos de entrega ni tiempos de despacho.\n\nTambién se renovó la circulación exterior con una nueva calle de salida para Correo Argentino. En cambio, el nuevo pórtico de salida para importación aparece como una obra planificada y no como una instalación ya terminada.\n\nObras para las exportaciones perecederas\n\nEn paralelo, continúan los trabajos para ampliar un 50% la superficie refrigerada del sector de perecederos de exportación. El proyecto incluye nuevas líneas de armado, equipamiento para elevar la capacidad de contenedores y la renovación integral del sistema de frío mediante chillers más eficientes.\n\nLa iniciativa se desarrolla en coordinación entre Aeropuertos Argentina y el Organismo Regulador del Sistema Nacional de Aeropuertos (ORSNA). La inauguración representa una ampliación de infraestructura logística: la comunicación oficial no anuncia cambios en el régimen aduanero ni garantiza por sí sola menores costos o entregas más rápidas.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/20260529_110230.jpg",
+    "imageAlt": "Obra civil de la Terminal Única de Cargas de Ezeiza, en una fotografía institucional publicada por ORSNA; no muestra el edificio ya terminado.",
+    "imageCredit": "ORSNA / Argentina.gob.ar. Fotografía de obra civil de la Terminal Única de Cargas publicada en la ficha oficial de Ezeiza; corresponde a una etapa de obra.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/nueva-terminal-unica-de-courier-en-el-aeropuerto-de-ezeiza-0",
+      "https://www.argentina.gob.ar/orsna/obras-en-aeropuertos-del-sna/ezeiza-1"
+    ]
+  }
 ];
