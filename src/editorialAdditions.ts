@@ -1023,7 +1023,7 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
     "published": true,
     "image": "https://buenosaires.gob.ar/sites/default/files/inline-images/MG_4562-700x467.jpg",
     "imageAlt": "Presentación musical durante una edición de La Noche de las Casas de Provincia, con el cartel del evento detrás del escenario.",
-    "imageCredit": "Buenos Aires Ciudad; autor no especificado en la ficha oficial. Fotografía de una edición anterior, utilizada como imagen ilustrativa.",
+    "imageCredit": "Buenos Aires Ciudad; autor no especificado en la ficha oficial. Fotografía ilustrativa de una presentación musical de La Noche de las Casas de Provincia.",
     "sources": [
       "https://buenosaires.gob.ar/noticias/llega-la-13a-edicion-de-la-noche-de-las-casas-de-provincia",
       "https://linda.buenosaires.gob.ar/eventos/la-noche-de-las-casas-de-provincia",
