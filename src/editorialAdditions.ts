@@ -993,4 +993,42 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
     "https://www.unesco.org/en/internet-trust/guidelines"
   ]
 }
+,
+  {
+    "id": "agenda-mahiques-washington-cooperacion-penal-2026-11-19",
+    "title": "Mahiques llevó a Washington una agenda de cooperación penal con Estados Unidos",
+    "excerpt": "El ministro de Justicia se reunió el 19 de noviembre con autoridades del Departamento de Justicia estadounidense. La agenda incluyó vacantes judiciales, el Código Procesal Penal Federal, capacitación e investigaciones y extradiciones.",
+    "category": "Agenda política",
+    "body": "El ministro de Justicia de la Nación, Juan Bautista Mahiques, mantuvo el 19 de noviembre de 2026 una reunión en Washington con autoridades del Departamento de Justicia de Estados Unidos. Según informó el Ministerio argentino, participaron Andrew Tysen Duva, responsable de la División Criminal; Adam Hobson y Brian D. Skaret, también de esa división; Erik C. Peterson, director de la oficina OPDAT; y John Beasley, de la Oficina de Asuntos Internacionales. El embajador argentino en Estados Unidos, Alec Oxenford, acompañó al ministro.\n\nDurante el encuentro se analizaron la situación judicial de ambos países, la cobertura de vacantes en la Justicia argentina y la implementación del Código Procesal Penal Federal. También se abordaron la cooperación penal internacional, el trabajo coordinado en investigaciones y los procesos de extradición.\n\n## Qué implica el sistema acusatorio\n\nEl Código Procesal Penal Federal establece una separación de funciones: el Ministerio Público Fiscal dirige la investigación y ejerce la acción penal, mientras que los jueces controlan las garantías, resuelven planteos y juzgan con imparcialidad. Su implementación requiere, además de reglas procesales, fiscales y equipos preparados, infraestructura y capacitación.\n\nMahiques sostuvo que la puesta en marcha del sistema acusatorio necesita instituciones con capacidad operativa. Según el comunicado oficial, los participantes coincidieron en la importancia de sostener el intercambio y la formación de jueces y fiscales.\n\n## Qué se sabe y qué falta conocer\n\nLa reunión vincula dos desafíos: fortalecer la capacidad interna de la justicia federal y mejorar la cooperación cuando las investigaciones involucran a más de un país. Sin embargo, el Ministerio no informó la firma de un nuevo convenio, un presupuesto, un cronograma ni compromisos operativos específicos derivados del encuentro. El alcance de la agenda deberá evaluarse a partir de medidas posteriores y resultados verificables.\n\nFuentes: Ministerio de Justicia de la Nación, 19/11/2026; Código Procesal Penal Federal, Ley 27.063, texto actualizado.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Hybrid_flag_US-Argentina.png",
+    "imageAlt": "Composición gráfica que combina las banderas de Argentina y Estados Unidos, utilizada para ilustrar la relación bilateral.",
+    "imageCredit": "Diego HC / Wikimedia Commons. Obra liberada al dominio público por su autor. Imagen ilustrativa: no representa el encuentro en Washington.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/el-ministro-de-justicia-juan-bautista-mahiques-mantuvo-una-reunion-de-alto-nivel-en",
+      "https://www.argentina.gob.ar/normativa/nacional/ley-27063-2014-239340/actualizacion",
+      "https://commons.wikimedia.org/wiki/File:Hybrid_flag_US-Argentina.png"
+    ]
+  },
+  {
+    "id": "turismo-noche-casas-provincia-2026-circuitos-gratis-2026-11-19",
+    "title": "La Noche de las Casas de Provincia 2026: tres circuitos gratuitos para recorrer Argentina en Buenos Aires",
+    "excerpt": "Este jueves 19 de noviembre, desde las 18, las representaciones provinciales abrirán sus sedes con música, danzas, gastronomía y artesanías. La Legislatura porteña participa por primera vez y abrirá desde las 19.30.",
+    "category": "Turismo, estilo de vida y gastronomía",
+    "body": "La 13.ª edición de La Noche de las Casas de Provincia se realiza este jueves 19 de noviembre de 2026, desde las 18, en la Ciudad de Buenos Aires. Las sedes participantes ofrecerán espectáculos musicales, danzas, exposiciones, degustaciones, artesanías y propuestas de promoción turística. La entrada es libre y gratuita, según informó el Gobierno porteño.\n\nLa jornada está organizada por el Consejo Federal de Representaciones Oficiales (CONFEDRO), con el acompañamiento del Consejo Federal de Inversiones y el Senado de la Nación. El recorrido se divide en tres circuitos para que residentes y visitantes puedan elegir qué representaciones conocer.\n\n## Cómo se organizan los circuitos\n\n- Circuito 1: Corrientes, Neuquén, Río Negro, Santa Cruz, Santa Fe, Santiago del Estero, Tierra del Fuego y Tucumán. Se suma la Legislatura de la Ciudad de Buenos Aires.\n- Circuito 2: Chubut, Entre Ríos, Jujuy, La Pampa, Misiones, Salta y San Juan.\n- Circuito 3: Provincia de Buenos Aires, Catamarca, Córdoba, Chaco, La Rioja, Mendoza y San Luis.\n\n## La Legislatura porteña se incorpora por primera vez\n\nLa Legislatura, ubicada en Perú 160, abrirá sus puertas desde las 19.30 y formará parte del Circuito 1. La programación anunciada incluye al Coro de la Legislatura a las 19.30, la Orquesta Siempre Tango a las 20 y un homenaje a Charly García a las 21, a cargo de Thomas Spagnol. La actividad es gratuita. Si llueve, la programación de la Legislatura se reprogramará para el viernes 20 de noviembre.\n\n## Música y sabores bonaerenses en Callao 237\n\nLa Casa de la Provincia de Buenos Aires, en Callao 237, recibirá al público de 18 a 22. La agenda anunciada incluye a Guardia Nacional del Mar, Modelo Tango, Luiam Basco, Amistad Chamamecera, Los Changos de Barro y Los Pampa, además de coros, orquestas bonaerenses y degustaciones de productos regionales.\n\nCada sede tiene su propia programación y horarios. Para organizar la visita conviene elegir un circuito, comprobar las actividades de las casas que se quieran recorrer y considerar que no todas mantienen el mismo horario de cierre. La propuesta permite conocer expresiones culturales y producciones regionales de distintas provincias sin salir de la Ciudad.\n\nFuentes: Buenos Aires Ciudad, 18/11/2026; Legislatura de la Ciudad; Gobierno de la Provincia de Buenos Aires.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://buenosaires.gob.ar/sites/default/files/inline-images/MG_4562-700x467.jpg",
+    "imageAlt": "Presentación musical durante una edición de La Noche de las Casas de Provincia, con el cartel del evento detrás del escenario.",
+    "imageCredit": "Buenos Aires Ciudad; autor no especificado en la ficha oficial. Fotografía de una edición anterior, utilizada como imagen ilustrativa.",
+    "sources": [
+      "https://buenosaires.gob.ar/noticias/llega-la-13a-edicion-de-la-noche-de-las-casas-de-provincia",
+      "https://linda.buenosaires.gob.ar/eventos/la-noche-de-las-casas-de-provincia",
+      "https://cultura.legislatura.gob.ar/cultura_posts/la-noche-de-las-casas-de-provincia1392.html",
+      "https://gba.gob.ar/jag/noticias/llega_la_noche_de_las_casas_de_provincia_2026"
+    ]
+  }
 ];
