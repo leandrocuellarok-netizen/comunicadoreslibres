@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 20,
-  "lastRunLocal": "2026-11-19T18:11:30-03:00",
+  "completedRuns": 21,
+  "lastRunLocal": "2026-11-19T19:18:56-03:00",
   "lastSections": [
-    "Ciencia, tecnología e IA",
-    "Empresas y negocios"
-  ],
-  "nextIndex": 4,
-  "nextSections": [
     "Economía y finanzas",
     "Comunicación, medios y redes"
+  ],
+  "nextIndex": 0,
+  "nextSections": [
+    "Agenda política",
+    "Turismo, estilo de vida y gastronomía"
   ],
   "rule": "En cada ejecución horaria, consultar nextIndex y evaluar las dos secciones indicadas por nextSections. Preparar hasta dos noticias en total, una por sección, solo cuando exista información reciente, diferenciada y verificable. La secuencia es circular y avanza dos posiciones por ejecución, incluso si una sección no ofrece novedades suficientes; registrar las secciones incompletas y el motivo sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
   "publishedIds": [
@@ -77,12 +77,14 @@
     "agenda-mahiques-washington-cooperacion-penal-2026-11-19",
     "turismo-noche-casas-provincia-2026-circuitos-gratis-2026-11-19",
     "ciencia-conicet-expedicion-inka-el-shincal-streaming-2026-11-19",
-    "empresas-ezeiza-terminal-unica-courier-importacion-2026-11-19"
+    "empresas-ezeiza-terminal-unica-courier-importacion-2026-11-19",
+    "economia-comercio-exterior-octubre-superavit-2026-11-19",
+    "comunicacion-unesco-flujo-informacion-crisis-digitales-2026-11-19"
   ],
   "lastPublishedIds": [
-    "ciencia-conicet-expedicion-inka-el-shincal-streaming-2026-11-19",
-    "empresas-ezeiza-terminal-unica-courier-importacion-2026-11-19"
+    "economia-comercio-exterior-octubre-superavit-2026-11-19",
+    "comunicacion-unesco-flujo-informacion-crisis-digitales-2026-11-19"
   ],
   "lastIncompleteSections": [],
-  "lastNote": "Se publicaron dos notas originales verificadas con fuentes institucionales. Ciencia: CONICET y Fundación Azara informaron sobre Expedición Inka 2026, la transmisión de una excavación arqueológica en El Shincal de Quimivil, con última jornada anunciada para el 20 de noviembre. Empresas: el Gobierno nacional informó la inauguración de la Terminal Única de Courier de Ezeiza, con 10.000 m² cubiertos, 44 oficinas y coworking; se aclaró que la fuente oficial no cuantifica ahorros de costos o tiempos y que el pórtico de salida de importación sigue planificado. Se añadieron imágenes institucionales con epígrafes que aclaran su alcance. No se modificó App.tsx porque ya importa editorialAdditions. No hay acceso a Search Console ni analítica."
+  "lastNote": "Se publicaron dos notas originales. Economía: INDEC publicó el 19/11/2026 el intercambio comercial de bienes de octubre: exportaciones US$10.061 millones (+26,4% interanual), importaciones US$6.668 millones (-6,7%) y superávit US$3.394 millones; acumulado enero-octubre US$24.568 millones. Se aclaró que son cifras estimadas y que el saldo no mide por sí solo rentabilidad ni comercio de servicios. Comunicación: UNESCO anticipó su informe Digital Governance in Times of Crisis, basado en encuesta a 296 especialistas regulatorios y dos estudios de caso sobre conflictos armados; su presentación oficial está prevista en la 35.ª sesión del IPDC del 19-20/11 en París. Se distinguió que el informe no es una nueva ley ni modifica la regulación argentina. Imágenes: Unsplash ilustrativa para comercio exterior y fotografía oficial UNESCO/Elenoire Corosu para la mesa redonda. No hay acceso conectado a Search Console ni analítica; la arquitectura no expone campos individuales para metadescripciones o datos estructurados. La siguiente rotación vuelve a Agenda política y Turismo, estilo de vida y gastronomía."
 }
