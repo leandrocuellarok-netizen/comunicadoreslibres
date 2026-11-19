@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 18,
-  "lastRunLocal": "2026-11-19T16:12:09-03:00",
+  "completedRuns": 19,
+  "lastRunLocal": "2026-11-19T17:14:12-03:00",
   "lastSections": [
-    "Economía y finanzas",
-    "Comunicación, medios y redes"
-  ],
-  "nextIndex": 0,
-  "nextSections": [
     "Agenda política",
     "Turismo, estilo de vida y gastronomía"
+  ],
+  "nextIndex": 2,
+  "nextSections": [
+    "Ciencia, tecnología e IA",
+    "Empresas y negocios"
   ],
   "rule": "En cada ejecución horaria, consultar nextIndex y evaluar las dos secciones indicadas por nextSections. Preparar hasta dos noticias en total, una por sección, solo cuando exista información reciente, diferenciada y verificable. La secuencia es circular y avanza dos posiciones por ejecución, incluso si una sección no ofrece novedades suficientes; registrar las secciones incompletas y el motivo sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
   "publishedIds": [
@@ -73,13 +73,14 @@
     "turismo-new-balance-milla-urbana-obelisco-2026-11-19",
     "ciencia-argentina-bacillus-subtilis-proteasa-nutricion-animal-2026-11-19",
     "empresas-concurso-emprendimiento-argentino-77-finalistas-2026-11-19",
-    "comunicacion-unesco-gobernanza-plataformas-digitales-sur-asia-2026-11-19"
+    "comunicacion-unesco-gobernanza-plataformas-digitales-sur-asia-2026-11-19",
+    "agenda-mahiques-washington-cooperacion-penal-2026-11-19",
+    "turismo-noche-casas-provincia-2026-circuitos-gratis-2026-11-19"
   ],
   "lastPublishedIds": [
-    "comunicacion-unesco-gobernanza-plataformas-digitales-sur-asia-2026-11-19"
+    "agenda-mahiques-washington-cooperacion-penal-2026-11-19",
+    "turismo-noche-casas-provincia-2026-circuitos-gratis-2026-11-19"
   ],
-  "lastIncompleteSections": [
-    "Economía y finanzas"
-  ],
-  "lastNote": "Se publicó una nota original sobre las dos herramientas de UNESCO para la gobernanza de plataformas digitales en Bangladesh, Nepal y Sri Lanka. La pieza analiza la concentración de poder sobre la visibilidad, la moderación y los algoritmos, distingue las recomendaciones de una norma legal y aclara que el alcance geográfico no incluye a Argentina. Se usaron la publicación oficial de UNESCO, los dos documentos de Tribhuvan University y las directrices globales de UNESCO de 2023. Economía y finanzas quedó incompleta: aunque el calendario oficial de INDEC programaba para el 19/11 el informe de intercambio comercial de octubre de 2026, la página de la serie consultada todavía mostraba septiembre y no fue posible verificar las cifras de octubre en una fuente primaria accesible; se evitó reutilizar datos de notas ya publicadas. No hay acceso conectado a Search Console ni a analítica."
+  "lastIncompleteSections": [],
+  "lastNote": "Se publicaron dos notas verificadas en Agenda política y Turismo, estilo de vida y gastronomía. Agenda: el Ministerio de Justicia informó sobre la reunión de Juan Bautista Mahiques con autoridades del Departamento de Justicia de Estados Unidos en Washington; se consignaron los temas abordados y se aclaró que el comunicado no anunció un nuevo convenio, presupuesto ni cronograma. Turismo: se publicó una guía de la 13.ª Noche de las Casas de Provincia, con los tres circuitos, la participación inaugural de la Legislatura porteña y la programación confirmada de la Casa de la Provincia de Buenos Aires. Se usaron fuentes oficiales nacionales, porteñas y bonaerenses. No se accedió a Search Console ni a analítica. La nota previa sobre Ruta Trasandina ya está incorporada en editorialAdditions y no se duplicó."
 }
