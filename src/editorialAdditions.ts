@@ -595,4 +595,211 @@ export const editorialAdditions = [
       "https://www.argentina.gob.ar/noticias/world-cheese-awards-2026-argentina-se-destaco-entre-los-mejores-quesos-del-mundo-con-17"
     ]
   }
+,
+[
+  {
+    "id": "agenda-diputados-quorum-ley-soberania-alcance-2026-11-19",
+    "title": "La falta de quórum frenó el debate de la Ley de Soberanía y dejó a la vista el alcance del proyecto",
+    "excerpt": "La sesión especial de Diputados no reunió las bancas necesarias para tratar la iniciativa. El dictamen oficial combina cambios sobre hidrocarburos en el Atlántico Sur con reformas de defensa, seguridad e inteligencia, una amplitud que divide incluso a quienes apoyan actualizar la protección de los recursos.",
+    "category": "Agenda política",
+    "body": "La Cámara de Diputados no abrió la sesión especial convocada para tratar la Ley de Defensa de la Soberanía Nacional y otros proyectos: no se alcanzó el quórum reglamentario. La noticia política inmediata fue la falta de asistencia suficiente; el debate de fondo, sin embargo, ya estaba escrito en los dictámenes que llegaron al recinto.\n\nEl proyecto del Poder Ejecutivo reúne 132 artículos en ocho títulos. El texto incorpora modificaciones al régimen que regula la exploración y explotación de hidrocarburos en áreas bajo disputa, pero también propone cambios en defensa nacional, seguridad, inteligencia y legislación penal. Ese diseño explica por qué el nombre de la iniciativa no agota su contenido.\n\nEl orden del día de Diputados deja ver posiciones diferentes. Un dictamen de minoría sostuvo que la protección de los recursos puede actualizarse, pero objetó que la causa Malvinas sirva de vehículo para reformar áreas que requieren tratamiento separado. Entre sus argumentos figura que el régimen de sanciones debería estar bajo control judicial y no depender de una autoridad administrativa del Poder Ejecutivo. El dictamen de mayoría, en cambio, aconsejó aprobar un texto con modificaciones.\n\nLas coberturas periodísticas también eligieron énfasis distintos. TN describió el resultado como un revés para el Gobierno y destacó las tensiones políticas alrededor de la sesión. Página/12 puso el foco en la crítica opositora al paquete y en la discusión sobre el marco legal de las actividades petroleras. Ambas lecturas se pueden contrastar con el documento parlamentario, que permite revisar qué propone cada dictamen sin aceptar como hecho una interpretación partidaria.\n\nLa ausencia de quórum no constituye un rechazo legislativo artículo por artículo: significa que el cuerpo no llegó a abrir el debate. La iniciativa puede volver a tratarse si se convoca una nueva sesión y se reúnen las condiciones reglamentarias. La cuestión pública pendiente es doble: qué instrumentos legales requiere la defensa de los recursos y qué temas conviene separar para que cada reforma tenga deliberación suficiente.\n\nFuentes: Cámara de Diputados, Orden del Día 514; TN, 19/11/2026; Página/12, 19/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200",
+    "imageAlt": "Edificio legislativo en una imagen ilustrativa; no corresponde al Congreso argentino",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://www3.hcdn.gob.ar/dependencias/dcomisiones/periodo-144/144-514.pdf",
+      "https://tn.com.ar/politica/2026/11/19/tras-el-fracaso-de-la-sesion-el-gobierno-enfrenta-tensiones-internas-y-evalua-retomar-la-ley-malvinas-la-proxima-semana/",
+      "https://www.pagina12.com.ar/2026/11/18/derrota-del-gobierno-en-diputados-sin-quorum-para-soberania-y-reforma-del-bcra/"
+    ]
+  },
+  {
+    "id": "agenda-reforma-electoral-paso-2027-debate-participacion-2026-11-19",
+    "title": "La reforma electoral para 2027 reabre la discusión sobre costos, competencia y participación",
+    "excerpt": "El proyecto que obtuvo dictamen en el Senado contempla suspender las PASO durante 2027 y modificar otras reglas electorales. La discusión enfrenta el argumento oficial de reducir gastos con las objeciones sobre la selección de candidaturas y la vida interna de los partidos.",
+    "category": "Agenda política",
+    "body": "La reforma electoral volvió al centro de la agenda legislativa después de que la Comisión de Asuntos Constitucionales del Senado emitiera dictamen sobre un proyecto que, según la cobertura parlamentaria, incluye la suspensión de las Primarias Abiertas, Simultáneas y Obligatorias (PASO) para 2027, cambios en la Boleta Única de Papel y nuevas reglas para candidaturas.\n\nLa discusión no se limita a cuánto cuesta organizar una elección. Las PASO cumplen una función de competencia y selección pública de candidaturas, incluso cuando una fuerza presenta una sola lista. Suspenderlas altera el calendario y puede trasladar la decisión hacia acuerdos partidarios, internas cerradas o mecanismos que varían según cada espacio. El efecto concreto depende del texto final y de cómo se organice cada partido.\n\nEl oficialismo ha defendido la reducción del gasto electoral como uno de los fundamentos del cambio. Una parte del debate opositor pone el foco en la participación de votantes no afiliados y en la oportunidad de que una disputa interna se resuelva en una instancia pública común. Ninguno de esos argumentos sustituye el análisis de los costos, las competencias partidarias y las reglas aplicables a la elección general.\n\nLa negociación también muestra que el contenido puede cambiar durante el trámite. TN informó que el Gobierno retiró el mecanismo de listas colectoras para facilitar la firma del dictamen y que la iniciativa se debatiría en el Senado el 26 de noviembre. El medio consignó asimismo la objeción del Movimiento de Integración y Desarrollo, que planteó que una modernización institucional no debería reducir la participación ni la diversidad de voces. El mensaje y proyecto de ley 110/26 aparece en el registro parlamentario del Senado, que permite seguir su expediente.\n\nEl dictamen no equivale a una ley aprobada. Todavía deben producirse el debate y la votación en el recinto, y cualquier modificación puede alterar el alcance final. Para evaluar la propuesta conviene preguntar qué problema específico resuelve, cuánto ahorro proyecta con datos comparables y qué mecanismos de selección ofrece a los partidos si se suspende la primaria nacional.\n\nFuentes: Senado de la Nación, Mensaje 110/26; TN, 18/11/2026; El País, 16/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1504270997636-07ddfbd48945?w=1200",
+    "imageAlt": "Papeles y titulares de prensa, imagen ilustrativa de una discusión electoral",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://www.senado.gob.ar/parlamentario/DAEDIGITAL/generarPdf/28/2026/1",
+      "https://tn.com.ar/politica/2026/11/18/reforma-electoral-el-gobierno-consiguio-dictamen-y-la-suspension-de-las-paso-se-tratara-el-proximo-jueves-en-el-senado/",
+      "https://elpais.com/argentina/2026-11-16/el-gobierno-de-milei-busca-eliminar-las-elecciones-primarias-para-llegar-con-ventaja-a-las-presidenciales-de-2027.html"
+    ]
+  },
+  {
+    "id": "turismo-republica-folklore-parque-ciudad-2026-11-19",
+    "title": "República Folklore: dos días para recorrer la música y los sabores de distintas provincias",
+    "excerpt": "El sábado 21 y el domingo 22 de noviembre, el Parque de la Ciudad recibirá un festival al aire libre con varios escenarios, artistas consagrados y emergentes, gastronomía regional y propuestas culturales.",
+    "category": "Turismo, estilo de vida y gastronomía",
+    "body": "Este fin de semana, Buenos Aires propone un paseo que invita a escuchar, probar y recorrer el folklore más allá de un escenario único. República Folklore se realizará el sábado 21 y el domingo 22 de noviembre en el Parque de la Ciudad, en Villa Soldati, con programación musical, espacios gastronómicos y actividades alrededor de las tradiciones argentinas.\n\nLa guía oficial de turismo porteña anuncia más de 50 artistas distribuidos en tres escenarios y dos jornadas de música. Entre los nombres difundidos figuran Chaqueño Palavecino, Abel Pintos, Soledad, Los Nocheros, Jorge Rojas, Cazzu, Teresa Parodi, Nahuel Pennisi y Maggie Cullen, junto con nuevas voces del género. La propuesta se presenta como una celebración amplia del cancionero popular, con públicos y generaciones diversas.\n\nLa experiencia no se limita a escuchar recitales. La organización describe peñas, una pulpería, un patio de comidas regionales y un Paseo de las Provincias con artesanías, producción y turismo federal. Para quien quiera convertir la salida en un paseo de día completo, esos espacios ofrecen la posibilidad de acercarse a sabores y objetos de distintas regiones en un mismo predio.\n\nEl Parque de la Ciudad se encuentra en Av. Fernández de la Cruz 4000. Antes de salir conviene consultar los canales oficiales del festival para confirmar horarios, accesos, condiciones de entrada y servicios disponibles: la agenda turística informa las fechas y el lugar, pero esos detalles pueden actualizarse. También es buena idea prever el regreso y revisar el transporte público desde el punto de partida.\n\nLa música folklórica funciona como una memoria compartida, pero no es una postal quieta. La presencia de artistas jóvenes junto a figuras de larga trayectoria muestra cómo conviven repertorios, estilos y públicos. En una ciudad acostumbrada a concentrar grandes recitales en el centro, una cita en Villa Soldati también invita a descubrir otro sector de Buenos Aires y a pensar la cultura como una experiencia urbana más federal.\n\nFuente: Sitio oficial de turismo de la Ciudad de Buenos Aires; sitio oficial República Folklore, consultados el 19/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1200",
+    "imageAlt": "Público en un recital al aire libre; imagen ilustrativa, no corresponde al festival",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://turismo.buenosaires.gob.ar/es/article/rep%C3%BAblica-folklore",
+      "https://linda.buenosaires.gob.ar/eventos/republica-folklore",
+      "https://www.republicafolklore.com.ar/"
+    ]
+  },
+  {
+    "id": "turismo-ratha-yatra-plaza-francia-buenos-aires-2026-11-19",
+    "title": "Ratha Yatra: Plaza Francia recibirá una celebración de la cultura y la espiritualidad india",
+    "excerpt": "El domingo 22 de noviembre, una jornada abierta al público reunirá música, colores y expresiones culturales en Recoleta. El encuentro es organizado por ISKCON Buenos Aires y cuenta con aval de la Embajada de la India.",
+    "category": "Turismo, estilo de vida y gastronomía",
+    "body": "El domingo 22 de noviembre, Plaza Francia será el punto de encuentro de Ratha Yatra, una celebración que acerca a Buenos Aires expresiones de la cultura y la espiritualidad de la India. La agenda oficial de turismo describe una jornada para toda la familia con música, colores y una invitación a conocer una tradición que se celebra en distintas ciudades del mundo.\n\nEl encuentro es organizado por ISKCON Buenos Aires, cuenta con el aval de la Embajada de la India en Argentina y la colaboración de la Secretaría de Cultos porteña. Esa articulación institucional da contexto al evento: no se trata solamente de una actividad artística, sino de una oportunidad para conocer una práctica religiosa y cultural desde la comunidad que la sostiene.\n\nPara quienes visiten Recoleta, la plaza permite armar un recorrido caminable por museos, parques y espacios culturales del barrio. La propuesta puede disfrutarse con curiosidad y respeto: observar los rituales, escuchar las explicaciones que ofrezcan los organizadores y consultar antes de fotografiar a las personas que participan de una ceremonia. La diversidad cultural se vuelve más significativa cuando se recibe sin convertirla en mero decorado.\n\nEl sitio de turismo confirma el día y el lugar, pero no detalla en la ficha consultada la duración, las actividades exactas, el acceso ni las condiciones ante lluvia. Antes de trasladarse, conviene revisar los canales del evento y del Gobierno de la Ciudad. En una salida de fin de semana, planificar esos detalles permite disfrutar el paseo con tranquilidad.\n\nRatha Yatra amplía la agenda porteña con una celebración que conecta una tradición religiosa con la vida pública de la ciudad. Para quienes se acerquen por primera vez, puede ser una puerta a nuevas preguntas: cómo viajan las prácticas culturales, qué comunidades las mantienen vivas y qué ocurre cuando una plaza pública se transforma, por unas horas, en espacio de encuentro intercultural.\n\nFuente: Sitio oficial de turismo de la Ciudad de Buenos Aires, consultado el 19/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200",
+    "imageAlt": "Arquitectura de la India en una imagen ilustrativa; no documenta el encuentro de Buenos Aires",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://turismo.buenosaires.gob.ar/es/article/festival-de-la-india-ratha-yatra"
+    ]
+  },
+  {
+    "id": "ciencia-ia-proyectos-legislativos-citra-2026-11-19",
+    "title": "Qué temas aparecen en los proyectos argentinos sobre inteligencia artificial",
+    "excerpt": "Un relevamiento de CITRA-CONICET y UMET contabilizó iniciativas legislativas presentadas entre 2016 y septiembre de 2026. Deepfakes, educación y uso estatal de IA figuran entre los ejes recurrentes, aunque el inventario no equivale a leyes sancionadas.",
+    "category": "Ciencia, tecnología e IA",
+    "body": "Un nuevo relevamiento del Observatorio de Digitalización y Trabajo de CITRA-CONICET-UMET revisa proyectos de ley, resolución, declaración y comunicación relacionados con inteligencia artificial presentados en Argentina entre 2016 y el 30 de septiembre de 2026. El documento, publicado en noviembre, ofrece una fotografía de los asuntos que llegaron al Congreso y de cómo se transformó la conversación legislativa sobre IA.\n\nEl mapa temático registra una mayor presencia de iniciativas vinculadas con la protección frente a deepfakes y deepfakes sexuales, con 29 menciones acumuladas; IA en educación, con 15; y uso de IA en funciones del Estado, con 14. También aparecen privacidad y protección de datos, desinformación y manipulación electoral, derechos de niñas, niños y adolescentes, seguridad y trabajo. Los registros de 2026 cubren solo hasta septiembre, por lo que no describen el último trimestre del año.\n\nEl propio enfoque del informe importa tanto como los conteos. El equipo analiza iniciativas que aluden a la inteligencia artificial y pueden influir sobre el sistema jurídico, controlar la actuación del Poder Ejecutivo o incidir en políticas públicas. No todas las iniciativas buscan regular un modelo de IA como tal; algunas tratan de consecuencias en áreas como empleo, derechos digitales o administración estatal.\n\nPor eso, las cifras no deben leerse como cantidad de leyes vigentes ni como medida directa del nivel de riesgo. Un proyecto puede no avanzar, ser modificado, archivarse o abordar más de un asunto. El mapa sirve para identificar prioridades parlamentarias y cambios de agenda, pero evaluar su impacto exige consultar el estado de cada expediente y comparar el texto propuesto con la normativa vigente.\n\nEl relevamiento también conecta la regulación con el mundo del trabajo: CITRA plantea estudiar efectos de la digitalización sobre empleo y seguridad social, además de las estrategias sindicales ante la adopción tecnológica. La pregunta pública, entonces, no es solo cómo controlar sistemas inteligentes, sino quién define sus usos, quién responde por errores y cómo se distribuyen beneficios y costos.\n\nEl documento ofrece un punto de partida para el debate. Su siguiente desafío será seguir los proyectos hasta su desenlace y observar qué temas se convierten en reglas concretas. La conversación argentina sobre IA ya abarca educación, trabajo, niñez y Estado; la cuenta legislativa muestra preocupación, pero todavía no sustituye una evaluación de las políticas efectivamente aplicadas.\n\nFuentes: CITRA-CONICET-UMET, Método CITRA N.º 20, noviembre de 2026; base de iniciativas relevadas hasta el 30/09/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200",
+    "imageAlt": "Visualización ilustrativa de una red digital sobre el planeta",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://citra.org.ar/metodo-citra-n20/",
+      "https://citra.org.ar/wp-content/uploads/2026/11/MetodoCITRA20.pdf"
+    ]
+  },
+  {
+    "id": "ciencia-uspallata-fosiles-triasico-investigacion-2026-11-19",
+    "title": "Un subsidio financiará una nueva prospección paleontológica en Uspallata",
+    "excerpt": "El proyecto de un investigador del CONICET estudiará formaciones del Triásico Superior en Paramillos de Uspallata. La campaña buscará analizar fósiles y reconstruir su contexto ambiental y climático, sin que todavía existan resultados del trabajo.",
+    "category": "Ciencia, tecnología e IA",
+    "body": "Un proyecto del geólogo Tomás Pedernera, investigador del CONICET en el IANIGLA, recibió un subsidio de la Asociación Paleontológica Argentina y la Fundación Azara para realizar una investigación en Paramillos de Uspallata, Mendoza. El anuncio fue publicado por el Centro Científico Tecnológico CONICET Mendoza el 18 de noviembre.\n\nLa iniciativa propone una campaña de prospección y muestreo de alta resolución en las formaciones Portezuelo Bayo y Los Colorados, correspondientes al Triásico Superior de la Cuenca Cuyana. El equipo buscará analizar restos fósiles de distintos grupos taxonómicos y situarlos en su contexto paleoambiental y paleoclimático.\n\nLa distinción entre una campaña de investigación y un hallazgo es importante. El financiamiento permite organizar trabajo de campo y análisis; no significa que ya se hayan identificado especies nuevas ni que el paisaje antiguo esté reconstruido. Esos resultados dependen de la preservación de los materiales, su identificación, la comparación con registros previos y la interpretación geológica.\n\nUspallata forma parte de un territorio de gran interés geológico, pero la pregunta científica no se agota en encontrar fósiles. Su ubicación en las capas, la asociación con otros restos y las características de las rocas permiten reconstruir qué condiciones ambientales existían hace más de 200 millones de años. La paleontología, en ese sentido, cruza biología, geología y climatología histórica.\n\nLa noticia también muestra cómo una beca o subsidio pequeño puede abrir una etapa de investigación concreta: muestreo, registro, curaduría de materiales y trabajo de laboratorio. Para que la ciudadanía pueda seguir el proceso, serán relevantes los futuros informes y publicaciones que detallen qué se encontró, qué métodos se aplicaron y qué limitaciones tuvo la muestra.\n\nPor ahora, el dato verificable es el inicio previsto de una campaña de campo y su objetivo. Los hallazgos deberán comunicarse una vez concluida la tarea científica y sometidos a evaluación. Esa prudencia no reduce el valor del proyecto: permite distinguir la promesa de investigar de la evidencia que la investigación llegue a producir.\n\nFuente: CONICET Mendoza, 18/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200",
+    "imageAlt": "Paisaje de montaña en una imagen ilustrativa; no corresponde necesariamente a Paramillos de Uspallata",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://mendoza.conicet.gov.ar/especialistas-del-conicet-mendoza-recibieron-un-subsidio-para-estudiar-ecosistemas-antiguos-en-uspallata/"
+    ]
+  },
+  {
+    "id": "empresas-microbrew-ia-levaduras-cervecerias-2026-11-19",
+    "title": "Microbrew.ar busca llevar herramientas de laboratorio a las cervecerías artesanales",
+    "excerpt": "Desarrollada por un equipo del CONICET junto con la empresa de software INNQUBE, la plataforma combina una aplicación para el seguimiento de levaduras y un dispositivo óptico en etapa de validación. Su versión con análisis automatizado todavía está en desarrollo.",
+    "category": "Empresas y negocios",
+    "body": "Una plataforma nacida de la colaboración entre investigadores del CONICET y la empresa de software INNQUBE busca resolver un problema cotidiano de las cervecerías artesanales: controlar la calidad de la levadura para reutilizarla en nuevas fermentaciones. Microbrew.ar integra herramientas móviles y web para ordenar el procedimiento y facilitar el análisis de muestras.\n\nLa reutilización de levaduras puede reducir la compra de insumos y el descarte de biomasa, además de dar mayor consistencia entre lotes. Para una cervecería pequeña, esa decisión tiene efectos sobre costos, calidad y desperdicios. El equipo científico trabaja también en el Brewscopio, un dispositivo óptico portátil de bajo costo diseñado para capturar imágenes de levaduras de manera estandarizada.\n\nLa plataforma está en etapa de desarrollo y prueba de concepto. La versión Premium incorporaría conteo automático a partir de imágenes mediante algoritmos de análisis; el propio equipo la describe como una función que todavía atraviesa validación. No corresponde presentarla como una herramienta comercial completamente desplegada ni atribuirle mejoras cuantificadas de rendimiento que no fueron informadas.\n\nEl modelo de transferencia plantea una oportunidad para ambas partes. El conocimiento del IPATEC-CONICET aporta experiencia en microbiología y fermentación; INNQUBE contribuye al desarrollo de software. La intención anunciada es formalizar la plataforma completa como una Empresa de Base Tecnológica y llevarla a Argentina y Latinoamérica, pero ese paso se presenta como una perspectiva futura, no como una sociedad ya constituida.\n\nPara el sector cervecero, la promesa relevante es acercar controles de calidad a productores que no necesariamente cuentan con laboratorio propio. Para que esa promesa se sostenga, harán falta pruebas comparables de precisión, facilidad de uso, costo total y soporte técnico, además de pilotos con cervecerías de distintos tamaños. La adopción dependerá de que el dispositivo y la aplicación funcionen con muestras diversas y se integren en procesos reales.\n\nEl caso ilustra una vía concreta de innovación: adaptar investigación universitaria a una necesidad productiva y construir un servicio a partir de ella. El próximo hito será pasar de la prueba de concepto a una oferta validada, con resultados transparentes sobre beneficios, límites y condiciones de uso.\n\nFuente: CONICET, Área de Vinculación, 13/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=1200",
+    "imageAlt": "Vaso de cerveza artesanal, imagen ilustrativa de un proceso de fermentación",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://www.conicet.gov.ar/microbrew-ar-una-plataforma-con-ia-para-transformar-la-gestion-de-fermentaciones-en-la-cerveceria-artesanal/",
+      "https://www.microbrew.com.ar/#home"
+    ]
+  },
+  {
+    "id": "empresas-conicet-personal-vida-submarina-flow-2026-11-19",
+    "title": "CONICET y Personal llevarán a Flow una serie documental sobre exploración submarina",
+    "excerpt": "Vida submarina tendrá ocho episodios y llegará a la plataforma en diciembre. La alianza combina producción científica pública y distribución audiovisual privada; el acuerdo no difundió sus términos comerciales.",
+    "category": "Empresas y negocios",
+    "body": "El CONICET y Personal anunciaron que la serie documental Vida submarina llegará a Flow en diciembre. Realizada por CONICET Documental, la producción recorre la campaña oceanográfica Talud Continental IV, que investigó el fondo del Mar Argentino a bordo del buque R/V Falkor (too).\n\nLa serie tendrá ocho episodios con imágenes de la expedición y testimonios de científicos. La campaña se transmitió durante 21 días por YouTube y Twitch y, de acuerdo con la información institucional, superó los 22 millones de visualizaciones. El mismo relevamiento reporta la identificación de 57 especies nuevas y cinco géneros, además de registros de corales de aguas frías en el cañón submarino Mar del Plata.\n\nEl anuncio muestra una alianza de producción y distribución entre una institución científica pública y una empresa de telecomunicaciones con plataforma audiovisual. Para el CONICET, el acuerdo ofrece una ventana de llegada a audiencias que quizá no siguen sus canales institucionales; para Personal y Flow, suma una producción original vinculada con ciencia y exploración nacional. Esa lectura es una inferencia sobre el valor estratégico de la distribución: las partes no publicaron cifras de inversión, licencias ni condiciones de explotación.\n\nLa transmisión abierta de la campaña y el estreno en Flow son etapas distintas. La primera acercó imágenes en vivo y fragmentos de la expedición; la serie editada organiza ese material en episodios para consumo posterior. El éxito del proyecto podrá medirse no solo por reproducciones, sino también por la calidad de la narración, el acceso a la producción y la capacidad de mantener interés en investigaciones marinas.\n\nLa alianza plantea preguntas relevantes para la comunicación pública de la ciencia: quién conserva los derechos sobre imágenes y testimonios, cómo se reparten los costos de producción y qué condiciones de acceso tendrá el contenido una vez estrenado. Como esos términos no fueron informados, no conviene suponer que toda la serie será gratuita o que las cifras de la transmisión anterior se trasladarán automáticamente a Flow.\n\nLa colaboración puede ampliar la circulación de conocimiento científico si el relato audiovisual conserva contexto, métodos y límites de la investigación. El estreno de diciembre permitirá conocer el formato final y observar cómo se articula el contenido público con la distribución comercial.\n\nFuente: CONICET / Personal, anuncio institucional del 16/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200",
+    "imageAlt": "Sala de cine en una imagen ilustrativa, no corresponde al estreno de la serie",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://mendoza.conicet.gov.ar/el-conicet-y-personal-anuncian-el-estreno-de-la-serie-documental-vida-submarina-sobre-la-historica-campana-talud-continental-iv/"
+    ]
+  },
+  {
+    "id": "economia-costos-construccion-gba-octubre-2026-11-19",
+    "title": "El costo de construir en el Gran Buenos Aires subió 1,7% en octubre",
+    "excerpt": "El índice del INDEC mostró aumentos mensuales de 1,5% en materiales y 1,8% en mano de obra y gastos generales. En doce meses, el indicador acumuló 31,9%, con una brecha entre el componente laboral y los insumos.",
+    "category": "Economía y finanzas",
+    "body": "El costo de la construcción privada de viviendas en el Gran Buenos Aires aumentó 1,7% en octubre respecto de septiembre, informó el INDEC el 17 de noviembre. El índice acumuló una suba de 26,5% en los primeros diez meses de 2026 y de 31,9% interanual.\n\nLos componentes evolucionaron de manera diferente. Materiales subió 1,5% mensual, mano de obra 1,8% y gastos generales 1,8%. En la comparación interanual, el INDEC registró 22,2% para materiales, 40,6% para mano de obra y 33,6% para gastos generales. Esa distancia importa para presupuestos, contratos y decisiones de obra porque el costo total depende de la combinación de insumos y trabajo de cada proyecto.\n\nEl organismo explicó que el capítulo laboral reflejó el acuerdo salarial de la UOCRA aplicable desde octubre. Los gastos generales incorporaron actualizaciones de tarifas eléctricas aprobadas para Edenor y Edesur, junto con cambios en conexiones de gas y servicios de agua y cloaca. El informe ofrece así factores concretos detrás del resultado, aunque no describe por sí solo la estructura de costos de cada obra particular.\n\nEl indicador tiene un alcance geográfico y técnico acotado: mide en promedio la construcción privada de edificios destinados a vivienda en la Ciudad Autónoma de Buenos Aires y 24 partidos del conurbano. No es un índice nacional de todas las obras, ni una cotización para presupuestar una vivienda específica. Los precios, calidades, ubicaciones, plazos y modalidades de contratación pueden generar diferencias importantes.\n\nPara hogares y empresas, el dato sirve como referencia de la trayectoria reciente y como insumo para revisar presupuestos. La comparación interanual muestra que el componente laboral creció por encima de los materiales en el período informado; no permite concluir, por sí sola, que una obra haya encarecido en esa misma proporción, porque cada proyecto tiene ponderaciones propias.\n\nLa próxima actualización, prevista para diciembre, permitirá observar si octubre fue parte de una desaceleración o de una nueva aceleración del costo. Mientras tanto, separar materiales, mano de obra y gastos generales ayuda a entender qué rubros presionan más y qué supuestos conviene revisar al planificar una obra.\n\nFuente: INDEC, Índice del costo de la construcción en el GBA, octubre de 2026, publicado el 17/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200",
+    "imageAlt": "Trabajos de construcción en una imagen ilustrativa",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://www.indec.gob.ar/uploads/informesdeprensa/icc_11_266E108A19A1.pdf",
+      "https://www.indec.gob.ar/Nivel4/Tema/3/5/33"
+    ]
+  },
+  {
+    "id": "economia-canasta-crianza-octubre-cuidados-2026-11-19",
+    "title": "La canasta de crianza de octubre superó los $754.000 para chicos de 6 a 12 años",
+    "excerpt": "El cálculo del INDEC combina bienes y servicios con el costo del cuidado para cuatro grupos etarios. La metodología busca visibilizar el valor económico del tiempo dedicado a la crianza, aunque no representa el gasto idéntico de cada hogar.",
+    "category": "Economía y finanzas",
+    "body": "El INDEC estimó que la canasta de crianza de octubre alcanzó $591.320 para menores de un año, $704.198 para niñas y niños de 1 a 3 años, $600.445 para el tramo de 4 a 5 y $754.869 para quienes tienen entre 6 y 12 años. La publicación se difundió el 16 de noviembre y presenta por separado el costo de bienes y servicios y el costo del cuidado.\n\nPara el grupo de 6 a 12 años, el cálculo asigna $390.516 a bienes y servicios y $364.353 al cuidado. En menores de un año, los componentes son $191.424 y $399.896, respectivamente. La diferencia refleja que el tiempo de cuidado estimado cambia según la edad y las necesidades asociadas a cada etapa.\n\nEl indicador no es una canasta de consumo observada en una encuesta a cada familia. Es una valorización estadística que combina una referencia de bienes y servicios con horas de cuidado estimadas y su valoración económica. Por eso, no debe interpretarse como un presupuesto universal ni como el monto exacto que una persona debe gastar para criar a un niño o una niña.\n\nAun con ese límite, el cálculo aporta una dimensión que suele quedar fuera de las conversaciones sobre costo de vida: el trabajo de cuidado. Mostrarlo como un componente con valor económico permite discutir cómo se reparte entre hogares, servicios pagos y trabajo no remunerado. También hace visible que las necesidades no son iguales a todas las edades y que el monto total puede responder a componentes distintos.\n\nPara leer la variación de un mes a otro, conviene consultar el documento metodológico junto con las cifras y distinguir cambios en bienes y servicios de los asociados al cuidado. El informe de octubre ofrece los niveles de cada componente, pero no describe por sí solo cómo se distribuye el gasto dentro de cada hogar ni las diferencias territoriales.\n\nLa publicación es útil para seguir una referencia oficial y para contextualizar debates sobre infancia, ingresos y políticas de cuidado. Su mayor valor está en ampliar la conversación económica: además del precio de los bienes, la crianza requiere tiempo, y ese tiempo también forma parte de los recursos que una sociedad necesita sostener.\n\nFuente: INDEC, Canasta de crianza, octubre de 2026, publicada el 16/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200",
+    "imageAlt": "Familia compartiendo una actividad cotidiana, imagen ilustrativa",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://www.indec.gob.ar/uploads/informesdeprensa/canasta_crianza_11_26F9D722BE15.pdf",
+      "https://www.indec.gob.ar/indec/Portada"
+    ]
+  },
+  {
+    "id": "comunicacion-ipsos-confianza-periodistas-argentina-2026-11-19",
+    "title": "Qué mide la encuesta de Ipsos cuando pregunta si confiamos en periodistas",
+    "excerpt": "Un relevamiento difundido por la UCA ubica en 17% la confianza declarada en periodistas en Argentina. La cifra invita a discutir credibilidad, pero no mide la calidad de cada cobertura ni reemplaza datos de consumo y audiencia.",
+    "category": "Comunicación, medios y redes",
+    "body": "Una encuesta internacional de Ipsos, reseñada por el Observatorio de Medios de la UCA el 3 de noviembre, ubicó en 17% la confianza declarada en periodistas en Argentina. El mismo resumen atribuye 18% a presentadores de noticias de televisión y 11% a influencers de redes sociales. En la pregunta por desconfianza, el texto informa 49% para periodistas, 43% para presentadores y 56% para influencers.\n\nEsos porcentajes describen percepciones expresadas en una encuesta; no son una evaluación de la exactitud de cada noticia ni un ranking de medios concretos. La categoría “periodistas” agrupa una profesión diversa, con roles, formatos y líneas editoriales diferentes. Una respuesta general puede estar influida por experiencias personales, coyuntura política, confianza en instituciones y la forma en que se formuló la pregunta.\n\nEl resumen de la UCA señala que el estudio abarcó 31 países, pero la ficha consultada no detalla el tamaño de la muestra argentina, las fechas exactas de campo ni el cuestionario completo. Esa falta de información metodológica en la página obliga a evitar comparaciones demasiado precisas o conclusiones sobre la causa del bajo nivel.\n\nEl dato puede ponerse en diálogo con el Digital News Report 2026 del Reuters Institute, que midió otra cosa: 26% de los encuestados argentinos dijo confiar en la mayoría de las noticias la mayor parte del tiempo. No son cifras directamente comparables, porque una consulta refiere a profesiones y otra a noticias en general, con escalas y preguntas distintas. Juntas sugieren una preocupación sobre legitimidad informativa, pero no permiten afirmar que todos los periodistas o todas las noticias se perciban de la misma manera.\n\nLa confianza se construye en relaciones concretas: precisión, transparencia sobre fuentes, corrección de errores, separación entre información y opinión, y consistencia editorial. Las redacciones también enfrentan la circulación de contenidos recortados y la competencia con voces de redes que suelen hablar en primera persona y con cercanía.\n\nLa cifra de Ipsos sirve como señal para investigar más, no como veredicto. Para entenderla mejor harían falta la ficha técnica completa, desgloses por edad y consumo de medios, y preguntas que distingan confianza en periodistas, marcas, plataformas y piezas informativas. La pregunta periodística no es solo cuánta gente confía, sino qué prácticas podrían reconstruir credibilidad y cómo comprobar si funcionan.\n\nFuentes: Observatorio de Medios UCA, 03/11/2026; Reuters Institute, Digital News Report 2026, Argentina.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1504270997636-07ddfbd48945?w=1200",
+    "imageAlt": "Titulares y materiales de prensa en una imagen ilustrativa",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://observatoriodemedios.uca.edu.ar/ipsos-los-argentinos-no-confian-en-sus-periodistas/",
+      "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/argentina"
+    ]
+  },
+  {
+    "id": "comunicacion-rating-canales-noticias-octubre-2026-11-19",
+    "title": "La audiencia de los canales de noticias creció en octubre, pero la competencia cambia según el horario",
+    "excerpt": "Una medición citada por Clarín ubicó el promedio diario de las señales informativas en 7,67 puntos, 4% más que en septiembre. El dato describe consumo televisivo en una franja determinada, no la conversación informativa completa del país.",
+    "category": "Comunicación, medios y redes",
+    "body": "Los canales de noticias registraron un promedio de 7,67 puntos de rating entre las 7 y las 24 durante octubre, un 4% por encima de septiembre, según cifras de Kantar IBOPE Media citadas por Clarín el 11 de noviembre. TN quedó primero en el promedio general; C5N, A24 y Crónica TV ocuparon los puestos siguientes, mientras LN+ y Canal 26 disputaron posiciones con resultados distintos según la franja horaria.\n\nLa variación muestra que la televisión informativa todavía conserva una audiencia relevante, pero el orden no es uniforme durante todo el día. En el horario de 7 a 13, TN registró 2,70 puntos, A24 2,02 y C5N 1,71, de acuerdo con la misma nota. Canal 26 superó a LN+ por la mañana, mientras que LN+ volvió a tener mejores resultados en la tarde y la noche.\n\nEl mes estuvo atravesado por una intensa agenda política, las negociaciones sobre el Presupuesto 2027, la discusión electoral y la visita del papa León XIV. La cobertura de acontecimientos de alta convocatoria puede modificar el encendido televisivo y las decisiones de programación. Clarín informó que más de 500 periodistas, conductores y técnicos de canales argentinos se acreditaron para seguir la gira papal y que algunas señales desplegaron transmisiones extendidas.\n\nEl dato tiene límites claros. Los puntos de rating son una medida de audiencia televisiva bajo el sistema de medición citado; no equivalen al número de personas que consumen noticias en internet, redes, radio o streaming. Tampoco muestran por sí solos la confianza del público, la calidad de una cobertura o cuánto tiempo dedicó cada persona a informarse.\n\nLa relación entre rating y agenda es bidireccional. Los canales responden a los temas que atraen atención, pero su selección de móviles, entrevistas y enfoques también contribuye a organizar qué aspectos de un acontecimiento se vuelven visibles. Para analizar esa influencia hacen falta datos de contenido, horarios y fuentes además del promedio de audiencia.\n\nLa disputa por el quinto puesto ilustra un mercado fragmentado dentro de la propia televisión. El liderazgo general puede convivir con fortalezas de cada señal en distintas franjas. Una lectura más completa debería sumar indicadores digitales y de streaming, aclarando siempre qué mide cada fuente y evitando presentarlos como un único ranking de “lo que ve la Argentina”.\n\nFuente: Clarín, informe sobre rating de canales de noticias de octubre, 11/11/2026; datos atribuidos a Kantar IBOPE Media.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=1200",
+    "imageAlt": "Televisor en un espacio doméstico, imagen ilustrativa de consumo audiovisual",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://www.clarin.com/politica/guerra-canales-noticias-mantiene-lider-arde-pelea-quinto-lugar_0_aZHHnKXPMg.amp.html",
+      "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/argentina"
+    ]
+  }
+]
 ];
