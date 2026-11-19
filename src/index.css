@@ -14,3 +14,7 @@
 
 
 .event-visual{margin:2rem 0 2.5rem;}.event-visual img{display:block;width:100%;max-height:520px;object-fit:cover;border-radius:3px;}.event-visual figcaption{margin-top:.65rem;color:#777;font-size:.82rem;line-height:1.5;}
+
+
+/* Video destacado al final de la página */
+.footer-video{width:min(100%,860px);margin:0 auto 2.5rem;padding:0 1.25rem}.footer-video .widget-title{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:1rem}.footer-video-frame{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;background:#111;border-radius:12px}.footer-video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
