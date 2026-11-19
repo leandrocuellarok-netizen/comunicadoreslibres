@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 19,
-  "lastRunLocal": "2026-11-19T17:14:12-03:00",
+  "completedRuns": 20,
+  "lastRunLocal": "2026-11-19T18:11:30-03:00",
   "lastSections": [
-    "Agenda política",
-    "Turismo, estilo de vida y gastronomía"
-  ],
-  "nextIndex": 2,
-  "nextSections": [
     "Ciencia, tecnología e IA",
     "Empresas y negocios"
+  ],
+  "nextIndex": 4,
+  "nextSections": [
+    "Economía y finanzas",
+    "Comunicación, medios y redes"
   ],
   "rule": "En cada ejecución horaria, consultar nextIndex y evaluar las dos secciones indicadas por nextSections. Preparar hasta dos noticias en total, una por sección, solo cuando exista información reciente, diferenciada y verificable. La secuencia es circular y avanza dos posiciones por ejecución, incluso si una sección no ofrece novedades suficientes; registrar las secciones incompletas y el motivo sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
   "publishedIds": [
@@ -75,12 +75,14 @@
     "empresas-concurso-emprendimiento-argentino-77-finalistas-2026-11-19",
     "comunicacion-unesco-gobernanza-plataformas-digitales-sur-asia-2026-11-19",
     "agenda-mahiques-washington-cooperacion-penal-2026-11-19",
-    "turismo-noche-casas-provincia-2026-circuitos-gratis-2026-11-19"
+    "turismo-noche-casas-provincia-2026-circuitos-gratis-2026-11-19",
+    "ciencia-conicet-expedicion-inka-el-shincal-streaming-2026-11-19",
+    "empresas-ezeiza-terminal-unica-courier-importacion-2026-11-19"
   ],
   "lastPublishedIds": [
-    "agenda-mahiques-washington-cooperacion-penal-2026-11-19",
-    "turismo-noche-casas-provincia-2026-circuitos-gratis-2026-11-19"
+    "ciencia-conicet-expedicion-inka-el-shincal-streaming-2026-11-19",
+    "empresas-ezeiza-terminal-unica-courier-importacion-2026-11-19"
   ],
   "lastIncompleteSections": [],
-  "lastNote": "Se publicaron dos notas verificadas en Agenda política y Turismo, estilo de vida y gastronomía. Agenda: el Ministerio de Justicia informó sobre la reunión de Juan Bautista Mahiques con autoridades del Departamento de Justicia de Estados Unidos en Washington; se consignaron los temas abordados y se aclaró que el comunicado no anunció un nuevo convenio, presupuesto ni cronograma. Turismo: se publicó una guía de la 13.ª Noche de las Casas de Provincia, con los tres circuitos, la participación inaugural de la Legislatura porteña y la programación confirmada de la Casa de la Provincia de Buenos Aires. Se usaron fuentes oficiales nacionales, porteñas y bonaerenses. No se accedió a Search Console ni a analítica. La nota previa sobre Ruta Trasandina ya está incorporada en editorialAdditions y no se duplicó."
+  "lastNote": "Se publicaron dos notas originales verificadas con fuentes institucionales. Ciencia: CONICET y Fundación Azara informaron sobre Expedición Inka 2026, la transmisión de una excavación arqueológica en El Shincal de Quimivil, con última jornada anunciada para el 20 de noviembre. Empresas: el Gobierno nacional informó la inauguración de la Terminal Única de Courier de Ezeiza, con 10.000 m² cubiertos, 44 oficinas y coworking; se aclaró que la fuente oficial no cuantifica ahorros de costos o tiempos y que el pórtico de salida de importación sigue planificado. Se añadieron imágenes institucionales con epígrafes que aclaran su alcance. No se modificó App.tsx porque ya importa editorialAdditions. No hay acceso a Search Console ni analítica."
 }
