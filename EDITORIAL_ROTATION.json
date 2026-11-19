@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 9,
-  "lastRunLocal": "2026-11-19T04:29:03-03:00",
+  "completedRuns": 10,
+  "lastRunLocal": "2026-11-19T05:34:20-03:00",
   "lastSections": [
-    "Economía y finanzas",
-    "Comunicación, medios y redes"
-  ],
-  "nextIndex": 0,
-  "nextSections": [
     "Agenda política",
     "Turismo, estilo de vida y gastronomía"
+  ],
+  "nextIndex": 2,
+  "nextSections": [
+    "Ciencia, tecnología e IA",
+    "Empresas y negocios"
   ],
   "rule": "En cada ejecución, evaluar las dos secciones señaladas por nextIndex y publicar hasta dos artículos en total. Luego avanzar dos posiciones, de forma circular. Si no hay noticias verificables, no inventar ni repetir: dejar constancia de la limitación y avanzar igualmente.",
   "publishedIds": [
@@ -37,10 +37,12 @@
     "ciencia-conae-nasa-space-apps-incendios-2026-11-19",
     "empresas-argentina-alimenta-ronda-negocios-exportaciones-2026-11-19",
     "economia-ied-egresos-netos-inversion-extranjera-segundo-trimestre-2026-11-19",
-    "comunicacion-consejo-europa-guia-periodismo-etico-violencia-sexual-infancia-2026-11-19"
+    "comunicacion-consejo-europa-guia-periodismo-etico-violencia-sexual-infancia-2026-11-19",
+    "agenda-sigen-auditoria-secretaria-tratado-antartico-2026-11-19",
+    "turismo-noche-casas-provincia-buenos-aires-2026-11-19"
   ],
   "lastPublishedIds": [
-    "economia-ied-egresos-netos-inversion-extranjera-segundo-trimestre-2026-11-19",
-    "comunicacion-consejo-europa-guia-periodismo-etico-violencia-sexual-infancia-2026-11-19"
+    "agenda-sigen-auditoria-secretaria-tratado-antartico-2026-11-19",
+    "turismo-noche-casas-provincia-buenos-aires-2026-11-19"
   ]
 }
