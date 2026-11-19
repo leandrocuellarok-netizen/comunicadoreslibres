@@ -387,4 +387,42 @@ export const editorialAdditions = [
       "https://www.boletinoficial.gob.ar/detalleAviso/primera/350488/20261118"
     ]
   }
+,
+
+  {
+    "id": "economia-finanzas-lelink-d30n6-conversion-2026-11-19",
+    "title": "Finanzas adjudicó el 60,19% de la LELINK D30N6 en una operación de conversión",
+    "excerpt": "La Secretaría de Finanzas recibió 481 ofertas y adjudicó una nueva letra vinculada al dólar con vencimiento el 29 de enero de 2027. El resultado fue informado el 17 de noviembre.",
+    "category": "Economía y finanzas",
+    "body": "La Secretaría de Finanzas informó que recibió 481 ofertas en la licitación para convertir la LELINK D30N6, con vencimiento el 30 de noviembre de 2026. El monto adjudicado equivale al 60,19% del valor nominal en circulación del instrumento.\n\nLa operación entregará a quienes resultaron adjudicados una Letra del Tesoro Nacional vinculada al dólar estadounidense, cero cupón, con vencimiento el 29 de enero de 2027 (D29E7). El Tesoro informó un valor nominal ofertado de US$3.328 millones, un monto adjudicado de US$2.875 millones y un precio de corte de US$992,33 por cada valor nominal de US$1.000.\n\nLa conversión no representa una colocación de dólares en efectivo: se trata de un canje de títulos, cuyo cumplimiento depende de la entrega del instrumento elegible dentro de los plazos establecidos. El comunicado fijó como fecha límite para la transferencia el 19 de noviembre a las 17.\n\nLa operación forma parte de la gestión de vencimientos del Tesoro y ofrece una señal sobre la aceptación de los tenedores de la alternativa propuesta. Para evaluar su efecto financiero habrá que observar la liquidación y la evolución posterior de los instrumentos.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1639754390580-2e7437267698?auto=format&fit=crop&fm=jpg&ixid=NHwxMjA3fDA%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "imageAlt": "Pantalla con un gráfico bursátil, imagen ilustrativa de los mercados financieros",
+    "imageCredit": "Behnam Norouzi / Unsplash. Imagen ilustrativa.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/resultado-de-la-licitacion-para-la-conversion-de-la-lelink-d30n6-en-el-marco-del-articulo",
+      "https://www.argentina.gob.ar/noticias/comunicacion-del-precio-de-la-lelink-d30n6-para-su-conversion-en-el-marco-del-articulo-2"
+    ]
+  },
+  {
+    "id": "comunicacion-enacom-ramatel-nueva-homologacion-2026-11-19",
+    "title": "Telecomunicaciones: el nuevo régimen de homologación entra en vigor el 1 de diciembre",
+    "excerpt": "ENACOM prorrogó la entrada en vigencia del reglamento RAMATEL. El esquema incorpora agencias de certificación y laboratorios acreditados, y exige que los equipos alcanzados que se vendan por internet exhiban su número de registro.",
+    "category": "Comunicación, medios y redes",
+    "body": "El nuevo Reglamento del Registro de Actividades y Materiales de Telecomunicaciones (RAMATEL) entrará en vigor el 1 de diciembre de 2026. La fecha quedó establecida por la Resolución ENACOM 843/2026, que prorrogó el calendario original de la Resolución 57/2026. Hasta entonces, las inscripciones continuarán tramitándose bajo el régimen anterior.\n\nEl marco actualizado reorganiza el procedimiento de homologación de equipos y crea registros específicos para agencias de certificación y laboratorios de ensayos. La norma prevé que estas entidades intervengan en la evaluación de conformidad, con acreditación previa del Organismo Argentino de Acreditación.\n\nLa Resolución 57/2026 también dispone que los materiales alcanzados que se comercialicen mediante portales web indiquen en la publicación el número de inscripción RAMATEL. La obligación alcanza tanto a los sitios propios de los proveedores como a las plataformas que intermedian en la venta.\n\nPara fabricantes, importadores, distribuidores y prestadores TIC, el cambio requiere revisar registros y documentación antes de la entrada en vigor. El alcance concreto depende del tipo de equipo y de los trámites correspondientes; ENACOM mantiene información de homologaciones y requisitos en su sitio oficial.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1531668383211-64743e924c66?auto=format&fit=crop&fm=jpg&ixid=NHwxMjA3fDA%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "imageAlt": "Cable de red conectado a un router, imagen ilustrativa de infraestructura de telecomunicaciones",
+    "imageCredit": "Franck V. / Unsplash. Imagen ilustrativa.",
+    "sources": [
+      "https://www.enacom.gob.ar/inscripcion-de-equipos_p3076",
+      "https://www.boletinoficial.gob.ar/detalleAviso/primera/346523/QR",
+      "https://www.boletinoficial.gob.ar/detalleAviso/primera/338750/20260226"
+    ]
+  }
+
 ];
