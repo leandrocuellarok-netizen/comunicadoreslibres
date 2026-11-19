@@ -1101,4 +1101,40 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
       "https://www.unesco.org/es/event/42665"
     ]
   }
+,
+  {
+    "id": "agenda-chaco-operativo-seguridad-interprovincial-noa-nea-2026-11-19",
+    "title": "Siete provincias coordinaron un operativo de seguridad en el corredor NOA-NEA",
+    "excerpt": "El plan se desplegó del 17 al 19 de noviembre y tuvo un punto central en la zona donde confluyen Chaco, Salta y Santiago del Estero. Las autoridades informaron controles y tareas preventivas, pero no difundieron un balance cuantitativo de resultados.",
+    "category": "Agenda política",
+    "body": "Chaco, Salta y Santiago del Estero participaron del cierre del Plan Operativo de Integración y Seguridad Interprovincial del NOA y NEA, desarrollado entre el 17 y el 19 de noviembre de 2026. El acto de cierre contó con la participación del ministro de Seguridad chaqueño, Hugo Daniel Matkovich, según informó el Gobierno del Chaco el jueves 19.\\n\\nEl operativo comprendió a siete provincias: Jujuy, Chaco, Catamarca, Santiago del Estero, Salta, Tucumán y Formosa. Uno de los principales sectores de intervención fue el Punto Tripartito, donde confluyen Chaco, Salta y Santiago del Estero, además de la línea Barilari, corredor que conecta Chaco con Santiago del Estero.\\n\\nLas tareas incluyeron controles colectivos, estratégicos y dinámicos; identificación de personas; verificación de documentación; y controles de vehículos y cargas. La administración chaqueña informó que se coordinaron fuerzas policiales provinciales y organismos nacionales competentes.\\n\\nDurante el cierre, Matkovich defendió la cooperación entre jurisdicciones y señaló que la articulación regional busca abordar problemas compartidos. El comunicado provincial mencionó entre los desafíos el narcotráfico, el contrabando, la trata de personas y los delitos rurales y ambientales.\\n\\nQué se sabe de los resultados\\n\\nLa comunicación oficial describe el despliegue, las jurisdicciones y los tipos de controles, pero no aporta cifras consolidadas de personas identificadas, vehículos inspeccionados, procedimientos, detenciones o secuestros. Por eso, no corresponde presentar el operativo como una reducción comprobada del delito.\\n\\nEl dato de agenda pública es la coordinación regional: los corredores y límites provinciales exigen acuerdos operativos entre jurisdicciones. La eficacia de esa política deberá evaluarse con resultados públicos, comparables y sostenidos en el tiempo.\\n\\nFuente oficial: Gobierno del Chaco, Ministerio de Seguridad, 19/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://chaco.gov.ar/uploads/files/whatsapp-image-2026-11-19-at-5-29-42-pm-6aff5dcc02a20672040179.jpeg",
+    "imageAlt": "El ministro de Seguridad del Chaco, Hugo Daniel Matkovich, durante el cierre del operativo interprovincial junto a autoridades policiales.",
+    "imageCredit": "Gobierno del Chaco. Fotografía difundida por el Ministerio de Seguridad provincial.",
+    "sources": [
+      "https://chaco.gov.ar/noticia-matkovich-encabezo-el-acto-de-cierre-del-operativo-de-seguridad-interprovincial-en-el-punto-tripartito-2026-11-19-17-36"
+    ]
+  },
+  {
+    "id": "turismo-entre-rios-campana-verano-friendly-por-naturaleza-2026-2027-2026-11-19",
+    "title": "Entre Ríos presentó su campaña de verano 2026/2027: termas, playas y turismo pet friendly",
+    "excerpt": "La propuesta “Entre Ríos, friendly por naturaleza” reúne 70 destinos en 10 microrregiones y busca atraer visitantes con experiencias de naturaleza, bienestar termal, gastronomía, cultura y viajes con mascotas.",
+    "category": "Turismo, estilo de vida y gastronomía",
+    "body": "El Gobierno de Entre Ríos presentó el 19 de noviembre, en la Casa de Entre Ríos en la Ciudad de Buenos Aires, su campaña turística para la temporada de verano 2026/2027, bajo el lema “Entre Ríos, friendly por naturaleza”. Participaron el gobernador Rogelio Frigerio, el secretario de Turismo, Ambiente y Deportes de la Nación, Daniel Scioli, y el presidente del Ente Mixto de Turismo provincial, Jorge Satto.\\n\\nSegún el comunicado oficial, la oferta provincial reúne 70 destinos distribuidos en 10 microrregiones. La promoción incluye termas, parques nacionales, enoturismo, carnavales, gastronomía, actividades culturales y experiencias vinculadas con la naturaleza.\\n\\nUno de los ejes es la estrategia pet friendly. Frigerio señaló que la provincia trabaja con alternativas de transporte, hotelería y servicios para facilitar los viajes con animales de compañía. El Ente Mixto de Turismo mantiene un portal específico donde los viajeros pueden consultar alojamientos, restaurantes, termas, playas y actividades que aceptan mascotas.\\n\\nCómo planificar una visita\\n\\nEl sitio oficial de Turismo Entre Ríos organiza la información por microrregiones y localidades, y ofrece páginas de experiencias, alojamientos y agenda. El comunicado del lanzamiento no publicó tarifas, disponibilidad de plazas ni un calendario exhaustivo de actividades; esos datos deben verificarse con cada prestador o destino antes de reservar.\\n\\nEl lanzamiento forma parte de la promoción turística del verano 2026/2027. Para los destinos, la apuesta busca distribuir visitantes y gasto turístico entre distintas localidades y actividades; se trata de un objetivo de promoción, no de un resultado económico medido hasta el momento.\\n\\nFuentes oficiales: Presidencia de la Nación, 19/11/2026; Ente Mixto de Turismo de Entre Ríos.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://static.wixstatic.com/media/6f3838_c86a8426507d4490ab93bd19be04d02e~mv2.webp",
+    "imageAlt": "Visitantes disfrutan del agua en una playa de río de Entre Ríos.",
+    "imageCredit": "Ente Mixto de Turismo de Entre Ríos (EMTURER), sección “Costas al sol y playas”.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/scioli-en-la-presentacion-de-la-campana-turistica-de-verano-de-entre-rios",
+      "https://www.entrerios.tur.ar/",
+      "https://www.entrerios.tur.ar/pet-friendly",
+      "https://www.entrerios.tur.ar/microrregiones"
+    ]
+  }
 ];
