@@ -561,4 +561,38 @@ export const editorialAdditions = [
     ]
   }
 
+,
+  {
+    "id": "ciencia-conicet-opaganib-venetoclax-leucemia-preclinica-2026-11-19",
+    "title": "Un estudio del CONICET explora cómo reducir la resistencia a un tratamiento contra la leucemia",
+    "excerpt": "Una investigación preclínica combinó venetoclax con el fármaco experimental opaganib y observó una reducción de la carga leucémica en modelos de laboratorio y animales. Los resultados todavía no prueban eficacia en pacientes.",
+    "category": "Ciencia, tecnología e IA",
+    "body": "Un equipo del Instituto de Medicina Experimental (IMEX), dependiente del CONICET y la Academia Nacional de Medicina, estudió una combinación de venetoclax y opaganib para abordar la resistencia al tratamiento de la leucemia linfocítica crónica. El trabajo fue publicado en octubre de 2026 en la revista Frontiers in Immunology y difundido por el CONICET el 17 de noviembre.\n\nLos investigadores realizaron pruebas con células obtenidas de pacientes y un modelo preclínico en animales. En este último, la combinación redujo la carga de células leucémicas en el bazo alrededor de un 50%, mientras que venetoclax por sí solo no logró reducirla en ese modelo resistente. El estudio también examinó el papel de los linfocitos T y del microambiente tumoral en la respuesta al fármaco.\n\nEl resultado aporta evidencia experimental para continuar investigando una posible estrategia frente a mecanismos de resistencia. No demuestra que la combinación sea eficaz o segura en personas ni constituye una recomendación terapéutica: el propio equipo señala que hacen falta nuevos estudios antes de considerar ensayos clínicos para esta indicación.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.conicet.gov.ar/wp-content/uploads/web-3-17-720x400.jpg",
+    "imageAlt": "Integrantes del equipo de investigación del Instituto de Medicina Experimental",
+    "imageCredit": "Fotografía: Lic. Paula Saibene / IMEX, CONICET-ANM.",
+    "sources": [
+      "https://www.conicet.gov.ar/una-nueva-estrategia-experimental-podria-superar-la-resistencia-al-tratamiento-de-la-leucemia-mas-frecuente-en-adultos/",
+      "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1968413/full"
+    ]
+  },
+  {
+    "id": "empresas-quesos-argentinos-world-cheese-awards-17-distinciones-2026-11-19",
+    "title": "Quesos argentinos lograron 17 distinciones en el World Cheese Awards 2026",
+    "excerpt": "El certamen reunió más de 5.300 quesos de 45 países. El Parmesano Vaquero, de Lácteos Vaquero, fue elegido Mejor Queso de América Latina.",
+    "category": "Empresas y negocios",
+    "body": "Diecisiete quesos argentinos recibieron distinciones en los World Cheese Awards 2026, realizados el 12 de noviembre en Córdoba, España. La competencia reunió más de 5.300 productos de 45 países y contó con un jurado internacional de 270 especialistas provenientes de 51 países, según informó la Secretaría de Agricultura, Ganadería y Pesca el 17 de noviembre.\n\nEntre los reconocimientos se destacó el premio a Mejor Queso de América Latina para el Parmesano Vaquero, de 18 meses de maduración, elaborado por Lácteos Vaquero. También fueron distinguidos productos de Quesos Migue, La Quesera y otros productores nacionales, en distintas variedades y categorías.\n\nLa cartera agropecuaria indicó que acompañó, junto con SENASA y APYMEL, a pequeñas y medianas empresas lácteas que no tenían experiencia previa en comercio internacional. Las distinciones pueden ampliar la visibilidad de esas marcas y facilitar contactos comerciales, aunque el reconocimiento en el certamen no equivale por sí mismo a contratos de exportación.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/lb_quesos_5.jpg",
+    "imageAlt": "Quesos argentinos exhibidos durante el proceso de maduración",
+    "imageCredit": "Fotografía institucional: Secretaría de Agricultura, Ganadería y Pesca, Argentina.gob.ar.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/world-cheese-awards-2026-argentina-se-destaco-entre-los-mejores-quesos-del-mundo-con-17"
+    ]
+  }
 ];
