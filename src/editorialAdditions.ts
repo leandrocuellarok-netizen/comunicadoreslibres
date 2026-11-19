@@ -352,4 +352,39 @@ export const editorialAdditions = [
       "https://www.argentina.gob.ar/noticias/agenda-de-cultura-para-el-fin-de-semana-107"
     ]
   }
+,
+  {
+    "id": "ciencia-maldi-class-anlis-ia-2026-11-19",
+    "title": "El Malbrán desarrolló una herramienta de IA para mejorar la identificación de bacterias y hongos",
+    "excerpt": "MALDI-Class compara en minutos un mismo espectro de proteínas con múltiples bibliotecas de referencia. El desarrollo de ANLIS Malbrán recibió un reconocimiento de la American Society for Microbiology.",
+    "category": "Ciencia, tecnología e IA",
+    "body": "La Administración Nacional de Laboratorios e Institutos de Salud (ANLIS) Malbrán desarrolló MALDI-Class, una plataforma de libre acceso basada en inteligencia artificial que permite comparar un mismo espectro de proteínas con varias bibliotecas virtuales de referencia. El objetivo es ampliar las posibilidades de identificación de microorganismos que no siempre aparecen en las bases disponibles en cada laboratorio.\n\nLa herramienta trabaja con espectrometría de masas MALDI-TOF, una técnica que identifica microorganismos a partir de su huella de proteínas. Según informó el organismo, también permite contrastar resultados con MicrobeNet, la plataforma del Centro para el Control y la Prevención de Enfermedades de Estados Unidos (CDC).\n\nEl desarrollo reunió al Servicio de Bacteriología Especial del Instituto Nacional de Enfermedades Infecciosas, la Unidad Operativa de Inteligencia Artificial y Ciencia de Datos en Salud y la Red Nacional de Espectrometría de Masas. El trabajo recibió un reconocimiento de la American Society for Microbiology durante el congreso SADEBAC 2026.\n\nLa comunicación oficial no publica métricas de sensibilidad, especificidad ni desempeño clínico. Por eso, el avance se presenta como una herramienta de apoyo para ampliar las referencias disponibles, no como un reemplazo de la evaluación profesional.\n\nFuentes oficiales: ANLIS Malbrán / Argentina.gob.ar, 16/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/0q9a0556.jpg.jpeg",
+    "imageAlt": "Especialista de ANLIS Malbrán trabaja con una muestra en un laboratorio",
+    "imageCredit": "Fotografía: ANLIS Malbrán / Argentina.gob.ar.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/maldi-class-el-malbran-desarrolla-una-herramienta-de-ia-que-amplia-la-identificacion-de",
+      "https://maldiclass.anlis.gob.ar/index"
+    ]
+  },
+  {
+    "id": "empresas-merluza-negra-protocolo-calidad-exportaciones-2026-11-19",
+    "title": "La merluza negra actualiza su protocolo de calidad para fortalecer la posición exportadora",
+    "excerpt": "La Resolución 231/2026 revisó los estándares para el producto congelado a bordo. Entre enero y septiembre, las exportaciones argentinas alcanzaron US$54,4 millones.",
+    "category": "Empresas y negocios",
+    "body": "La Secretaría de Agricultura, Ganadería y Pesca actualizó el Protocolo de Calidad para la merluza negra congelada a bordo mediante la Resolución 231/2026, publicada en el Boletín Oficial el 18 de noviembre. La revisión adapta los requisitos a las condiciones operativas de las flotas y a las exigencias de los mercados nacionales e internacionales.\n\nEntre los cambios, la norma establece un estándar de congelación continua a bordo de -20 °C. También dispone que la medición de Nitrógeno Básico Volátil Total sea facultativa y complementaria cuando la requieran expresamente determinados mercados u organismos, y contempla las particularidades del acondicionamiento comercial HGT (sin cabeza, eviscerada y sin cola).\n\nLa actividad tiene peso exportador. Entre enero y septiembre de 2026, las ventas externas de merluza negra congelada, eviscerada, sin cabeza ni cola -sin contar filetes- sumaron 1.681 toneladas por US$54.437.786. Estados Unidos fue el principal destino, seguido por Singapur y China, según los datos oficiales difundidos junto con la actualización.\n\nEl sello “Alimentos Argentinos, una Elección Natural” es voluntario y sin costo, pero requiere cumplir protocolos específicos y auditorías independientes. La actualización busca reforzar la diferenciación comercial; su impacto dependerá de la adopción del estándar por parte de las empresas y de los compradores.\n\nFuentes oficiales: Secretaría de Agricultura, Ganadería y Pesca, 18/11/2026; Boletín Oficial de la República Argentina, Resolución 231/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/imagen_merluza_negra_junio.jpg",
+    "imageAlt": "Ejemplar de merluza negra durante una campaña de investigación del INIDEP a bordo de un buque comercial",
+    "imageCredit": "Fotografía: INIDEP / Argentina.gob.ar. Imagen ilustrativa de una campaña científica de 2023.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/el-gobierno-nacional-actualizo-el-protocolo-de-calidad-para-la-merluza-negra-congelada",
+      "https://www.boletinoficial.gob.ar/detalleAviso/primera/350488/20261118"
+    ]
+  }
 ];
