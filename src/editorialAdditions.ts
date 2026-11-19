@@ -948,4 +948,42 @@ Prensa: Luciana Panniza.`,
       "https://www.newbalance.com.ar/milla-urbana-2026/race-series-milla-urbana.html"
     ]
   }
+,
+  {
+  "id": "ciencia-argentina-bacillus-subtilis-proteasa-nutricion-animal-2026-11-19",
+  "title": "Argentina autorizó una bacteria modificada para producir una enzima usada en nutrición animal",
+  "excerpt": "La Resolución 233/2026 habilitó a Danisco Argentina a comercializar una cepa de Bacillus subtilis AP514 para producir proteasa mediante fermentación industrial controlada. La evaluación oficial concluyó que el producto final no contiene microorganismos modificados viables.",
+  "category": "Ciencia, tecnología e IA",
+  "body": "Argentina autorizó la comercialización de Bacillus subtilis AP514 (GICC03687), una cepa de microorganismo genéticamente modificado que se utilizará para producir la enzima proteasa mediante fermentación industrial controlada. La medida quedó establecida en la Resolución 233/2026 de la Secretaría de Agricultura, Ganadería y Pesca, publicada en el Boletín Oficial el 18 de noviembre de 2026.\n\n## Qué se autorizó\n\nLa norma habilita a Danisco Argentina S.A. a comercializar la cepa para producir proteasa, una enzima utilizada principalmente en la industria de la nutrición animal. La autorización corresponde al uso industrial declarado en plantas productivas habilitadas: no equivale a autorizar la liberación de la bacteria en el ambiente ni a incorporar microorganismos modificados viables al alimento.\n\nEl expediente oficial señala que el proceso utiliza fermentación controlada y que la documentación presentada permite determinar la ausencia de microorganismos genéticamente modificados viables en el producto final. La distinción es importante: el microorganismo se emplea durante la producción; el producto comercial previsto es la enzima.\n\n## Qué evaluó la autoridad\n\nLa Comisión Nacional Asesora de Biotecnología Agropecuaria (CONABIA) concluyó que el uso agroindustrial contenido de la cepa no implica un riesgo adicional para el agroecosistema respecto de su contraparte no modificada, para el uso declarado. La comunicación de la Secretaría de Agricultura agregó que no se introdujeron genes de resistencia a antibióticos ni secuencias de vectores bacterianos en el genoma final.\n\n## Por qué importa y qué controles siguen\n\nSe trata del primer microorganismo genéticamente modificado autorizado por la Secretaría de Agricultura para nutrición animal. El trámite se encuadró en la Instancia de Consulta Previa (ICP), prevista por la Resolución 255/2026; el organismo informó que la evaluación y autorización comercial demandaron tres meses.\n\nLa Resolución 233/2026 también obliga a la empresa a comunicar de inmediato nueva información científico-técnica que pueda afectar las conclusiones utilizadas para autorizar el producto. La autorización puede quedar sin efecto si aparecen datos que invaliden esos fundamentos. Por eso, el alcance es específico para el uso declarado y permanece sujeto a las obligaciones de control correspondientes.\n\nEl caso muestra cómo la biotecnología industrial puede incorporarse a la producción de insumos para el agro bajo una evaluación de bioseguridad delimitada por el proceso y el destino del producto. La autorización no demuestra por sí sola efectos sobre costos, rendimiento animal o adopción comercial: esos resultados deberán observarse cuando la tecnología llegue a utilizarse en condiciones productivas.",
+  "author": "Redacción · Comunicadores Libres",
+  "date": "2026-11-19",
+  "published": true,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Microscope_view_of_Bacillus_subtilis.jpg?utm_campaign=index&utm_content=thumbnail_unscaled&utm_source=commons.wikimedia.org",
+  "imageAlt": "Imagen microscópica ilustrativa de una colonia de Bacillus subtilis; no corresponde a la cepa AP514 autorizada en Argentina.",
+  "imageCredit": "Korinna / Wikimedia Commons, licencia Creative Commons Atribución 4.0 (CC BY 4.0). Imagen ilustrativa, no de la cepa AP514.",
+  "sources": [
+    "https://www.boletinoficial.gob.ar/detalleAviso/primera/350489/20261118",
+    "https://www.argentina.gob.ar/noticias/el-gobierno-nacional-autorizo-la-comercializacion-de-un-microorganismo-geneticamente",
+    "https://commons.wikimedia.org/wiki/File:Microscope_view_of_Bacillus_subtilis.jpg"
+  ]
+},
+  {
+  "id": "empresas-concurso-emprendimiento-argentino-77-finalistas-2026-11-19",
+  "title": "Concurso Emprendimiento Argentino 2026: 77 proyectos llegan a la final nacional",
+  "excerpt": "Más de 1.000 iniciativas se inscribieron desde las 23 provincias y la Ciudad de Buenos Aires. La instancia nacional se desarrolla el 19 y 20 de noviembre, con premios que combinan formación, vinculación empresarial y apoyo para la expansión internacional.",
+  "category": "Empresas y negocios",
+  "body": "El Concurso Emprendimiento Argentino 2026 seleccionó 77 proyectos para la instancia nacional entre más de 1.000 emprendimientos inscriptos de las 23 provincias y la Ciudad Autónoma de Buenos Aires, según informó el Ministerio de Economía. Los finalistas presentan sus proyectos ante un jurado el 19 de noviembre en las oficinas de Banco Santander; la premiación está prevista para el viernes 20.\n\n## Dos categorías y distintas etapas de negocio\n\nLa convocatoria distingue entre Emprendimientos Tradicionales con Modelos de Negocio Innovador y Emprendimientos Tecnológicos y de Innovación Científica. Cada categoría contempla dos etapas: Despegue Emprendedor, para proyectos cuya primera venta vinculada con la propuesta ocurrió dentro de los dos años previos a la postulación, y Crecimiento y Expansión, para emprendimientos con ventas demostrables cuya primera venta fue anterior a ese período.\n\nEl programa estuvo dirigido a emprendimientos de todo el país con menos de siete años de antigüedad. La inscripción de esta edición ya cerró: el cronograma oficial fijó el 18 de agosto como fecha límite para postularse.\n\n## Qué oportunidades ofrece la final\n\nLos premios publicados por el Ministerio combinan herramientas de desarrollo empresarial y acceso a redes. Para los ganadores se detallan pasajes internacionales, viáticos para actividades de internacionalización, becas de formación ejecutiva, programas de aceleración, vinculación con cámaras empresarias y una invitación al programa Sancor Seguros Impulsa 2027. También se prevé la preselección para competir en la Copa Mundial de Emprendedores.\n\nLos emprendimientos que alcanzaron la final nacional cuentan, además, con una beca completa para un programa ejecutivo de la Facultad de Negocios de la Universidad de Palermo y un programa de mentoría personalizada. Para la categoría tecnológica y de innovación científica, la página oficial detalla créditos de Amazon Web Services por US$5.000.\n\n## Qué puede aportar a una pyme\n\nEl valor del certamen no se limita a un premio: conecta proyectos con inversores, cámaras, universidades y programas de formación. Para una empresa joven, esas relaciones pueden facilitar contactos comerciales, mejorar la presentación de su propuesta y abrir oportunidades de expansión. Sin embargo, la participación en una competencia no garantiza inversión ni ventas; los resultados dependerán de la calidad del proyecto y de la continuidad de los vínculos que se construyan.\n\nLa final de 2026 permite observar la diversidad del ecosistema emprendedor argentino, que reúne desde alimentos y bebidas hasta software, hardware y biotecnología. Los nombres de los ganadores nacionales se conocerán el 20 de noviembre, de acuerdo con el cronograma oficial.",
+  "author": "Redacción · Comunicadores Libres",
+  "date": "2026-11-19",
+  "published": true,
+  "image": "https://www.argentina.gob.ar/sites/default/files/2026/06/ea_horizontal_azul_negativo.png",
+  "imageAlt": "Logotipo oficial del Concurso Emprendimiento Argentino, iniciativa federal del Ministerio de Economía.",
+  "imageCredit": "Ministerio de Economía de la Nación / Argentina.gob.ar.",
+  "sources": [
+    "https://www.argentina.gob.ar/noticias/se-seleccionan-los-77-finalistas-del-concurso-emprendimiento-argentino-entre-mas-de-1000",
+    "https://www.argentina.gob.ar/economia/industria-comercio-y-pyme/pymes/ecosistema-emprendedor/concurso-emprendimiento",
+    "https://www.argentina.gob.ar/economia/industria-comercio-y-pyme/pymes/ecosistema-emprendedor/concurso-emprendimiento/postula-tu",
+    "https://www.argentina.gob.ar/economia/ecosistema-emprendedor/concurso-emprendimiento/premios"
+  ]
+}
 ];
