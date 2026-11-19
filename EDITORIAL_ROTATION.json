@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 17,
-  "lastRunLocal": "2026-11-19T15:20:26-03:00",
+  "completedRuns": 18,
+  "lastRunLocal": "2026-11-19T16:12:09-03:00",
   "lastSections": [
-    "Ciencia, tecnología e IA",
-    "Empresas y negocios"
-  ],
-  "nextIndex": 4,
-  "nextSections": [
     "Economía y finanzas",
     "Comunicación, medios y redes"
+  ],
+  "nextIndex": 0,
+  "nextSections": [
+    "Agenda política",
+    "Turismo, estilo de vida y gastronomía"
   ],
   "rule": "En cada ejecución horaria, consultar nextIndex y evaluar las dos secciones indicadas por nextSections. Preparar hasta dos noticias en total, una por sección, solo cuando exista información reciente, diferenciada y verificable. La secuencia es circular y avanza dos posiciones por ejecución, incluso si una sección no ofrece novedades suficientes; registrar las secciones incompletas y el motivo sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
   "publishedIds": [
@@ -72,12 +72,14 @@
     "agenda-mercosur-seguridad-estado-derecho-2026-11-19",
     "turismo-new-balance-milla-urbana-obelisco-2026-11-19",
     "ciencia-argentina-bacillus-subtilis-proteasa-nutricion-animal-2026-11-19",
-    "empresas-concurso-emprendimiento-argentino-77-finalistas-2026-11-19"
+    "empresas-concurso-emprendimiento-argentino-77-finalistas-2026-11-19",
+    "comunicacion-unesco-gobernanza-plataformas-digitales-sur-asia-2026-11-19"
   ],
   "lastPublishedIds": [
-    "ciencia-argentina-bacillus-subtilis-proteasa-nutricion-animal-2026-11-19",
-    "empresas-concurso-emprendimiento-argentino-77-finalistas-2026-11-19"
+    "comunicacion-unesco-gobernanza-plataformas-digitales-sur-asia-2026-11-19"
   ],
-  "lastIncompleteSections": [],
-  "lastNote": "Se publicaron dos piezas diferenciadas: una sobre la autorización comercial de Bacillus subtilis AP514 para producir proteasa mediante fermentación industrial controlada, aclarando que la autorización corresponde al uso declarado y que el producto final debe estar libre de microorganismos genéticamente modificados viables; y otra sobre los 77 finalistas del Concurso Emprendimiento Argentino 2026, con categorías, cronograma y premios oficiales. Se utilizaron una imagen microscópica de Bacillus subtilis con licencia CC BY 4.0 y el logotipo oficial del concurso. No se modificó src/App.tsx porque ya importa editorialAdditions. No hay acceso conectado a Search Console ni a analítica."
+  "lastIncompleteSections": [
+    "Economía y finanzas"
+  ],
+  "lastNote": "Se publicó una nota original sobre las dos herramientas de UNESCO para la gobernanza de plataformas digitales en Bangladesh, Nepal y Sri Lanka. La pieza analiza la concentración de poder sobre la visibilidad, la moderación y los algoritmos, distingue las recomendaciones de una norma legal y aclara que el alcance geográfico no incluye a Argentina. Se usaron la publicación oficial de UNESCO, los dos documentos de Tribhuvan University y las directrices globales de UNESCO de 2023. Economía y finanzas quedó incompleta: aunque el calendario oficial de INDEC programaba para el 19/11 el informe de intercambio comercial de octubre de 2026, la página de la serie consultada todavía mostraba septiembre y no fue posible verificar las cifras de octubre en una fuente primaria accesible; se evitó reutilizar datos de notas ya publicadas. No hay acceso conectado a Search Console ni a analítica."
 }
