@@ -525,4 +525,40 @@ export const editorialAdditions = [
       "https://rm.coe.int/comunicacion-etica-por-parte-de-los-medios-sobre-violencia-sexual-cont/48802ece00"
     ]
   }
+
+,
+  {
+    "id": "agenda-sigen-auditoria-secretaria-tratado-antartico-2026-11-19",
+    "title": "La SIGEN auditará las cuentas de la Secretaría del Tratado Antártico hasta 2029",
+    "excerpt": "Un convenio firmado el 18 de noviembre asignó a la Sindicatura General de la Nación la auditoría externa de los estados financieros de la Secretaría del Tratado Antártico para cuatro ejercicios. El acuerdo incluye controles contables, cumplimiento normativo y una opinión independiente.",
+    "category": "Agenda política",
+    "body": "La Sindicatura General de la Nación (SIGEN) y la Secretaría del Tratado Antártico (STA) firmaron un convenio para que el organismo argentino realice auditorías externas de las cuentas de la Secretaría internacional. El acuerdo fue formalizado el 18 de noviembre de 2026, según informó Presidencia de la Nación.\n\nEl trabajo comprenderá los registros financieros, las cuentas y los estados financieros de los ejercicios finalizados el 31 de marzo de 2026 y de los que concluirán el 31 de marzo de 2027, 2028 y 2029. Las auditorías se desarrollarán conforme a las Normas Internacionales de Auditoría e incluirán procedimientos para emitir una opinión independiente sobre los estados financieros, además de informes sobre cumplimiento de leyes y reglamentos y sobre la estructura de control interno.\n\nLa STA tiene su sede en Buenos Aires y brinda apoyo administrativo y de coordinación a la Reunión Consultiva del Tratado Antártico y al Comité para la Protección del Medio Ambiente. El convenio amplía la participación de un organismo público argentino en la supervisión financiera de una institución internacional que opera en el país.\n\nEl alcance anunciado se refiere a auditorías y controles; no implica por sí mismo que se hayan detectado irregularidades. Los resultados deberán conocerse a través de los informes que se emitan para cada ejercicio.\n\nFuentes oficiales: Presidencia de la Nación, 18/11/2026; Secretaría del Tratado Antártico.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/1750541029837.jpg",
+    "imageAlt": "Instalación argentina en la Antártida, imagen ilustrativa del contexto del Tratado Antártico",
+    "imageCredit": "Archivo fotográfico de Argentina.gob.ar. Imagen ilustrativa; no corresponde a la firma del convenio.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/sigen-y-la-secretaria-del-tratado-antartico-firmaron-un-convenio-de-auditoria-externa",
+      "https://www.ats.aq/s/secretariat.html"
+    ]
+  },
+  {
+    "id": "turismo-noche-casas-provincia-buenos-aires-2026-11-19",
+    "title": "La Noche de las Casas de Provincia tendrá música y degustaciones bonaerenses",
+    "excerpt": "La Casa de la Provincia de Buenos Aires abrirá este jueves 19 de noviembre, de 18 a 22, con espectáculos, coros, orquestas y degustaciones regionales. La entrada será libre y gratuita en Callao 237, en la Ciudad de Buenos Aires.",
+    "category": "Turismo, estilo de vida y gastronomía",
+    "body": "La Casa de la Provincia de Buenos Aires participará este jueves 19 de noviembre de una nueva edición de la Noche de las Casas de Provincia con una programación de música, danza y degustaciones regionales. La actividad se realizará de 18 a 22, con entrada libre y gratuita, en Callao 237, Ciudad de Buenos Aires, según informó la Jefatura de Asesores del Gobernador bonaerense.\n\nLa grilla anunciada incluye a Guardia Nacional del Mar, Modelo Tango, Luiam Basco, Amistad Chamamecera, Los Changos de Barro y Los Pampa. También participarán coros y orquestas de la provincia. La propuesta suma degustaciones de productos regionales para acercar al público expresiones culturales y gastronómicas bonaerenses.\n\nLa iniciativa forma parte de una jornada en la que las Casas de Provincia abren sus puertas para mostrar la diversidad cultural de sus territorios. Para quienes visiten el centro porteño, la actividad ofrece una opción gratuita de paseo cultural y encuentro con artistas y sabores regionales.\n\nLa información publicada por el Gobierno bonaerense confirma el horario, la dirección y la gratuidad del acceso; no detalla un sistema de reserva previa. Se recomienda consultar los canales oficiales ante eventuales cambios de programación.\n\nFuente oficial: Jefatura de Asesores del Gobernador, Gobierno de la Provincia de Buenos Aires, 12/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://gba.gob.ar/sites/default/files/jag/imagenes/noche%20de%20las%20casas.jpg",
+    "imageAlt": "Artistas bailan frente al escenario durante una edición de la Noche de las Casas de Provincia",
+    "imageCredit": "Fotografía institucional: Gobierno de la Provincia de Buenos Aires / Jefatura de Asesores del Gobernador.",
+    "sources": [
+      "https://gba.gob.ar/jag/noticias/llega_la_noche_de_las_casas_de_provincia_2026"
+    ]
+  }
+
 ];
