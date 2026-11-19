@@ -1066,5 +1066,41 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
       "https://www.argentina.gob.ar/noticias/nueva-terminal-unica-de-courier-en-el-aeropuerto-de-ezeiza-0",
       "https://www.argentina.gob.ar/orsna/obras-en-aeropuertos-del-sna/ezeiza-1"
     ]
+  },
+[
+  {
+    "id": "economia-comercio-exterior-octubre-superavit-2026-11-19",
+    "title": "Argentina registró un superávit comercial de US$3.394 millones en octubre",
+    "excerpt": "Las exportaciones sumaron US$10.061 millones y crecieron 26,4% interanual; las importaciones bajaron 6,7%. El INDEC informó un saldo positivo de US$3.394 millones para el comercio de bienes.",
+    "category": "Economía y finanzas",
+    "body": "El intercambio comercial argentino de bienes registró en octubre de 2026 un superávit de US$3.394 millones, informó el INDEC este 19 de noviembre. Las exportaciones alcanzaron US$10.061 millones, con un aumento interanual del 26,4%, mientras que las importaciones totalizaron US$6.668 millones, una caída del 6,7% frente a octubre de 2025.\n\nEl intercambio total —la suma de exportaciones e importaciones— llegó a US$16.729 millones y creció 10,7% interanual. El resultado positivo se explicó por el aumento de las ventas externas y la disminución de las compras de bienes al exterior durante el mes.\n\n## Qué rubros impulsaron las exportaciones\n\nLas manufacturas de origen agropecuario fueron el principal rubro exportador por valor, con US$3.314 millones. Les siguieron las manufacturas de origen industrial, con US$2.685 millones; los productos primarios, con US$2.328 millones; y combustibles y energía, con US$1.734 millones.\n\nEl mayor crecimiento interanual correspondió a combustibles y energía, cuyas ventas aumentaron 93,9%. Las manufacturas de origen agropecuario crecieron 18,8%, los productos primarios 22,3% y las manufacturas industriales 13,1%.\n\n## El acumulado de enero a octubre\n\nEn los primeros diez meses de 2026, las exportaciones sumaron US$87.328 millones, un 22,1% más que en igual período de 2025. Las importaciones alcanzaron US$62.760 millones, con una disminución interanual del 2,9%. El saldo comercial acumulado fue positivo en US$24.568 millones.\n\n## Cómo interpretar el dato\n\nEl superávit comercial representa la diferencia entre exportaciones e importaciones de bienes; no equivale por sí solo a una medición de rentabilidad empresarial, crecimiento del producto ni disponibilidad automática de divisas para cada sector. Tampoco describe el comercio de servicios. Para evaluar su impacto económico hay que observar la composición de las operaciones, los precios, las cantidades y la evolución de los próximos meses.\n\nEl INDEC identifica las cifras de octubre como estimaciones. El informe ofrece además series desestacionalizadas: respecto de septiembre, las exportaciones aumentaron 2,7% y las importaciones 1,5% en esa medición.\n\nFuente: INDEC, Intercambio comercial argentino. Bienes, cifras estimadas de octubre de 2026, publicado el 19/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1774929103406-59c8882a9954?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Buque portacontenedores y grúas en un puerto de Manila; imagen ilustrativa sobre comercio exterior, no correspondiente a operaciones argentinas.",
+    "imageCredit": "PortCalls Asia / Unsplash. Fotografía tomada en North Port, Manila; imagen ilustrativa, no documenta operaciones argentinas.",
+    "sources": [
+      "https://www.indec.gob.ar/ftp/ica_digital/ica_d_11_262BEEC7410A/",
+      "https://www.indec.gob.ar/uploads/informesdeprensa/ica_11_262BEEC7410A.pdf"
+    ]
+  },
+  {
+    "id": "comunicacion-unesco-flujo-informacion-crisis-digitales-2026-11-19",
+    "title": "UNESCO advierte sobre los riesgos para la información durante las crisis digitales",
+    "excerpt": "Un informe basado en una encuesta a 296 especialistas y dos estudios de caso examina cómo los cortes de internet, los ataques a infraestructuras y la fragmentación regulatoria pueden dejar comunidades sin información confiable.",
+    "category": "Comunicación, medios y redes",
+    "body": "La UNESCO puso en debate la continuidad de los flujos de información durante conflictos y emergencias con su informe “Digital Governance in Times of Crisis”. La organización anunció que el documento será presentado en la 35.ª sesión del Consejo Intergubernamental del Programa Internacional para el Desarrollo de la Comunicación (IPDC), prevista para el 19 y 20 de noviembre de 2026 en la sede de la UNESCO, en París.\n\nEl informe, desarrollado con la especialista Ingrid Volkmer, de la Universidad de Melbourne y miembro de la red Internet for Trust, reúne dos fuentes de evidencia: una encuesta a 296 expertos en regulación y el análisis cualitativo de dos casos en los que conflictos armados afectaron directamente la gobernanza digital y de datos.\n\n## Por qué una crisis puede convertirse en un vacío informativo\n\nLa UNESCO describe un cambio estructural: la comunicación durante las crisis depende cada vez más de ecosistemas digitales transnacionales, con plataformas e infraestructuras que operan en distintas jurisdicciones, mientras que la autoridad pública continúa organizada principalmente a escala nacional.\n\nEsa diferencia puede dificultar la respuesta cuando se interrumpen servicios o se deterioran las redes. La organización señala que los apagones de internet y los ataques contra infraestructuras de comunicación pueden dejar a comunidades enteras —incluso países— sin acceso a información oportuna. En una emergencia, esa interrupción afecta la posibilidad de conocer riesgos, recibir instrucciones y contrastar versiones.\n\n## Qué encontró el relevamiento\n\nSegún la síntesis publicada por la UNESCO, persisten brechas en la regulación nacional de las comunicaciones de crisis, la preparación institucional y la protección de derechos humanos. El documento presta especial atención a la privacidad y la libertad de expresión.\n\nLa organización sostiene que no alcanza con aplicar un modelo universal: la preparación debe partir de un mapa contextual de riesgos y vulnerabilidades de cada país, considerando su infraestructura, capacidad institucional y situación política. El informe también plantea recomendaciones para fortalecer la resiliencia de la gobernanza de datos y proteger tanto la información como las infraestructuras que permiten transmitirla.\n\n## Qué significa para medios y audiencias\n\nPara periodistas, medios y ciudadanía, la continuidad de la información no depende únicamente de que una plataforma siga disponible. También requiere infraestructura resistente, canales de comunicación confiables, protección de datos y reglas que permitan responder a una emergencia sin restringir arbitrariamente la libertad de expresión.\n\nEl documento no crea una nueva ley ni modifica por sí mismo la regulación argentina. Es un aporte de política pública y cooperación internacional que será tratado en el ámbito del IPDC. Su relevancia para Argentina está en abrir preguntas concretas sobre preparación, coordinación institucional, protección de derechos y acceso a información verificable cuando una crisis interrumpe los canales habituales.\n\nFuentes: UNESCO, “Protecting information flows in times of crisis”, 13/11/2026, actualización 15/11/2026; 35.ª sesión del Consejo Intergubernamental del IPDC, 19-20/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.unesco.org/sites/default/files/styles/paragraph_medium_desktop/article/2026-11/digital_governance_crisis.jpg.webp?itok=ce9oW_1U",
+    "imageAlt": "Participantes en la mesa redonda de la UNESCO sobre gobernanza digital en tiempos de crisis, realizada en París el 9 de noviembre de 2026.",
+    "imageCredit": "UNESCO / Elenoire Corosu. Fotografía de la mesa redonda sobre gobernanza digital en tiempos de crisis.",
+    "sources": [
+      "https://www.unesco.org/en/articles/protecting-information-flows-times-crisis-unesco-convenes-experts-paris-peace-forum-2026",
+      "https://www.unesco.org/es/event/42665"
+    ]
   }
+]
 ];
