@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 4,
-  "lastRunLocal": "2026-11-18T23:30:46-03:00",
+  "completedRuns": 5,
+  "lastRunLocal": "2026-11-19T00:25:06-03:00",
   "lastSections": [
-    "Agenda política",
-    "Turismo, estilo de vida y gastronomía"
-  ],
-  "nextIndex": 2,
-  "nextSections": [
     "Ciencia, tecnología e IA",
     "Empresas y negocios"
+  ],
+  "nextIndex": 4,
+  "nextSections": [
+    "Economía y finanzas",
+    "Comunicación, medios y redes"
   ],
   "rule": "En cada ejecución, evaluar las dos secciones señaladas por nextIndex y publicar hasta dos artículos en total. Luego avanzar dos posiciones, de forma circular. Si no hay noticias verificables, no inventar ni repetir: dejar constancia de la limitación y avanzar igualmente.",
   "publishedIds": [
@@ -27,10 +27,12 @@
     "economia-superavit-sector-publico-octubre-2026-11-18",
     "comunicacion-enacom-uit-pp26-doha-2026-11-18",
     "agenda-pettovello-orrego-san-juan-educacion-2026-11-18",
-    "turismo-agenda-cultural-kimchi-museos-2026-11-18"
+    "turismo-agenda-cultural-kimchi-museos-2026-11-18",
+    "ciencia-maldi-class-anlis-ia-2026-11-19",
+    "empresas-merluza-negra-protocolo-calidad-exportaciones-2026-11-19"
   ],
   "lastPublishedIds": [
-    "agenda-pettovello-orrego-san-juan-educacion-2026-11-18",
-    "turismo-agenda-cultural-kimchi-museos-2026-11-18"
+    "ciencia-maldi-class-anlis-ia-2026-11-19",
+    "empresas-merluza-negra-protocolo-calidad-exportaciones-2026-11-19"
   ]
 }
