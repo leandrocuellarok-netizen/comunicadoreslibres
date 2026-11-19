@@ -424,5 +424,37 @@ export const editorialAdditions = [
       "https://www.boletinoficial.gob.ar/detalleAviso/primera/338750/20260226"
     ]
   }
-
+,
+  {
+    "id": "agenda-milei-doctor-honoris-causa-universidad-belgrano-2026-11-19",
+    "title": "Milei recibió un doctorado honoris causa y defendió la apertura de mercados",
+    "excerpt": "El Presidente fue distinguido por la Universidad de Belgrano y el Instituto Universitario Isaac Abarbanel. En su discurso, volvió a presentar la desregulación y la apertura comercial como ejes del programa oficial.",
+    "category": "Agenda política",
+    "body": "El presidente Javier Milei recibió el 18 de noviembre el título de Doctor Honoris Causa otorgado por la Universidad de Belgrano y el Instituto Universitario Isaac Abarbanel, durante un simposio internacional por el 80.º aniversario de los juicios de Núremberg, informó Presidencia de la Nación.\\n\\nEn su exposición, el mandatario reivindicó la desregulación y la apertura de mercados como pilares de la política económica del Gobierno. También sostuvo que el país pasó de comerciar con el 10% del planeta al 30% y afirmó que se abrieron más de 500 mercados. Esas cifras corresponden a declaraciones presidenciales reproducidas por el comunicado oficial y no incluyen allí una metodología de cálculo.\\n\\nLa ceremonia reunió a autoridades del Ejecutivo y representantes de las instituciones organizadoras. En términos políticos, el acto funcionó como una instancia de exposición pública del ideario del Gobierno ante un ámbito académico; la distinción universitaria y las afirmaciones del discurso son hechos diferentes y conviene analizarlos por separado.\\n\\nFuente oficial: Presidencia de la Nación, 18/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/universidad.jpg",
+    "imageAlt": "Autoridades y asistentes durante la ceremonia del título Doctor Honoris Causa al presidente Javier Milei",
+    "imageCredit": "Fotografía: Presidencia de la Nación / Argentina.gob.ar.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/milei-ratifico-el-rumbo-economico-del-gobierno-al-recibir-el-titulo-de-doctor-honoris-causa"
+    ]
+  },
+  {
+    "id": "turismo-ritmos-argentinos-monte-lezama-2026-11-19",
+    "title": "Ritmos Argentinos llevará música, danza y gastronomía a Monte y Lezama",
+    "excerpt": "El escenario móvil de Cultura tendrá dos jornadas bonaerenses el 21 y 22 de noviembre, con artistas locales, folklore, rock, cumbia, puestos gastronómicos y artesanías.",
+    "category": "Turismo, estilo de vida y gastronomía",
+    "body": "El programa federal Ritmos Argentinos realizará dos nuevas presentaciones en la provincia de Buenos Aires: el sábado 21 de noviembre en San Miguel del Monte y el domingo 22 en Lezama. La Secretaría de Cultura de la Nación informó que la propuesta reunirá música en vivo, academias de danza, puestos gastronómicos y artesanos.\\n\\nEn San Miguel del Monte, la actividad comenzará a las 18 en el Polideportivo Municipal Ubaldo Matildo Fillol, ubicado en Santiago Javier Petracchi 75. La grilla incluye folklore, cumbia y agrupaciones de danza. En Lezama, el escenario se instalará el domingo desde las 17 en la esquina de Perón y Sáenz Peña, con bandas de rock y propuestas folklóricas.\\n\\nLa iniciativa busca promover artistas y gestores culturales de distintas regiones. Además de ofrecer actividades para residentes, este tipo de programación puede convertirse en un motivo para visitar las localidades y conocer su oferta gastronómica y artesanal. La información oficial consultada no especifica condiciones de acceso ni posibles cambios por clima, por lo que se recomienda verificar novedades en los canales de Cultura antes de viajar.\\n\\nFuente oficial: Secretaría de Cultura de la Nación, 13/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-19",
+    "published": true,
+    "image": "https://www.argentina.gob.ar/sites/default/files/ritmos_argentinos_parana_er021.jpg",
+    "imageAlt": "Público frente al escenario móvil del programa federal Ritmos Argentinos durante una presentación anterior",
+    "imageCredit": "Imagen ilustrativa de una presentación anterior del Escenario Móvil. Fotografía: Secretaría de Cultura de la Nación / Argentina.gob.ar.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/ritmos-argentinos-regresa-la-provincia-de-buenos-aires-con-su-escenario-movil"
+    ]
+  }
 ];
