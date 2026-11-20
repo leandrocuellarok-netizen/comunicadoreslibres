@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 25,
-  "lastRunLocal": "2026-11-19T23:15:01-03:00",
+  "completedRuns": 26,
+  "lastRunLocal": "2026-11-20T00:13:54-03:00",
   "lastSections": [
-    "Agenda política",
-    "Turismo, estilo de vida y gastronomía"
-  ],
-  "nextIndex": 2,
-  "nextSections": [
     "Ciencia, tecnología e IA",
     "Empresas y negocios"
+  ],
+  "nextIndex": 4,
+  "nextSections": [
+    "Economía y finanzas",
+    "Comunicación, medios y redes"
   ],
   "rule": "En cada ejecución horaria, consultar nextIndex y evaluar las dos secciones indicadas por nextSections. Preparar hasta dos noticias en total, una por sección, solo cuando exista información reciente, diferenciada y verificable. La secuencia es circular y avanza dos posiciones por ejecución, incluso si una sección no ofrece novedades suficientes; registrar las secciones incompletas y el motivo sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
   "publishedIds": [
@@ -87,12 +87,14 @@
     "economia-bcra-jornadas-monetarias-productividad-inflacion-2026-11-19",
     "comunicacion-unesco-asesinato-periodista-tomas-beltran-conforme-ecuador-2026-11-19",
     "agenda-cofedec-cofeci-nacion-provincias-consumo-comercio-2026-11-19",
-    "turismo-trenes-argentinos-pasajes-verano-mar-del-plata-junin-2026-11-19"
+    "turismo-trenes-argentinos-pasajes-verano-mar-del-plata-junin-2026-11-19",
+    "ciencia-inta-qpcr-autenticidad-carne-bienestar-envases-2026-11-20",
+    "empresas-bagazo-cervecero-secado-externo-codigo-alimentario-2026-11-20"
   ],
   "lastPublishedIds": [
-    "agenda-cofedec-cofeci-nacion-provincias-consumo-comercio-2026-11-19",
-    "turismo-trenes-argentinos-pasajes-verano-mar-del-plata-junin-2026-11-19"
+    "ciencia-inta-qpcr-autenticidad-carne-bienestar-envases-2026-11-20",
+    "empresas-bagazo-cervecero-secado-externo-codigo-alimentario-2026-11-20"
   ],
   "lastIncompleteSections": [],
-  "lastNote": "Se publicaron dos notas verificadas. Agenda política: las autoridades nacionales y provinciales celebraron la 117.ª Asamblea del COFEDEC (18/11) y la X Reunión Plenaria del COFECI (19/11); la agenda incluyó vulnerabilidad digital, endeudamiento, educación, herramientas tecnológicas para la gestión comercial y la ronda RIGI. Se aclaró que el comunicado no anunció nuevas normas ni acuerdos vinculantes. Turismo: Trenes Argentinos habilitó la venta de pasajes de verano para Mar del Plata y Junín hasta el 04/04/2027; se consignaron fechas, frecuencias, tarifas publicadas y condiciones de cuotas online. Se usó una fotografía de archivo de Casa Rosada bajo licencia CC BY 2.5 AR, con crédito y aclaración de antigüedad. No se encontraron duplicados temáticos en las notas editoriales existentes. Sin acceso conectado a Search Console o analítica."
+  "lastNote": "Se publicaron dos notas verificadas para Ciencia, tecnología e IA y Empresas y negocios. Ciencia: el INTA difundió herramientas para autenticar la composición de productos cárnicos mediante qPCR, evaluar bienestar animal, ensayar envases compostables y estudiar la conservación de carne refrigerada; la publicación oficial del 18/11 anunció las líneas para Argentina Alimenta 2026 y no informó métricas de validación comercial. Empresas: la Resolución Conjunta 5/2026 modificó el artículo 1083 bis del Código Alimentario Argentino y habilitó el secado del bagazo cervecero en otro establecimiento alimentario habilitado, con trazabilidad y un máximo de seis horas; se consignaron los requisitos de humedad, fibra y proteínas y el dato oficial de generación estimada de bagazo en 2025. Las imágenes son ilustrativas de Unsplash, con autores y créditos explícitos. No se encontraron duplicados temáticos en src/editorialAdditions.ts. Sin acceso conectado a Search Console o analítica."
 }
