@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 22,
-  "lastRunLocal": "2026-11-19T20:15:58-03:00",
+  "completedRuns": 23,
+  "lastRunLocal": "2026-11-19T21:15:30-03:00",
   "lastSections": [
-    "Agenda política",
-    "Turismo, estilo de vida y gastronomía"
-  ],
-  "nextIndex": 2,
-  "nextSections": [
     "Ciencia, tecnología e IA",
     "Empresas y negocios"
+  ],
+  "nextIndex": 4,
+  "nextSections": [
+    "Economía y finanzas",
+    "Comunicación, medios y redes"
   ],
   "rule": "En cada ejecución horaria, consultar nextIndex y evaluar las dos secciones indicadas por nextSections. Preparar hasta dos noticias en total, una por sección, solo cuando exista información reciente, diferenciada y verificable. La secuencia es circular y avanza dos posiciones por ejecución, incluso si una sección no ofrece novedades suficientes; registrar las secciones incompletas y el motivo sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
   "publishedIds": [
@@ -81,12 +81,14 @@
     "economia-comercio-exterior-octubre-superavit-2026-11-19",
     "comunicacion-unesco-flujo-informacion-crisis-digitales-2026-11-19",
     "agenda-chaco-operativo-seguridad-interprovincial-noa-nea-2026-11-19",
-    "turismo-entre-rios-campana-verano-friendly-por-naturaleza-2026-2027-2026-11-19"
+    "turismo-entre-rios-campana-verano-friendly-por-naturaleza-2026-2027-2026-11-19",
+    "ciencia-haptia-cinturon-haptico-hackaton-arcelormittal-acindar-2026-11-19",
+    "empresas-cnv-fideicomisos-financieros-foro-cafidap-financiamiento-2026-11-19"
   ],
   "lastPublishedIds": [
-    "agenda-chaco-operativo-seguridad-interprovincial-noa-nea-2026-11-19",
-    "turismo-entre-rios-campana-verano-friendly-por-naturaleza-2026-2027-2026-11-19"
+    "ciencia-haptia-cinturon-haptico-hackaton-arcelormittal-acindar-2026-11-19",
+    "empresas-cnv-fideicomisos-financieros-foro-cafidap-financiamiento-2026-11-19"
   ],
   "lastIncompleteSections": [],
-  "lastNote": "Se publicaron dos notas verificadas en fuentes oficiales. Agenda política: el Gobierno del Chaco informó el cierre, el 19/11, de un operativo de integración y seguridad interprovincial desplegado del 17 al 19 de noviembre en siete provincias del NOA y NEA; el comunicado describió controles e identificación, pero no difundió resultados cuantitativos, por lo que la nota no atribuye una reducción del delito. Turismo: Presidencia informó el lanzamiento de la campaña de verano 2026/2027 de Entre Ríos, con 70 destinos en 10 microrregiones y una línea pet friendly; se enlazaron el portal turístico y su mapa/guía de servicios. Se usaron imágenes institucionales de Gobierno del Chaco y EMTURER con crédito. No hay acceso conectado a Search Console ni analítica; el modelo de artículos no expone metadescripciones ni campos de datos estructurados por nota."
+  "lastNote": "Se publicaron dos notas verificadas en fuentes oficiales. Ciencia, tecnología e IA: el equipo Las Tinas, del Colegio San José de Rafaela, ganó la Hackatón ArcelorMittal Acindar 2026 con Haptia, un cinturón háptico complementario del bastón para personas ciegas; CONICET detalló el funcionamiento propuesto, el acompañamiento de mentores y la escala de la competencia. Se aclara que no hay evidencia publicada de comercialización ni validación para uso masivo. Empresas y negocios: la CNV presentó en el XVIII Foro Anual de CAFIDAP los cambios que impulsa para fideicomisos financieros, entre ellos simplificación normativa, oferta pública automática, tokenización de activos reales y fideicomisos inmobiliarios. Se explicó la figura con referencia al Código Civil y Comercial y se aclaró que la exposición no equivale a una nueva norma ni garantiza financiamiento. Imágenes oficiales enlazadas con crédito. No hay acceso conectado a Search Console ni analítica; la arquitectura de artículos no expone campos individuales de metadescripción ni datos estructurados."
 }
