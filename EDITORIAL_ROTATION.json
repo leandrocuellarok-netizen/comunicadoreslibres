@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 23,
-  "lastRunLocal": "2026-11-19T21:15:30-03:00",
+  "completedRuns": 24,
+  "lastRunLocal": "2026-11-19T22:12:23-03:00",
   "lastSections": [
-    "Ciencia, tecnología e IA",
-    "Empresas y negocios"
-  ],
-  "nextIndex": 4,
-  "nextSections": [
     "Economía y finanzas",
     "Comunicación, medios y redes"
+  ],
+  "nextIndex": 0,
+  "nextSections": [
+    "Agenda política",
+    "Turismo, estilo de vida y gastronomía"
   ],
   "rule": "En cada ejecución horaria, consultar nextIndex y evaluar las dos secciones indicadas por nextSections. Preparar hasta dos noticias en total, una por sección, solo cuando exista información reciente, diferenciada y verificable. La secuencia es circular y avanza dos posiciones por ejecución, incluso si una sección no ofrece novedades suficientes; registrar las secciones incompletas y el motivo sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
   "publishedIds": [
@@ -83,12 +83,14 @@
     "agenda-chaco-operativo-seguridad-interprovincial-noa-nea-2026-11-19",
     "turismo-entre-rios-campana-verano-friendly-por-naturaleza-2026-2027-2026-11-19",
     "ciencia-haptia-cinturon-haptico-hackaton-arcelormittal-acindar-2026-11-19",
-    "empresas-cnv-fideicomisos-financieros-foro-cafidap-financiamiento-2026-11-19"
+    "empresas-cnv-fideicomisos-financieros-foro-cafidap-financiamiento-2026-11-19",
+    "economia-bcra-jornadas-monetarias-productividad-inflacion-2026-11-19",
+    "comunicacion-unesco-asesinato-periodista-tomas-beltran-conforme-ecuador-2026-11-19"
   ],
   "lastPublishedIds": [
-    "ciencia-haptia-cinturon-haptico-hackaton-arcelormittal-acindar-2026-11-19",
-    "empresas-cnv-fideicomisos-financieros-foro-cafidap-financiamiento-2026-11-19"
+    "economia-bcra-jornadas-monetarias-productividad-inflacion-2026-11-19",
+    "comunicacion-unesco-asesinato-periodista-tomas-beltran-conforme-ecuador-2026-11-19"
   ],
   "lastIncompleteSections": [],
-  "lastNote": "Se publicaron dos notas verificadas en fuentes oficiales. Ciencia, tecnología e IA: el equipo Las Tinas, del Colegio San José de Rafaela, ganó la Hackatón ArcelorMittal Acindar 2026 con Haptia, un cinturón háptico complementario del bastón para personas ciegas; CONICET detalló el funcionamiento propuesto, el acompañamiento de mentores y la escala de la competencia. Se aclara que no hay evidencia publicada de comercialización ni validación para uso masivo. Empresas y negocios: la CNV presentó en el XVIII Foro Anual de CAFIDAP los cambios que impulsa para fideicomisos financieros, entre ellos simplificación normativa, oferta pública automática, tokenización de activos reales y fideicomisos inmobiliarios. Se explicó la figura con referencia al Código Civil y Comercial y se aclaró que la exposición no equivale a una nueva norma ni garantiza financiamiento. Imágenes oficiales enlazadas con crédito. No hay acceso conectado a Search Console ni analítica; la arquitectura de artículos no expone campos individuales de metadescripción ni datos estructurados."
+  "lastNote": "Se publicaron dos noticias nuevas y verificadas. Economía y finanzas: el BCRA informó que las Jornadas Monetarias y Bancarias 2026 reunieron a más de 2.000 inscriptos en diez paneles, con debates sobre crecimiento, productividad, inflación y las implicancias de stablecoins, tokenización e IA para los sistemas monetarios. Se aclaró que el encuentro no constituye una nueva decisión monetaria ni una regulación. Comunicación, medios y redes: UNESCO condenó el asesinato del periodista digital ecuatoriano Tomás Beltrán Conforme y pidió una investigación exhaustiva. Se consignó que cubría corrupción y malversación y que tenía protección policial, pero no se atribuyó un móvil ni se afirmó que exista una conclusión judicial. Imágenes oficiales enlazadas con créditos. No hay acceso conectado a Search Console ni analítica; la arquitectura de artículos no expone campos individuales de metadescripción ni datos estructurados."
 }
