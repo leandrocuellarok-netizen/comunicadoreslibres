@@ -1278,4 +1278,20 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
     ]
   }
 
+  ,
+  {
+    "id": "dia-soberania-nacional-2026-matias-bailon",
+    "title": "Día de la Soberanía Nacional: qué recuerda el 20 de noviembre",
+    "excerpt": "La fecha conmemora el Combate de la Vuelta de Obligado de 1845. Su recuerdo invita a revisar el conflicto, sus consecuencias y el significado de la soberanía.",
+    "category": "Agenda política",
+    "body": "Cada 20 de noviembre, Argentina conmemora el Día de la Soberanía Nacional. La fecha recuerda el Combate de la Vuelta de Obligado, ocurrido en 1845, y fue establecida por la Ley 20.770, sancionada en 1974.\n\nEl combate tuvo lugar en un contexto de tensiones entre la Confederación Argentina y Francia y Gran Bretaña, en torno al bloqueo del puerto de Buenos Aires y a la navegación de los ríos interiores. Un convoy anglo-francés avanzó por el Paraná rumbo al norte. Las fuerzas argentinas, al mando de Lucio Norberto Mansilla, intentaron detenerlo en un recodo del río mediante baterías costeras y una línea de cadenas.\n\nLa flota extranjera logró superar las defensas y continuó su navegación, por lo que el resultado militar inmediato fue una derrota argentina. La resistencia, sin embargo, formó parte de un conflicto más amplio, con nuevos enfrentamientos y negociaciones diplomáticas en los años siguientes. La historia de la soberanía no se explica sólo por el desenlace de una batalla: también requiere observar las decisiones políticas, los intereses en disputa y sus consecuencias.\n\nLa soberanía puede pensarse como la capacidad de una comunidad política para decidir sobre su territorio, sus instituciones y sus asuntos públicos. La conmemoración ofrece una oportunidad para conversar sobre ese concepto, reconocer las distintas interpretaciones históricas y distinguir los hechos documentados de las valoraciones que cada época construye.\n\nFuentes: Ley 20.770, texto oficial; Armada Argentina, “La Marina de la Confederación Argentina (1830-1851)”.",
+    "author": "Matías Bailon",
+    "date": "2026-11-20",
+    "published": true,
+    "sources": [
+      "https://www.argentina.gob.ar/normativa/nacional/ley-20770-174390/texto",
+      "https://www.argentina.gob.ar/armada/nueva-historia-naval/confederacion-1830"
+    ]
+  }
+
 ];
