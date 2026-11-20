@@ -1169,5 +1169,39 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
       "https://www.argentina.gob.ar/noticias/xviii-foro-anual-de-cafidap-2026",
       "https://www.argentina.gob.ar/normativa/nacional/norma-235975/actualizacion"
     ]
-  }
+  },
+{
+  "id": "economia-bcra-jornadas-monetarias-productividad-inflacion-2026-11-19",
+  "title": "El BCRA reunió a más de 2.000 inscriptos para debatir inflación, productividad e innovación financiera",
+  "excerpt": "Las Jornadas Monetarias y Bancarias 2026 tuvieron diez paneles y reunieron a especialistas de distintos países. La agenda incluyó stablecoins, tokenización e inteligencia artificial, además de debates sobre crecimiento y estabilidad monetaria.",
+  "category": "Economía y finanzas",
+  "body": "El Banco Central de la República Argentina (BCRA) informó el 19 de noviembre que sus Jornadas Monetarias y Bancarias 2026 reunieron a más de 2.000 inscriptos durante dos días de exposiciones y diez paneles. El encuentro se realizó el 16 y 17 de noviembre en el Auditorio Nacional del Palacio Libertad, en la Ciudad de Buenos Aires, bajo el eje «Crecimiento, productividad e inflación».\\n\\nLa agenda combinó discusiones sobre estabilidad macroeconómica, inversión privada, productividad, expectativas de mercado y experiencias internacionales. Entre los expositores estuvieron Philippe Aghion, premio Nobel de Economía 2025 y profesor del Collège de France; Alberto Musalem, presidente y CEO del Banco de la Reserva Federal de St. Louis; Yannis Stournaras, presidente del Banco de Grecia; e Ian Macfarlane, expresidente del Banco Central de Australia.\\n\\n## Stablecoins, tokenización e inteligencia artificial\\n\\nUno de los paneles examinó las implicancias de las stablecoins, la tokenización y la inteligencia artificial para los sistemas monetarios y las instituciones financieras. Participaron Marcello Estevão, del Instituto de Finanzas Internacionales, y Alberto Naudon, vicepresidente del Banco Central de Chile. El programa también incluyó debates sobre reglas fiscales, fondos soberanos, ahorro doméstico y crecimiento potencial.\\n\\nEn la apertura, el presidente del BCRA, Santiago Bausili, planteó el desafío de transformar la estabilidad macroeconómica en crecimiento sostenido. El cierre estuvo a cargo del presidente Javier Milei, quien expuso sobre el programa económico y la continuidad del proceso de desinflación. Las afirmaciones del discurso presidencial forman parte de la posición oficial y no sustituyen la lectura de las estadísticas publicadas por los organismos competentes.\\n\\n## Qué dejó el encuentro y qué no\\n\\nLas jornadas ofrecen una agenda de discusión sobre los vínculos entre política monetaria, productividad e innovación financiera. No constituyen por sí mismas una nueva decisión de tasas, una regulación sobre criptoactivos ni un anuncio de medidas para el sistema financiero. Para conocer cambios concretos habrá que seguir las comunicaciones y normas que emitan el BCRA y los organismos reguladores.\\n\\nEl BCRA publicó además los videos de las ponencias, que permiten consultar directamente las exposiciones y contrastar los resúmenes institucionales con las intervenciones completas.\\n\\nFuentes oficiales: Banco Central de la República Argentina, balance de las Jornadas Monetarias y Bancarias 2026, 19/11/2026; programa oficial del encuentro, 16 y 17/11/2026.",
+  "author": "Redacción · Comunicadores Libres",
+  "date": "2026-11-19",
+  "published": true,
+  "image": "https://www.bcra.gob.ar/wp-content/uploads/foto-noticia-cierre-jmb-2026-11-19-01.jpg",
+  "imageAlt": "Santiago Bausili, presidente del Banco Central, durante una intervención en las Jornadas Monetarias y Bancarias 2026.",
+  "imageCredit": "Banco Central de la República Argentina (BCRA). Fotografía institucional de las Jornadas Monetarias y Bancarias 2026.",
+  "sources": [
+    "https://www.bcra.gob.ar/noticias/jornadas-monetarias-bancarias-2026-crecimiento-productividad-inflacion/",
+    "https://www.bcra.gob.ar/jornadas-monetarias-y-bancarias-2026/"
+  ]
+},
+{
+  "id": "comunicacion-unesco-asesinato-periodista-tomas-beltran-conforme-ecuador-2026-11-19",
+  "title": "UNESCO pidió investigar el asesinato del periodista digital Tomás Beltrán Conforme en Ecuador",
+  "excerpt": "El fundador del portal Calcetines fue asesinado el 8 de noviembre en Calceta. La organización reclamó una investigación exhaustiva; el comunicado no atribuye un móvil ni informa avances judiciales.",
+  "category": "Comunicación, medios y redes",
+  "body": "La Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) condenó el asesinato del periodista digital Tomás Beltrán Conforme, ocurrido el 8 de noviembre de 2026 en Calceta, provincia de Manabí, Ecuador. El comunicado fue publicado el 18 de noviembre y recoge el pedido del director general de la organización, Khaled El-Enany, para que se investigue el crimen y sus responsables sean llevados ante la justicia.\\n\\nSegún la información difundida por la UNESCO, Beltrán Conforme era fundador y editor del portal digital de noticias Calcetines. La organización indicó que, de acuerdo con los reportes disponibles, fue atacado por personas no identificadas en el exterior de su vivienda. También señaló que cubría asuntos vinculados con corrupción política y malversación de fondos públicos, y que contaba con protección policial desde 2025, después de sobrevivir a un atentado en 2023.\\n\\n## Qué se sabe y qué falta esclarecer\\n\\nEl comunicado de la UNESCO no informa detenciones, avances de la investigación ni una conclusión oficial sobre el móvil del asesinato. Que el periodista cubriera temas de corrupción es un dato relevante sobre su trabajo, pero no permite afirmar por sí solo que el crimen haya sido cometido por esa actividad. Esa relación deberá establecerse mediante una investigación judicial.\\n\\nLa organización pidió una investigación exhaustiva y recordó que la impunidad por los delitos contra periodistas puede generar un efecto intimidatorio sobre el ejercicio de la profesión. El caso vuelve a poner en discusión las condiciones de seguridad de quienes investigan asuntos de interés público, especialmente en contextos donde ya habían recibido amenazas o sufrido ataques.\\n\\n## Cómo monitorea estos casos la UNESCO\\n\\nEl Observatorio de Periodistas Asesinados de la UNESCO reúne información sobre periodistas y trabajadores de medios asesinados desde 1993 y sobre el estado judicial de los casos condenados desde 2006. La organización explica que su monitoreo utiliza información de distintas fuentes y que los registros pueden actualizarse cuando aparecen nuevas evidencias.\\n\\nPara las audiencias, la seguridad de periodistas no es solamente un asunto laboral: afecta la posibilidad de investigar, publicar y acceder a información sobre corrupción, gestión pública y otros temas de interés colectivo. La exigencia de esclarecer cada crimen y evitar la impunidad forma parte de las condiciones necesarias para proteger la libertad de expresión.\\n\\nFuentes: UNESCO, comunicado sobre el asesinato de Tomás Beltrán Conforme, 18/11/2026; Observatorio de Periodistas Asesinados de la UNESCO.",
+  "author": "Redacción · Comunicadores Libres",
+  "date": "2026-11-19",
+  "published": true,
+  "image": "https://www.unesco.org/sites/default/files/styles/paragraph_medium_desktop/public/unesco-paragraphs/observatory_map.png.webp?itok=y5OKnN0-",
+  "imageAlt": "Mapa del Observatorio de Periodistas Asesinados de la UNESCO, que muestra la distribución geográfica de los casos registrados en el mundo.",
+  "imageCredit": "UNESCO, Observatorio de Periodistas Asesinados. Imagen de referencia del mapa global; no representa el lugar del asesinato de Tomás Beltrán Conforme.",
+  "sources": [
+    "https://www.unesco.org/es/articles/el-director-general-de-la-unesco-condena-el-asesinato-del-periodista-tomas-beltran-conforme-en",
+    "https://www.unesco.org/en/safety-journalists/observatory"
+  ]
+}
 ];
