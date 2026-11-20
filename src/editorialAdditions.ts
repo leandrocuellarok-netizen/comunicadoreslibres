@@ -1241,5 +1241,41 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
     "https://commons.wikimedia.org/wiki/File:Tren_a_Mar_del_Plata_-_primera_clase.jpg",
     "https://creativecommons.org/licenses/by/2.5/ar/deed.en"
   ]
-}
+},
+
+  {
+    "id": "ciencia-inta-qpcr-autenticidad-carne-bienestar-envases-2026-11-20",
+    "title": "qPCR y bienestar animal: las tecnologías del INTA para diferenciar la carne argentina",
+    "excerpt": "El organismo describió herramientas para identificar especies y verificar la composición de alimentos, protocolos de bienestar bovino, envases compostables y métodos para extender la vida útil de la carne.",
+    "category": "Ciencia, tecnología e IA",
+    "body": "El Instituto Nacional de Tecnología Agropecuaria (INTA) difundió el 18 de noviembre una agenda de desarrollos para diferenciar productos cárnicos mediante autenticación, evaluación del bienestar animal, conservación y nuevos envases. Las líneas de trabajo se vincularon con Argentina Alimenta 2026, realizada del 17 al 19 de noviembre en La Rural de Palermo, según informó el organismo.\n\nUna de las herramientas es la reacción en cadena de la polimerasa en tiempo real (qPCR), que permite identificar especies y verificar la composición de los alimentos. El INTA anunció que compartiría una experiencia de aplicación junto con The Halal Catering Argentina.\n\nEn paralelo, el instituto describió protocolos de evaluación del bienestar animal desarrollados con el Instituto de Promoción de la Carne Vacuna Argentina (IPCVA) para las etapas de recría y terminación. También informó sobre ensayos de envases compostables, realizados con el Instituto de Investigaciones en Ciencia y Tecnología de Materiales (INTEMA), y tecnologías no convencionales para prolongar la vida útil de la carne refrigerada.\n\nLa conservación durante períodos prolongados resulta relevante para los envíos a destinos lejanos, porque la cadena debe preservar calidad e inocuidad durante el almacenamiento y el transporte. El INTA señaló que esa línea se trabaja junto con el IPCVA. Para la carne bubalina, además, describió estrategias de diferenciación con La Filiberta.\n\nEl comunicado presenta líneas de investigación y transferencia: no equivale a una certificación comercial general ni aporta resultados cuantitativos sobre el desempeño de cada tecnología. Su adopción industrial requiere validación, escalado y cumplimiento de las normas sanitarias.\n\nFuente: INTA, 18/11/2026.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-20",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1764620931673-ba46205f2e4e?auto=format&fit=crop&fm=jpg&ixid=NHwxMjA3fDA%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "imageAlt": "Carne picada sobre una balanza junto a embutidos; imagen ilustrativa sobre control de calidad y autenticidad de alimentos.",
+    "imageCredit": "Kalle Georgiev / Unsplash, bajo la Licencia Unsplash. Imagen ilustrativa; no corresponde a un ensayo del INTA.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/la-demanda-de-carnes-diferenciadas-abre-oportunidades-para-agregar-valor",
+      "https://www.argentina.gob.ar/noticias/con-herramientas-de-medicion-se-diferencian-los-alimentos-argentinos"
+    ]
+  },
+  {
+    "id": "empresas-bagazo-cervecero-secado-externo-codigo-alimentario-2026-11-20",
+    "title": "Bagazo cervecero: una norma habilita el secado en plantas externas y abre opciones para pymes",
+    "excerpt": "La Resolución Conjunta 5/2026 permite procesar el subproducto en otro establecimiento alimentario habilitado. Exige trazabilidad, transporte higiénico y comenzar el secado dentro de seis horas.",
+    "category": "Empresas y negocios",
+    "body": "Una modificación del Código Alimentario Argentino permite que el bagazo cervecero húmedo se traslade desde una cervecería a otro establecimiento elaborador de alimentos habilitado para su secado. La medida quedó establecida por la Resolución Conjunta 5/2026, publicada el 16 de noviembre de 2026 y vigente desde esa fecha.\n\nLa nueva redacción del artículo 1083 bis admite que el secado se realice en la propia cervecería o en otro establecimiento habilitado por la autoridad sanitaria. El traslado debe efectuarse en recipientes, contenedores o Unidades de Transporte de Alimentos aptos, en condiciones de higiene y conservación, protegidos contra la contaminación y con identificación del origen, destino, lote y fecha y hora de obtención.\n\nLa condición operativa central es el tiempo: el secado debe comenzar como máximo seis horas después de la obtención del bagazo húmedo. El producto seco debe tener menos del 15 % de humedad, al menos 35 % de fibra dietaria y no menos de 4 % de proteínas, además de cumplir los criterios microbiológicos y los límites de contaminantes previstos en el Código.\n\nLa Secretaría de Agricultura informó que los 17,5 millones de hectolitros de cerveza producidos en Argentina durante 2025 generaron aproximadamente 350.000 toneladas de bagazo. La posibilidad de recurrir a establecimientos especializados puede abrir un servicio de procesamiento y facilitar el aprovechamiento de ese subproducto, especialmente para cervecerías de menor escala.\n\nPara las empresas, la norma crea una alternativa logística y de agregado de valor, pero no autoriza a comercializar cualquier residuo como ingrediente. El bagazo debe cumplir los requisitos sanitarios y el establecimiento de destino debe contar con habilitación.\n\nFuentes: Secretaría de Agricultura, Ganadería y Pesca, 16/11/2026; Resolución Conjunta 5/2026, Código Alimentario Argentino.",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-20",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1532634786-c8f8c46a0062?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+    "imageAlt": "Equipos de acero en una cervecería; imagen ilustrativa sobre el procesamiento del bagazo cervecero.",
+    "imageCredit": "Elevate (@elevatebeer) / Unsplash, bajo la Licencia Unsplash. Imagen ilustrativa; no representa una planta de secado habilitada.",
+    "sources": [
+      "https://www.argentina.gob.ar/noticias/nueva-normativa-amplia-el-aprovechamiento-del-bagazo-cervecero-en-la-industria-alimentaria",
+      "https://www.argentina.gob.ar/normativa/nacional/norma-432268/texto"
+    ]
+  }
+
 ];
