@@ -7,16 +7,16 @@
     "Economía y finanzas",
     "Comunicación, medios y redes"
   ],
-  "completedRuns": 24,
-  "lastRunLocal": "2026-11-19T22:12:23-03:00",
+  "completedRuns": 25,
+  "lastRunLocal": "2026-11-19T23:15:01-03:00",
   "lastSections": [
-    "Economía y finanzas",
-    "Comunicación, medios y redes"
-  ],
-  "nextIndex": 0,
-  "nextSections": [
     "Agenda política",
     "Turismo, estilo de vida y gastronomía"
+  ],
+  "nextIndex": 2,
+  "nextSections": [
+    "Ciencia, tecnología e IA",
+    "Empresas y negocios"
   ],
   "rule": "En cada ejecución horaria, consultar nextIndex y evaluar las dos secciones indicadas por nextSections. Preparar hasta dos noticias en total, una por sección, solo cuando exista información reciente, diferenciada y verificable. La secuencia es circular y avanza dos posiciones por ejecución, incluso si una sección no ofrece novedades suficientes; registrar las secciones incompletas y el motivo sin reciclar ni inventar contenido. Aplicar SEO/GEO sin sacrificar calidad, pluralismo, atribución y transparencia.",
   "publishedIds": [
@@ -85,12 +85,14 @@
     "ciencia-haptia-cinturon-haptico-hackaton-arcelormittal-acindar-2026-11-19",
     "empresas-cnv-fideicomisos-financieros-foro-cafidap-financiamiento-2026-11-19",
     "economia-bcra-jornadas-monetarias-productividad-inflacion-2026-11-19",
-    "comunicacion-unesco-asesinato-periodista-tomas-beltran-conforme-ecuador-2026-11-19"
+    "comunicacion-unesco-asesinato-periodista-tomas-beltran-conforme-ecuador-2026-11-19",
+    "agenda-cofedec-cofeci-nacion-provincias-consumo-comercio-2026-11-19",
+    "turismo-trenes-argentinos-pasajes-verano-mar-del-plata-junin-2026-11-19"
   ],
   "lastPublishedIds": [
-    "economia-bcra-jornadas-monetarias-productividad-inflacion-2026-11-19",
-    "comunicacion-unesco-asesinato-periodista-tomas-beltran-conforme-ecuador-2026-11-19"
+    "agenda-cofedec-cofeci-nacion-provincias-consumo-comercio-2026-11-19",
+    "turismo-trenes-argentinos-pasajes-verano-mar-del-plata-junin-2026-11-19"
   ],
   "lastIncompleteSections": [],
-  "lastNote": "Se publicaron dos noticias nuevas y verificadas. Economía y finanzas: el BCRA informó que las Jornadas Monetarias y Bancarias 2026 reunieron a más de 2.000 inscriptos en diez paneles, con debates sobre crecimiento, productividad, inflación y las implicancias de stablecoins, tokenización e IA para los sistemas monetarios. Se aclaró que el encuentro no constituye una nueva decisión monetaria ni una regulación. Comunicación, medios y redes: UNESCO condenó el asesinato del periodista digital ecuatoriano Tomás Beltrán Conforme y pidió una investigación exhaustiva. Se consignó que cubría corrupción y malversación y que tenía protección policial, pero no se atribuyó un móvil ni se afirmó que exista una conclusión judicial. Imágenes oficiales enlazadas con créditos. No hay acceso conectado a Search Console ni analítica; la arquitectura de artículos no expone campos individuales de metadescripción ni datos estructurados."
+  "lastNote": "Se publicaron dos notas verificadas. Agenda política: las autoridades nacionales y provinciales celebraron la 117.ª Asamblea del COFEDEC (18/11) y la X Reunión Plenaria del COFECI (19/11); la agenda incluyó vulnerabilidad digital, endeudamiento, educación, herramientas tecnológicas para la gestión comercial y la ronda RIGI. Se aclaró que el comunicado no anunció nuevas normas ni acuerdos vinculantes. Turismo: Trenes Argentinos habilitó la venta de pasajes de verano para Mar del Plata y Junín hasta el 04/04/2027; se consignaron fechas, frecuencias, tarifas publicadas y condiciones de cuotas online. Se usó una fotografía de archivo de Casa Rosada bajo licencia CC BY 2.5 AR, con crédito y aclaración de antigüedad. No se encontraron duplicados temáticos en las notas editoriales existentes. Sin acceso conectado a Search Console o analítica."
 }
