@@ -42,7 +42,7 @@ const importedArticles: Article[] = [
     date: "2026-11-19",
     published: true,
     image: "/images/renovacion-puerto-tirol-ariel-bangher.jpg",
-    imageAlt: "Fanny junto a integrantes del Partido Justicialista en el Salón 17 de Octubre.",
+    imageAlt: "Integrantes del Partido Justicialista reunidos en el Salón 17 de Octubre.",
     imageCredit: "Imagen aportada para la nota.",
     sources: []
   },
