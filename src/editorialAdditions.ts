@@ -1204,4 +1204,42 @@ Material de prensa: Grupo Liderazgo / Majoloss PR, “Restaurantes de la Ruta Tr
     "https://www.unesco.org/en/safety-journalists/observatory"
   ]
 }
+
+,
+{
+  "id": "agenda-cofedec-cofeci-nacion-provincias-consumo-comercio-2026-11-19",
+  "title": "COFEDEC y COFECI reunieron a Nación y provincias para coordinar defensa del consumidor y comercio interior",
+  "excerpt": "La 117.ª Asamblea del Consejo Federal del Consumo y la X Reunión Plenaria del Consejo Federal de Comercio Interior abordaron vulnerabilidad digital, endeudamiento, educación y herramientas tecnológicas para la gestión comercial.",
+  "category": "Agenda política",
+  "body": "Autoridades nacionales y provinciales participaron el 18 y 19 de noviembre de 2026 de dos encuentros federales vinculados con la defensa de los consumidores y el comercio interior. La agenda incluyó la 117.ª Asamblea del Consejo Federal del Consumo (COFEDEC) y la X Reunión Plenaria del Consejo Federal de Comercio Interior (COFECI), según informó la Subsecretaría de Defensa del Consumidor y Lealtad Comercial.\\n\\nEn la asamblea del COFEDEC participaron, entre otros, el subsecretario Fernando Blanco Muiño y la presidenta del consejo, Mónica Lucero. El temario internacional incluyó la revisión de pares de la Conferencia de las Naciones Unidas sobre Comercio y Desarrollo (UNCTAD), una reunión del Comité Técnico de Defensa del Consumidor del MERCOSUR y la agenda de trabajo con la OCDE.\\n\\nEl organismo también informó que se analizaron cuestiones de vulnerabilidad digital, desarrolladoras inmobiliarias, educación y endeudamiento. Son asuntos que conectan la protección del consumidor con problemas cotidianos: contratación y fraudes en entornos digitales, información sobre operaciones inmobiliarias y acceso a herramientas de educación financiera.\\n\\nEn la reunión del COFECI se expusieron iniciativas para la gestión pública del comercio, entre ellas tecnologías aplicadas al área, el programa Kit 4.0 y la segunda ronda de negocios del Régimen de Incentivo para Grandes Inversiones (RIGI).\\n\\nLos encuentros funcionaron como espacios de intercambio y coordinación entre Nación y provincias. El comunicado oficial no anunció nuevas normas ni detalló acuerdos vinculantes, por lo que su resultado inmediato es la puesta en común de temas y herramientas; la implementación deberá verificarse en futuras decisiones de cada jurisdicción.",
+  "author": "Redacción · Comunicadores Libres",
+  "date": "2026-11-19",
+  "published": true,
+  "image": "https://www.argentina.gob.ar/sites/default/files/2f8a1150_1.jpg",
+  "imageAlt": "Autoridades nacionales y provinciales durante una reunión del Consejo Federal del Consumo.",
+  "imageCredit": "Fotografía institucional publicada por Argentina.gob.ar, correspondiente a la reunión del COFEDEC.",
+  "sources": [
+    "https://www.argentina.gob.ar/noticias/autoridades-nacionales-y-provinciales-participaron-de-nuevos-encuentros-del-cofedec-y-el",
+    "https://www.argentina.gob.ar/economia/industria-y-comercio/defensadelconsumidor/escuela-argentina-de-educacion-en-consumo/noticias"
+  ]
+},
+{
+  "id": "turismo-trenes-argentinos-pasajes-verano-mar-del-plata-junin-2026-11-19",
+  "title": "Tren a Mar del Plata y Junín: ya se venden pasajes para el verano con cuotas online",
+  "excerpt": "Trenes Argentinos habilitó la venta para viajar entre diciembre y el 4 de abril. El servicio a Mar del Plata tendrá tres frecuencias diarias y tarifas desde $40.500; Junín contará con una salida diaria.",
+  "category": "Turismo, estilo de vida y gastronomía",
+  "body": "Trenes Argentinos habilitó el 19 de noviembre de 2026 la venta de pasajes de larga distancia para los servicios Buenos Aires–Mar del Plata y Buenos Aires–Junín. Los boletos cubren viajes de diciembre, enero, febrero y marzo, hasta el 4 de abril, según informó la empresa estatal.\\n\\nPara Mar del Plata, el servicio comenzará el 14 de diciembre y ofrecerá tres trenes diarios. Entre Constitución y la ciudad balnearia, la tarifa informada es de $40.500 en primera clase y $48.600 en pullman. Los horarios varían según el día de la semana; antes de comprar conviene consultar la disponibilidad para la fecha elegida.\\n\\nEl tren a Junín tendrá una salida diaria desde Retiro a las 18:15. El regreso está previsto para la 1:10 de lunes a sábados y para la 1:31 los domingos y feriados. En el trayecto de ida realiza paradas en José C. Paz, Pilar, Manzanares, Dr. Cabred, Cortinez, Mercedes P, Franklin, Rivas, Castilla, Rawson, Cucha Cucha, Chacabuco y O’Higgins. El precio depende del día seleccionado.\\n\\nLa compra puede realizarse en la web oficial de Trenes Argentinos o en las estaciones Retiro, Constitución y Once. Desde noviembre, las operaciones online mediante Mercado Pago permiten tres cuotas fijas sin interés para importes de entre $60.000 y $120.000, y seis cuotas para importes superiores a $120.000. En boleterías se mantiene el pago en efectivo o en una sola vez.\\n\\nLa financiación anunciada corresponde a compras por internet y está sujeta a los importes indicados por la empresa. Como los horarios, la disponibilidad y las tarifas pueden cambiar, la consulta final debe hacerse en el sistema oficial de venta antes de organizar el viaje.",
+  "author": "Redacción · Comunicadores Libres",
+  "date": "2026-11-19",
+  "published": true,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Tren_a_Mar_del_Plata_-_primera_clase.jpg",
+  "imageAlt": "Interior de un coche de primera clase de un tren de larga distancia a Mar del Plata.",
+  "imageCredit": "Casa Rosada Argentina, fotografía de 2017. Licencia Creative Commons Atribución 2.5 Argentina (CC BY 2.5 AR). Imagen de archivo, no necesariamente de la formación actual.",
+  "sources": [
+    "https://www.argentina.gob.ar/noticias/trenes-argentinos-lanzo-la-venta-de-pasajes-mar-del-plata-y-junin-con-pago-en-cuotas-desde",
+    "https://webventas.sofse.gob.ar/",
+    "https://commons.wikimedia.org/wiki/File:Tren_a_Mar_del_Plata_-_primera_clase.jpg",
+    "https://creativecommons.org/licenses/by/2.5/ar/deed.en"
+  ]
+}
 ];
