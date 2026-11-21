@@ -28,3 +28,7 @@
 footer .recommended-card a{color:#f0d7a7;text-decoration:underline;text-underline-offset:3px;font-weight:700}
 footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-serif;color:#e9d9c0}
 @media(max-width:600px){.recommended-grid{grid-template-columns:1fr}.recommended-heading h2{font-size:24px}}
+
+
+/* Acceso de incorporación a la comunidad de WhatsApp */
+.community-join{margin-top:28px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}.community-join .eyebrow{margin:0;color:#641f32}.whatsapp-cta{display:inline-flex;align-items:center;gap:10px;padding:15px 19px;background:#176b45;color:#fff;text-decoration:none;border:1px solid #176b45;font:700 10px 'DM Sans';letter-spacing:.12em;transition:background .2s,border-color .2s}.whatsapp-cta span{color:#8ff0b5;font-size:15px}.whatsapp-cta:hover{background:#125638;border-color:#125638}@media(max-width:600px){.whatsapp-cta{font-size:9px;padding:14px 13px;letter-spacing:.07em}}
