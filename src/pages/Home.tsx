@@ -138,6 +138,37 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ── Founding sponsors ── */}
+        <section className="relative overflow-hidden bg-[#f2eee8] py-16 md:py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="relative border border-[#c9b99b] px-6 py-10 md:px-12 md:py-12 text-center">
+              <span className="inline-block text-[10px] md:text-xs tracking-[0.28em] uppercase font-bold text-[#9a7845] mb-4">
+                Una oportunidad para las marcas
+              </span>
+              <h2 className="text-3xl md:text-5xl font-bold text-[#1c2b40] mb-4"
+                style={{ fontFamily: 'var(--font-display)' }}>
+                Buscamos a nuestros<br className="hidden sm:block" /> primeros patrocinadores
+              </h2>
+              <p className="max-w-2xl mx-auto text-sm md:text-base leading-relaxed text-[#596273] mb-8"
+                style={{ fontFamily: 'var(--font-body)' }}>
+                Invitamos a empresas e instituciones a convertirse en patrocinadoras fundadoras de cada sección y acompañar el crecimiento de una nueva voz en la comunicación.
+              </p>
+              <div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-8">
+                {['Agenda política', 'Turismo, estilo de vida y gastronomía', 'Ciencia, tecnología e IA', 'Empresas y negocios', 'Economía y finanzas'].map((item) => (
+                  <span key={item} className="border border-[#c9b99b] bg-white/70 px-3 py-2 text-[11px] md:text-xs tracking-wide text-[#1c2b40]">
+                    {item}
+                  </span>
+                ))}
+              </div>
+              <a href="mailto:hola@libre.sbs?subject=Patrocinio%20fundador%20-%20Comunicadores%20Libres"
+                className="inline-flex items-center gap-3 bg-[#1c2b40] px-6 py-3 text-xs md:text-sm font-bold tracking-[0.12em] uppercase text-white transition-colors hover:bg-[#9a7845]">
+                Quiero ser patrocinador fundador
+                <ArrowRight size={16} />
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* ── Quote strip ── */}
         <section className="bg-[#1c2b40] py-16 md:py-20">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
