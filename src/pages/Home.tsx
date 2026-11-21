@@ -160,7 +160,7 @@ export default function Home() {
                   </span>
                 ))}
               </div>
-              <a href="mailto:hola@libre.sbs?subject=Patrocinio%20fundador%20-%20Comunicadores%20Libres"
+              <a href="https://wa.me/5491130538404?text=Hola%2C%20quiero%20consultar%20sobre%20el%20patrocinio%20fundador%20de%20Comunicadores%20Libres."
                 className="inline-flex items-center gap-3 bg-[#1c2b40] px-6 py-3 text-xs md:text-sm font-bold tracking-[0.12em] uppercase text-white transition-colors hover:bg-[#9a7845]">
                 Quiero ser patrocinador fundador
                 <ArrowRight size={16} />
