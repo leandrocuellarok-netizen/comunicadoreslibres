@@ -40,3 +40,15 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
 .sources-content{min-width:0}.sources-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:24px}.sources-card{padding:18px 20px;background:rgba(255,253,248,.72);border:1px solid #cfc1ae}.sources-card a{font:700 18px "Playfair Display",Georgia,serif;color:#641f32;text-decoration:none}.sources-card a:hover{text-decoration:underline;text-underline-offset:4px}.sources-card p{font:400 13px/1.65 "DM Sans",sans-serif;color:#51453f;margin:10px 0}.sources-card small{font:700 9px "DM Sans",sans-serif;letter-spacing:.1em;color:#986e42}@media(max-width:700px){.sources-list{grid-template-columns:1fr}}
 
 .sources-group{min-width:0}.sources-group h3{margin:22px 0 10px;font:700 12px "DM Sans",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#641f32}.sources-group:first-child h3{margin-top:0}.sources-group-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.sources-card{padding:14px 16px}.sources-card p{margin:7px 0 0}.sources-card a{font-size:16px}@media(max-width:700px){.sources-group-list{grid-template-columns:1fr}}
+
+/* Chica Universitarixxx */
+.universitarixx{margin:0;padding:38px 8%;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:34px;background:#641f32;color:#f7f0e5;border-top:1px solid #a77a42;border-bottom:1px solid #a77a42}
+.universitarixx .eyebrow{color:#e8c77e}
+.universitarixx-intro h2{margin:12px 0 10px;color:#fff;font:700 clamp(28px,4vw,48px)/1.05 'Playfair Display';letter-spacing:-.025em}
+.universitarixx-intro h2 em{color:#ffe900;font-style:normal}
+.universitarixx-intro p{max-width:660px;margin:0;color:#eee0d2;font:16px/1.6 'DM Sans',sans-serif}
+.universitarixx-sticker{justify-self:end;width:min(100%,310px);min-height:155px;padding:18px 22px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid #e2c16f;outline:1px solid #e2c16f;outline-offset:5px;text-align:center;color:#ffe9a4;transform:rotate(1.5deg)}
+.universitarixx-sticker span,.universitarixx-sticker small{font:700 9px 'DM Sans',sans-serif;letter-spacing:.24em}
+.universitarixx-sticker strong{font:700 25px/1.02 'Playfair Display',serif;letter-spacing:.03em;color:#fff}
+.universitarixx-sticker small{color:#e8c77e}
+@media(max-width:700px){.universitarixx{grid-template-columns:1fr;padding:30px 7%;gap:25px}.universitarixx-sticker{justify-self:start;width:min(100%,280px)}.universitarixx-intro p{font-size:14px}}
