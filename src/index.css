@@ -32,3 +32,11 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
 
 /* Acceso de incorporación a la comunidad de WhatsApp */
 .community-join{margin-top:28px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}.community-join .eyebrow{margin:0;color:#641f32}.whatsapp-cta{display:inline-flex;align-items:center;gap:10px;padding:15px 19px;background:#176b45;color:#fff;text-decoration:none;border:1px solid #176b45;font:700 10px 'DM Sans';letter-spacing:.12em;transition:background .2s,border-color .2s}.whatsapp-cta span{color:#8ff0b5;font-size:15px}.whatsapp-cta:hover{background:#125638;border-color:#125638}@media(max-width:600px){.whatsapp-cta{font-size:9px;padding:14px 13px;letter-spacing:.07em}}
+
+/* Apartado de fuentes de consulta: conserva la paleta y proporciones del bloque Voltaire */
+.sources-consultation{margin:0}
+.sources-consultation p{font-size:clamp(22px,3vw,36px);text-transform:uppercase}
+
+.sources-content{min-width:0}.sources-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:24px}.sources-card{padding:18px 20px;background:rgba(255,253,248,.72);border:1px solid #cfc1ae}.sources-card a{font:700 18px "Playfair Display",Georgia,serif;color:#641f32;text-decoration:none}.sources-card a:hover{text-decoration:underline;text-underline-offset:4px}.sources-card p{font:400 13px/1.65 "DM Sans",sans-serif;color:#51453f;margin:10px 0}.sources-card small{font:700 9px "DM Sans",sans-serif;letter-spacing:.1em;color:#986e42}@media(max-width:700px){.sources-list{grid-template-columns:1fr}}
+
+.sources-group{min-width:0}.sources-group h3{margin:22px 0 10px;font:700 12px "DM Sans",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#641f32}.sources-group:first-child h3{margin-top:0}.sources-group-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.sources-card{padding:14px 16px}.sources-card p{margin:7px 0 0}.sources-card a{font-size:16px}@media(max-width:700px){.sources-group-list{grid-template-columns:1fr}}
