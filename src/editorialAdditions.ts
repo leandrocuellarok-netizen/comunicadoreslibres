@@ -26,8 +26,26 @@ export const editorialAdditions = [
     imageAlt: "Actividad recreativa de verano en una pileta municipal de Escobar",
     imageCredit: "Pileta municipal de Escobar. Fotografía: Municipalidad de Escobar.",
     sources: ["https://www.escobar.gob.ar/noticias/escobar-abre-la-inscripcion-para-la-colonia-de-verano-2027-y-anuncia-l/"]
-  }
-,
+  },
+  {
+    "id": "vilanova-group-martin-fierro-danza-2026",
+    "title": "Vilanova Group acompaña los Martín Fierro de la Danza 2026 y apuesta por la cultura argentina",
+    "excerpt": "La organización se suma a la segunda edición de los premios impulsados por APTRA, que tendrá su ceremonia principal el 6 de diciembre en Goldencenter Eventos y una gala de cierre el día 7 en el Palacio Libertad.",
+    "category": "Empresas y negocios",
+    "body": "Vilanova Group anunció su acompañamiento a la segunda edición de los Martín Fierro de la Danza 2026, una iniciativa destinada a reconocer el trabajo de bailarines, coreógrafos, academias, docentes y producciones vinculadas con la danza argentina.\\n\\nLa ceremonia principal tendrá lugar el domingo 6 de diciembre en Goldencenter Eventos, ubicado en el complejo Parque Norte, en la Ciudad de Buenos Aires. La convocatoria está prevista para las 20:00. La alfombra roja comenzará a las 19:30 y la ceremonia televisada por Ciudad Magazine está anunciada para las 21:00. La entrega de estatuillas y los cuadros artísticos se desarrollarán aproximadamente desde las 21:30.\\n\\nLa programación continuará el lunes 7 de diciembre en el Palacio Libertad, donde se realizará una gala de cierre con la participación de los ganadores y la entrega del Martín Fierro de Oro.\\n\\nUNA CELEBRACIÓN DEL TALENTO Y LA DIVERSIDAD DE LA DANZA ARGENTINA\\n\\nLos Martín Fierro de la Danza buscan reconocer la diversidad de expresiones que forman parte del universo coreográfico nacional. La convocatoria contempla distintas categorías y edades, con participación de disciplinas como folclore, danza árabe, contemporánea y urbana, entre otras.\\n\\nLa propuesta también incorpora una perspectiva federal mediante audiciones y actividades en distintas localidades del país. De esta manera, busca ampliar la participación y dar visibilidad a artistas, academias y comunidades que desarrollan su actividad más allá de los principales centros urbanos.\\n\\nVILANOVA GROUP: COMUNICACIÓN, FORMACIÓN, INNOVACIÓN Y CULTURA\\n\\nEl acompañamiento a esta edición forma parte de la línea institucional de Vilanova Group, un ecosistema de proyectos vinculado con la comunicación, la formación, la innovación y el desarrollo de iniciativas culturales.\\n\\nDesde la organización consideran que la cultura constituye una dimensión fundamental de la identidad argentina y que el reconocimiento del talento nacional contribuye al fortalecimiento de las industrias creativas, la producción artística y las oportunidades de desarrollo profesional.\\n\\nEn ese marco, el respaldo a los Martín Fierro de la Danza representa una forma de acompañar iniciativas que promueven el trabajo de artistas y profesionales de distintas regiones del país. Vilanova Group también proyecta continuar apoyando esta propuesta durante 2027.\\n\\nIDENTIDAD NACIONAL Y FEDERALISMO CULTURAL\\n\\nLa danza reúne tradiciones, lenguajes y expresiones contemporáneas que forman parte del patrimonio cultural argentino. Desde las manifestaciones folclóricas hasta las nuevas tendencias urbanas, cada disciplina expresa experiencias, historias e identidades que enriquecen la vida cultural del país.\\n\\nEl desarrollo de reconocimientos de alcance federal permite visibilizar el trabajo de quienes sostienen la actividad artística en academias, escenarios, espacios educativos y comunidades de todo el territorio nacional. La participación de organizaciones y empresas en estas iniciativas también contribuye a fortalecer los vínculos entre el sector privado y la producción cultural.\\n\\nLa segunda edición tendrá dos momentos centrales: la ceremonia de premiación del domingo 6 de diciembre en Goldencenter Eventos y la gala de cierre del lunes 7 en el Palacio Libertad, donde se reunirán los ganadores y se entregará el Martín Fierro de Oro. Con su acompañamiento a la edición 2026 y su proyección hacia 2027, Vilanova Group se suma a una celebración que pone en el centro a los artistas, el trabajo cultural y la diversidad de expresiones que integran la identidad argentina.\\n\\nMás información: Instagram oficial de los Martín Fierro de la Danza: https://www.instagram.com/martin.fierro.danza/?hl=es | Publicación audiovisual: https://www.instagram.com/reel/DfgDSCtxL7u/?hl=fr | Vilanova Group en LinkedIn: https://www.linkedin.com/company/vilanovagroupai | Goldencenter Eventos: https://www.goldencenter.com.ar/ | Palacio Libertad: https://palaciolibertad.gob.ar/agenda/",
+    "author": "Redacción · Comunicadores Libres",
+    "date": "2026-11-24",
+    "published": true,
+    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=1200",
+    "imageAlt": "Bailarines en una presentación de danza sobre el escenario",
+    "imageCredit": "Imagen ilustrativa. Unsplash.",
+    "sources": [
+      "https://www.instagram.com/martin.fierro.danza/?hl=es",
+      "https://nord24.com.ar/el-martin-fierro-a-la-danza-prepara-su-segunda-edicion-con-presencia-correntina-y-una-gala-federal/",
+      "https://www.goldencenter.com.ar/",
+      "https://palaciolibertad.gob.ar/agenda/"
+    ]
+  },
   {
     "id": "b1",
     "title": "RIGI: una segunda ronda busca conectar a 2.000 proveedores con grandes compradores",
