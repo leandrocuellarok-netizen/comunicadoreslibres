@@ -62,3 +62,6 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
 .founders-marquee-group img{width:37px;height:37px;object-fit:contain;border:1px solid rgba(215,183,127,.55);border-radius:50%;padding:4px}
 @keyframes founders-marquee-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media(prefers-reduced-motion:reduce){.founders-marquee-track{animation:none}}
+
+/* Organización editorial: destacadas, últimas y archivo */
+.editor-hint{display:block;color:#897b6e;font-size:11px;line-height:1.6;margin:8px 0 18px}.home-featured,.section-featured{background:#eee7dc}.home-featured .article-card,.section-featured .article-card{border-top:3px solid #a77a42}.home-archive,.section-archive{border-top:1px solid #ded4c7}.section-latest,.section-archive{padding-top:45px;padding-bottom:45px}.home-featured .cards,.home-archive .cards,.section-featured .cards,.section-latest .cards,.section-archive .cards{align-items:stretch}
