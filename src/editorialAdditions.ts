@@ -38,13 +38,7 @@ export const editorialAdditions = [
     "published": true,
     "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=1600&auto=format&fit=crop&q=85",
     "imageAlt": "Bailarines en escena durante una presentación de danza; imagen ilustrativa de la actividad artística.",
-    "imageCredit": "Imagen ilustrativa: Unsplash.",
-    "sources": [
-      "https://www.instagram.com/martin.fierro.danza/",
-      "https://nord24.com.ar/el-martin-fierro-a-la-danza-prepara-su-segunda-edicion-con-presencia-correntina-y-una-gala-federal/",
-      "https://www.goldencenter.com.ar/",
-      "https://palaciolibertad.gob.ar/agenda/"
-    ]
+    "imageCredit": "Imagen ilustrativa: Unsplash."
   },
   {
     "id": "b1",
