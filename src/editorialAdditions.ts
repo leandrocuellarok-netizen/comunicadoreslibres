@@ -1,3 +1,5 @@
+import martinFierro2026Image from "./assets/LEANDROCUELLAR-VILANOVAGROUP-MARTINFIERRO2026.png";
+
 export const editorialAdditions = [
   {
     id: "agenda-argentina-italia-defensa-2026-11-18",
@@ -36,9 +38,9 @@ export const editorialAdditions = [
     "author": "Redacción · Comunicadores Libres",
     "date": "2026-11-24",
     "published": true,
-    "image": "/src/assets/LEANDROCUELLAR-VILANOVAGROUP-MARTINFIERRO2026.png",
-    "imageAlt": "Bailarines en escena durante una presentación de danza; imagen ilustrativa de la actividad artística.",
-    "imageCredit": "Imagen ilustrativa: Unsplash."
+    "image": martinFierro2026Image,
+    "imageAlt": "Leandro Cuellar y Vilanova Group en el marco de los Premios Martín Fierro de la Danza 2026.",
+    "imageCredit": "Imagen institucional de Vilanova Group para los Premios Martín Fierro de la Danza 2026."
   },
   {
     "id": "b1",
