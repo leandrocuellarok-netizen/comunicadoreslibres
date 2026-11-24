@@ -48,3 +48,17 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
 .linkedin-follow{grid-column:1/-1;display:inline-flex;align-items:center;gap:10px;width:max-content;margin:8px 0 20px;padding:12px 17px;border:1px solid #8ab4d8;background:#0a66c2;color:#fff;text-decoration:none;font:700 11px 'DM Sans',sans-serif;letter-spacing:.08em;transition:background .2s,border-color .2s}
 .linkedin-follow:hover{background:#004182;border-color:#004182}
 .linkedin-follow svg{flex:0 0 auto}
+
+/* Convocatoria editorial a sponsors y miembros fundadores */
+.founders-marquee{position:relative;overflow:hidden;background:#641f32;color:#f4ead9;border-top:1px solid #a77a42;border-bottom:1px solid #a77a42;padding:17px 0}
+.founders-marquee:before,.founders-marquee:after{content:"";position:absolute;z-index:2;top:0;bottom:0;width:5%;pointer-events:none}
+.founders-marquee:before{left:0;background:linear-gradient(90deg,#641f32,transparent)}
+.founders-marquee:after{right:0;background:linear-gradient(270deg,#641f32,transparent)}
+.founders-marquee-track{display:flex;width:max-content;animation:founders-marquee-scroll 38s linear infinite}
+.founders-marquee:hover .founders-marquee-track{animation-play-state:paused}
+.founders-marquee-group{display:flex;align-items:center;gap:28px;padding-right:28px;white-space:nowrap}
+.founders-kicker{font:700 9px 'DM Sans',sans-serif;letter-spacing:.22em;color:#d7b77f}
+.founders-copy{font:700 clamp(13px,1.5vw,18px) 'Playfair Display',Georgia,serif;letter-spacing:.075em}
+.founders-marquee-group img{width:37px;height:37px;object-fit:contain;border:1px solid rgba(215,183,127,.55);border-radius:50%;padding:4px}
+@keyframes founders-marquee-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.founders-marquee-track{animation:none}}
