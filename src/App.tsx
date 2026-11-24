@@ -54,7 +54,7 @@ export default function App() {
  const [form,setForm] = useState<Article>({id:'',title:'',category:categories[0],author:'',date:new Date().toISOString().slice(0,10),excerpt:'',body:'',published:false});
  const [unlocked,setUnlocked] = useState(false);
  useEffect(()=>{let alive=true; supabase.auth.getSession().then(({data})=>{if(alive)setSession(data.session)}); const {data:{subscription}}=supabase.auth.onAuthStateChange((_event,next)=>setSession(next)); return()=>{alive=false;subscription.unsubscribe()}},[]);
- useEffect(()=>{let alive=true; (async()=>{const {data,error}=await supabase.from('articles').select('*').order('date',{ascending:false});if(!alive)return;if(!error&&data)setArticles(data as Article[]);else console.error('Supabase:',error?.message)})();return()=>{alive=false}},[]);
+ useEffect(()=>{let alive=true; (async()=>{const {data,error}=await supabase.from('articles').select('*').order('date',{ascending:false});if(!alive)return;if(!error&&data){const cms=data as Article[];setArticles(current=>{const localOnly=current.filter(a=>!cms.some(c=>c.id===a.id));return [...cms,...localOnly].sort((a,b)=>b.date.localeCompare(a.date));});}else console.error('Supabase:',error?.message)})();return()=>{alive=false}},[]);
  useEffect(()=>{localStorage.setItem('cl_articles',JSON.stringify(articles));},[articles]);
  const signIn=async()=>{setBusy(true);setAuthError('');const {error}=await supabase.auth.signInWithPassword({email:authEmail,password:authPassword});if(error)setAuthError(error.message);setBusy(false)};
  const signOut=async()=>{await supabase.auth.signOut();setUnlocked(false)};
