@@ -1,4 +1,5 @@
 name: Deploy to GitHub Pages
+# Force rebuild after updating the Martín Fierro article image
 
 on:
   schedule:
