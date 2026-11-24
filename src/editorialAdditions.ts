@@ -36,7 +36,7 @@ export const editorialAdditions = [
     "author": "Redacción · Comunicadores Libres",
     "date": "2026-11-24",
     "published": true,
-    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=1600&auto=format&fit=crop&q=85",
+    "image": "/src/assets/LEANDROCUELLAR-VILANOVAGROUP-MARTINFIERRO2026.png",
     "imageAlt": "Bailarines en escena durante una presentación de danza; imagen ilustrativa de la actividad artística.",
     "imageCredit": "Imagen ilustrativa: Unsplash."
   },
