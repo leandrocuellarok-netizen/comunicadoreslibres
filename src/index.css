@@ -42,3 +42,9 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
 .sources-group{min-width:0}.sources-group h3{margin:22px 0 10px;font:700 12px "DM Sans",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#641f32}.sources-group:first-child h3{margin-top:0}.sources-group-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.sources-card{padding:14px 16px}.sources-card p{margin:7px 0 0}.sources-card a{font-size:16px}@media(max-width:700px){.sources-group-list{grid-template-columns:1fr}}
 
 
+
+
+/* Integración de LinkedIn en el pie del sitio */
+.linkedin-follow{grid-column:1/-1;display:inline-flex;align-items:center;gap:10px;width:max-content;margin:8px 0 20px;padding:12px 17px;border:1px solid #8ab4d8;background:#0a66c2;color:#fff;text-decoration:none;font:700 11px 'DM Sans',sans-serif;letter-spacing:.08em;transition:background .2s,border-color .2s}
+.linkedin-follow:hover{background:#004182;border-color:#004182}
+.linkedin-follow svg{flex:0 0 auto}
