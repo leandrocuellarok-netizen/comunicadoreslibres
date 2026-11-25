@@ -94,7 +94,7 @@ for (const article of articles) {
   html = html.replace(/<meta property="og:description" content="[^"]*"\s*\/>/, `<meta property="og:description" content="${escapeHtml(description)}" />`);
   html = html.replace(/<meta property="og:url" content="[^"]*"\s*\/>/, `<meta property="og:url" content="${canonical}" />`);
   html = html.replace(/<meta property="og:image" content="[^"]*"\s*\/>/, `<meta property="og:image" content="${escapeHtml(image)}" />`);
-  html = html.replace('</head>', `<script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>\\n  </head>`);
+  html = html.replace('</head>', `<script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>\n  </head>`);
 
   const outputDir = path.join('dist', category, slug);
   await fs.mkdir(outputDir, { recursive: true });
@@ -106,6 +106,6 @@ const sitemapEntries = [
   `  <url><loc>${SITE}/</loc></url>`,
   ...generatedUrls.map(item => `  <url><loc>${item.url}</loc>${item.date ? `<lastmod>${item.date}</lastmod>` : ''}</url>`)
 ];
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n${sitemapEntries.join('\\n')}\\n</urlset>\\n`;
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapEntries.join('\n')}\n</urlset>\n`;
 await fs.writeFile('dist/sitemap.xml', sitemap, 'utf8');
 console.log(`Prerendered ${generatedUrls.length} published article pages and updated sitemap.xml.`);
