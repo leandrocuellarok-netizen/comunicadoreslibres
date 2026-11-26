@@ -56,13 +56,13 @@ const radarMainstream = [
 const radarStreaming = [
   { term:'SANTILLI', note:'Informe en el Senado · Carajo' },
   { term:'CAPUTO', note:'Defensa del rumbo económico · Carajo / Gelatina' },
-  { term:'RECESIÓN', note:'Cruce económico y lectura de la actividad · Gelatina / Blender' },
+  { term:'RECESIÓN', note:'Debate sobre actividad y recesión · Gelatina' },
   { term:'DÓLAR', note:'Tipo de cambio y explicación oficial · Carajo' },
   { term:'PASO', note:'Reforma electoral y escenario 2027 · Neura' },
   { term:'MACRI', note:'Entrevista y escenario político · Neura' },
-  { term:'GARRAHAN', note:'Cruces durante el informe de gestión · Carajo' },
+  { term:'ACTUALIDAD', note:'Noticias y policiales · Qué Día! · Blender' },
   { term:'YPF / RIGI', note:'Proyecto en Vaca Muerta · Carajo' },
-  { term:'FRAGATAS', note:'Compra de equipamiento naval a Italia · Carajo' },
+  { term:'DEFENSA / ITALIA', note:'Compra de fragatas y agenda naval · Carajo' },
   { term:'MILEI / LULA', note:'Relación bilateral y agenda regional · Carajo' }
 ];
 function RadarLane({number,title,subtitle,items,kind}:{number:string;title:string;subtitle:string;items:{term:string;note:string}[];kind:string}) {
