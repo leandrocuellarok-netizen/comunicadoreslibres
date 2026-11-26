@@ -45,7 +45,19 @@ for (const article of articles) {
   if (!slug) continue;
   const title = article.seo_title || article.title;
   const description = article.seo_description || article.excerpt || article.title;
-  const image = article.og_image || article.image || `${SITE}/comunicadores-libres.png`;
+  let image = article.og_image || article.image || `${SITE}/comunicadores-libres.png`;
+  let articleImage = article.image || '';
+  if (typeof article.image === 'string' && article.image.startsWith('data:image/')) {
+    const match = article.image.match(/^data:(image\\/[a-zA-Z0-9.+-]+);base64,([\\s\\S]+)$/);
+    if (match) {
+      const extension = match[1] === 'image/webp' ? 'webp' : match[1] === 'image/png' ? 'png' : 'jpg';
+      const filename = `${slug}.${extension}`;
+      await fs.mkdir(path.join('dist', 'images'), { recursive: true });
+      await fs.writeFile(path.join('dist', 'images', filename), Buffer.from(match[2], 'base64'));
+      image = `${SITE}/images/${filename}`;
+      articleImage = `/images/${filename}`;
+    }
+  }
   const canonical = url;
   const published = article.date ? new Date(`${article.date}T12:00:00Z`).toISOString() : undefined;
   const schema = {
@@ -79,7 +91,7 @@ for (const article of articles) {
       <h1>${escapeHtml(article.title)}</h1>
       <p>Por ${escapeHtml(article.author || 'Redacción')}</p>
       <p><strong>${escapeHtml(article.excerpt || '')}</strong></p>
-      ${article.image ? `<figure><img src="${escapeHtml(article.image)}" alt="${escapeHtml(article.imageAlt || article.title)}"><figcaption>${escapeHtml(article.imageCredit || '')}</figcaption></figure>` : ''}
+      ${articleImage ? `<figure><img src="${escapeHtml(articleImage)}" alt="${escapeHtml(article.imageAlt || article.title)}"><figcaption>${escapeHtml(article.imageCredit || '')}</figcaption></figure>` : ''}
       <div>${paragraphHtml(article.body)}</div>
       ${sourceLinks}
     </article>
