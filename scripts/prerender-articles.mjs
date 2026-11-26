@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
+// Ensure embedded editorial images are emitted as local assets during each clean deployment.
 const SITE = 'https://libres.sbs';
 const SUPABASE_URL = 'https://mwnvsquprizeolucggod.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_R0uFamr_nC6XkcQ7gnRhDw_564yMB-C';
