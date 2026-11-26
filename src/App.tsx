@@ -81,7 +81,7 @@ function MediaRadar(){
       <div className="media-radar-header">
         <div className="media-radar-brandline"><span>VILANOVA AI SOLUTIONS</span><i>INTELIGENCIA MEDIÁTICA</i></div>
         <div className="media-radar-headrow"><div><p className="media-radar-kicker">COMUNICADORES LIBRES · OBSERVATORIO DE AGENDA</p><h2 id="media-radar-title">RADAR DE MEDIOS</h2><p className="media-radar-subtitle">INICIATIVA DE VILANOVA GROUP</p></div><div className="media-radar-window"><span className="media-radar-live"><b></b> CORTE DE 24 HORAS</span><strong>25 NOV · 09:05 — 26 NOV · 09:05</strong><small>HORA ARGENTINA (UTC−3)</small></div></div>
-      </header>
+      </div>
       <div className="media-radar-body">
         <div className="media-radar-tracked"><b>CONGLOMERADOS OBSERVADOS</b><span>Grupo Clarín · Grupo América · Grupo Indalo · La Nación · Grupo Octubre · Editorial Perfil · TXH Medios</span></div>
         <RadarLane number="01" title="GRANDES MEDIOS" subtitle="Palabras y ejes de la agenda publicada" items={radarMainstream} kind="radar-mainstream"/>
