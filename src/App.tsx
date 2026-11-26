@@ -83,6 +83,7 @@ function MediaRadar(){
         <div className="media-radar-headrow"><div><p className="media-radar-kicker">COMUNICADORES LIBRES · OBSERVATORIO DE AGENDA</p><h2 id="media-radar-title">RADAR DE MEDIOS</h2><p className="media-radar-subtitle">INICIATIVA DE VILANOVA GROUP</p></div><div className="media-radar-window"><span className="media-radar-live"><b></b> CORTE DE 24 HORAS</span><strong>25 NOV · 09:05 — 26 NOV · 09:05</strong><small>HORA ARGENTINA (UTC−3)</small></div></div>
       </header>
       <div className="media-radar-body">
+        <div className="media-radar-tracked"><b>CONGLOMERADOS OBSERVADOS</b><span>Grupo Clarín · Grupo América · Grupo Indalo · La Nación · Grupo Octubre · Editorial Perfil · TXH Medios</span></div>
         <RadarLane number="01" title="GRANDES MEDIOS" subtitle="Palabras y ejes de la agenda publicada" items={radarMainstream} kind="radar-mainstream"/>
         <RadarLane number="02" title="STREAMS" subtitle="Conversaciones y temas de Luzu TV y OLGA" items={radarStreaming} kind="radar-streaming"/>
         <div className="media-radar-footer"><span>OBSERVACIÓN EDITORIAL · NO ES UN RANKING DE AUDIENCIA</span><div><a href="https://www.clarin.com/" target="_blank" rel="noreferrer">CLARÍN</a><a href="https://www.lanacion.com.ar/" target="_blank" rel="noreferrer">LA NACIÓN</a><a href="https://www.perfil.com/" target="_blank" rel="noreferrer">PERFIL</a><a href="https://prim.profblu.com/c/luzu-tv" target="_blank" rel="noreferrer">LUZU</a><a href="https://prim.profblu.com/c/olga" target="_blank" rel="noreferrer">OLGA</a></div></div>
