@@ -66,7 +66,7 @@ const radarStreaming = [
   { term:'RECESIÓN', note:'Amanece que no es poco · OLGA' }
 ];
 function RadarLane({number,title,subtitle,items,kind}:{number:string;title:string;subtitle:string;items:{term:string;note:string}[];kind:string}) {
-  return <section className={\`radar-lane \${kind}\`} aria-label={title}>
+  return <section className={"radar-lane " + kind} aria-label={title}>
     <div className="radar-lane-title"><span className="radar-lane-number">{number}</span><div><h3>{title}</h3><p>{subtitle}</p></div><span className="radar-lane-count">10 TÉRMINOS</span></div>
     <div className="radar-marquee"><div className="radar-track">
       {[0,1].map(copy=><div className="radar-track-group" key={copy} aria-hidden={copy===1}>
