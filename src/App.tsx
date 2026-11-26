@@ -42,7 +42,7 @@ function WorldClock(){const [now,setNow]=useState(new Date());useEffect(()=>{con
 function Markets(){const [rates,setRates]=useState<Array<{casa:string;venta:number;nombre:string}>>([]);useEffect(()=>{fetch('https://dolarapi.com/v1/dolares').then(r=>r.ok?r.json():Promise.reject()).then((data:Array<{casa:string;venta:number}>)=>setRates(data.filter(x=>['oficial','blue','bolsa','contadoconliqui'].includes(x.casa)).map(x=>({...x,nombre:x.casa==='bolsa'?'MEP':x.casa==='contadoconliqui'?'CCL':x.casa.toUpperCase()})))).catch(()=>setRates([]));},[]);return <aside className="market-panel"><div className="widget-title"><span>MERCADOS & IA</span><small>COTIZACIONES EN VIVO</small></div><p className="market-intro">Acciones de empresas vinculadas al desarrollo de inteligencia artificial y tecnología.</p><iframe title="Cotizaciones de acciones tecnológicas" src="https://s.tradingview.com/embed-widget/market-quotes/?locale=es#%7B%22width%22%3A%22100%25%22%2C%22height%22%3A310%2C%22symbolsGroups%22%3A%5B%7B%22name%22%3A%22Inteligencia%20artificial%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22NASDAQ%3ANVDA%22%7D%2C%7B%22name%22%3A%22NASDAQ%3AMSFT%22%7D%2C%7B%22name%22%3A%22NASDAQ%3AGOOG%22%7D%2C%7B%22name%22%3A%22NASDAQ%3ASPCX%22%7D%2C%7B%22name%22%3A%22NASDAQ%3AANT%22%7D%2C%7B%22name%22%3A%22NASDAQ%3AAMZN%22%7D%2C%7B%22name%22%3A%22NASDAQ%3AMETA%22%7D%5D%7D%5D%2C%22showSymbolLogo%22%3Atrue%2C%22isTransparent%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22showChart%22%3Afalse%2C%22showFloatingTooltip%22%3Afalse%2C%22fontSize%22%3A11%2C%22width%22%3A%22100%25%22%7D" loading="lazy" /> <div className="usd-box"><span>VALOR DEL DÓLAR · USD / ARS</span>{rates.length? <div className="rates-grid">{rates.map(r=><div key={r.casa}><small>{r.nombre}</small><strong>$ {r.venta.toLocaleString('es-AR')}</strong></div>)}</div>:<a href="https://dolarapi.com/" target="_blank" rel="noreferrer">Consultar cotizaciones USD / ARS ↗</a>}<small>Actualización provista por DolarApi. Valores de referencia, sujetos a cambios.</small></div><small className="market-source">Datos de mercado provistos por TradingView.</small></aside>}
 
 const radarMainstream = [
-  { term:'MILEI', note:'Paraguay, Mercosur y rumbo político · La Nación' },
+  { term:'MILEI', note:'Viaje a Paraguay y agenda regional · La Nación' },
   { term:'SANTILLI', note:'Primer informe de gestión en el Senado · Clarín / TN / C5N' },
   { term:'SENADO', note:'Sesión, ludopatía y cruces con la oposición · Clarín / La Nación' },
   { term:'PASO', note:'Reforma electoral y posible suspensión · La Nación / C5N' },
@@ -59,8 +59,8 @@ const radarStreaming = [
   { term:'RECESIÓN', note:'Cruce económico y lectura de la actividad · Gelatina / Blender' },
   { term:'DÓLAR', note:'Tipo de cambio y explicación oficial · Carajo' },
   { term:'PASO', note:'Reforma electoral y escenario 2027 · Neura' },
-  { term:'BULLRICH', note:'Tensión interna y mesa política · Neura / actualidad' },
-  { term:'EMPLEO', note:'Mercado laboral y agenda de actualidad · Neura' },
+  { term:'MACRI', note:'Entrevista y escenario político · Neura' },
+  { term:'GARRAHAN', note:'Cruces durante el informe de gestión · Carajo' },
   { term:'YPF / RIGI', note:'Proyecto en Vaca Muerta · Carajo' },
   { term:'FRAGATAS', note:'Compra de equipamiento naval a Italia · Carajo' },
   { term:'MILEI / LULA', note:'Relación bilateral y agenda regional · Carajo' }
