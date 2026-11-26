@@ -38,6 +38,7 @@ export const editorialAdditions = [
     "author": "Redacción · Comunicadores Libres",
     "date": "2026-11-24",
     "published": true,
+    "featured": true,
     "image": martinFierro2026Image,
     "imageAlt": "Leandro Cuellar y Vilanova Group en el marco de los Premios Martín Fierro de la Danza 2026.",
     "imageCredit": "Imagen institucional de Vilanova Group para los Premios Martín Fierro de la Danza 2026."
