@@ -48,7 +48,7 @@ for (const article of articles) {
   let image = article.og_image || article.image || `${SITE}/comunicadores-libres.png`;
   let articleImage = article.image || '';
   if (typeof article.image === 'string' && article.image.startsWith('data:image/')) {
-    const match = article.image.match(/^data:(image\\/[a-zA-Z0-9.+-]+);base64,([\\s\\S]+)$/);
+    const match = article.image.match(/^data:(image\/[a-zA-Z0-9.+-]+);base64,([\s\S]+)$/);
     if (match) {
       const extension = match[1] === 'image/webp' ? 'webp' : match[1] === 'image/png' ? 'png' : 'jpg';
       const filename = `${slug}.${extension}`;
