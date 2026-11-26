@@ -122,3 +122,7 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
  .media-radar-footer{margin:20px 14px 0;align-items:flex-start;flex-direction:column}
  .media-radar-method{margin:9px 14px 0}
 }
+
+.media-radar-tracked{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:16px 30px 0;padding-bottom:14px;border-bottom:1px solid #d8cbb9;color:#807466;font:500 9px/1.6 'DM Sans',sans-serif}
+.media-radar-tracked b{color:#986e42;font-size:8px;letter-spacing:.14em}
+@media(max-width:720px){.media-radar-tracked{margin:13px 14px 0}}
