@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="1402" viewBox="0 0 1122 1402" role="img" aria-labelledby="title desc">
+<title id="title">Presentación de Comunicadores Seriales. Volumen 2</title>
+<desc id="desc">Presentación del libro el jueves 26 de noviembre a las 19 horas en el Teatro Seminari, Sala B, Mitre 451, Escobar. Entrada libre y gratuita.</desc>
+<defs>
+  <pattern id="mesh" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M12 1 L23 12 L12 23 L1 12 Z" fill="none" stroke="#252525" stroke-width="3"/><circle cx="12" cy="12" r="3" fill="#171717"/></pattern>
+  <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fffdec"/><stop offset="1" stop-color="#f5f0d7"/></linearGradient>
+  <linearGradient id="cover" x2="1" y2="1"><stop stop-color="#f9e77a"/><stop offset="1" stop-color="#dfc94f"/></linearGradient>
+</defs>
+<rect width="1122" height="1402" fill="url(#paper)"/>
+<text x="58" y="93" font-family="Arial,sans-serif" font-size="58" font-style="italic" font-weight="800" letter-spacing="2">Presentación de libro</text>
+<g fill="none" stroke="#111" stroke-width="3.8" font-family="Arial,sans-serif" font-weight="800" text-anchor="middle" letter-spacing="5">
+<text x="561" y="202" font-size="78">COMUNICADORES</text>
+<text x="561" y="291" font-size="78">SERIALES</text>
+<text x="561" y="369" font-size="53" stroke-width="2.4">VOLUMEN 2</text>
+</g>
+<rect x="68" y="395" width="986" height="120" rx="23" fill="#f01825" stroke="#111" stroke-width="5"/>
+<text x="561" y="452" fill="#fff" font-family="Arial,sans-serif" font-size="40" font-style="italic" font-weight="800" text-anchor="middle" letter-spacing="2">Teatro Seminari, Sala B, Mitre 451</text>
+<text x="561" y="493" fill="#fff" font-family="Arial,sans-serif" font-size="34" font-style="italic" font-weight="800" text-anchor="middle" letter-spacing="2">Escobar</text>
+<!-- Book cover -->
+<rect x="125" y="552" width="535" height="772" rx="3" fill="url(#cover)" stroke="#c7b34f" stroke-width="4"/>
+<path d="M139 552 V1324" stroke="#b8a346" stroke-width="8" opacity=".6"/>
+<g fill="none" stroke="#111" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" letter-spacing="3">
+<text x="392" y="633" font-size="48" stroke-width="2.5">COMUNICADORES</text>
+<text x="392" y="683" font-size="48" stroke-width="2.5">SERIALES</text>
+<text x="392" y="731" font-size="35" stroke-width="2">VOLUMEN 2</text>
+</g>
+<rect x="286" y="766" width="215" height="225" rx="28" fill="url(#mesh)" stroke="#111" stroke-width="3"/>
+<rect x="259" y="839" width="269" height="88" rx="17" fill="#f01925" stroke="#111" stroke-width="7"/>
+<text x="393" y="900" fill="#fff" stroke="#fff" stroke-width="1" font-family="Arial,sans-serif" font-weight="900" font-size="67" text-anchor="middle">AL AIRE</text>
+<g fill="#111" font-family="Arial,sans-serif" text-anchor="middle" font-weight="900" font-size="29" letter-spacing=".5">
+<text x="392" y="1033">JAVIER ARBUATTI</text>
+<text x="392" y="1074">SOFÍA BALDI</text>
+<text x="392" y="1115">FLORENCIA CASTRO</text>
+<text x="392" y="1156">EZEQUIEL CORBALÁN</text>
+<text x="392" y="1197">BETTY SPERANDIO</text>
+<text x="392" y="1238">ANDRÉS VIVACQUA</text>
+</g>
+<text x="392" y="1290" fill="#111" font-family="Georgia,serif" font-size="34" font-weight="bold" text-anchor="middle">RCE</text>
+<text x="392" y="1317" fill="#111" font-family="Arial,sans-serif" font-size="21" font-weight="800" letter-spacing="2" text-anchor="middle">EDICIONES</text>
+<!-- Date panel -->
+<rect x="695" y="647" width="308" height="650" rx="31" fill="none" stroke="#ed1b2b" stroke-width="5"/>
+<g fill="#111" font-family="Arial,sans-serif" font-weight="900" text-anchor="middle">
+<text x="849" y="744" font-size="44">Jueves 26</text>
+<text x="849" y="795" font-size="42">de</text>
+<text x="849" y="846" font-size="42">Noviembre</text>
+<path d="M727 884 H971" stroke="#ed1b2b" stroke-width="5" stroke-linecap="round"/>
+<text x="849" y="960" font-size="55" font-style="italic">19</text>
+<text x="849" y="1015" font-size="48" font-style="italic">Horas</text>
+<path d="M727 1054 H971" stroke="#ed1b2b" stroke-width="5" stroke-linecap="round"/>
+<text x="849" y="1120" font-size="42">Entrada</text>
+<text x="849" y="1168" font-size="42">libre y</text>
+<text x="849" y="1216" font-size="42">gratuita</text>
+<path d="M727 1250 H971" stroke="#ed1b2b" stroke-width="5" stroke-linecap="round"/>
+</g>
+</svg>
