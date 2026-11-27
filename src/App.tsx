@@ -45,11 +45,11 @@ const radarMainstream = [
   { term:'DEUDORES ALIMENTARIOS', note:'Registro nacional aprobado por unanimidad · Infobae / Noticias Argentinas' },
   { term:'FICHA LIMPIA', note:'Reforma electoral y límites a candidaturas · Noticias Argentinas' },
   { term:'VANDALISMO RURAL', note:'El Senado aprobó penas de hasta diez años · Noticias Argentinas' },
-  { term:'BATERÍAS EN MASCHWITZ', note:'Sujarchuk suspendió por 60 días las obras de Genneia · El Diario / Que Pasa' },
-  { term:'RONDA DE NEGOCIOS', note:'Escobar reunió a 277 empresas de la Provincia · El Diario de Escobar' },
-  { term:'ESCUELA TÉCNICA N°4', note:'Garín abrió inscripción para sorteo de vacantes · El Diario de Escobar' },
+  { term:'PRESUPUESTO NACIONAL', note:'Debate fiscal, gasto público y prioridades del Gobierno · Cobertura nacional' },
+  { term:'INFLACIÓN Y PRECIOS', note:'Índice de precios, consumo y costo de vida · INDEC / grandes medios' },
+  { term:'EDUCACIÓN', note:'Universidades, financiamiento y debate educativo nacional · Grandes medios' },
   { term:'INDUSTRIA', note:'La producción fabril cayó 3% interanual en octubre · Noticias Argentinas' },
-  { term:'TRABAJO Y EMPLEO', note:'Despidos en Plantium y debate sobre actividad industrial · El Diario de Escobar' }
+  { term:'MERCADO LABORAL', note:'Empleo, salarios y actividad económica · INDEC / cobertura nacional' }
 ];
 const radarStreaming = [
   { term:'LUDOPATÍA Y APUESTAS', note:'Debate sobre regulación, menores y publicidad · Streams políticos' },
@@ -57,11 +57,11 @@ const radarStreaming = [
   { term:'SENADO EN VIVO', note:'Votaciones y acuerdos entre bloques · Cobertura política' },
   { term:'FICHA LIMPIA', note:'Candidaturas, transparencia y sistema electoral · Debate público' },
   { term:'ECONOMÍA REAL', note:'Industria, consumo y empleo · Agenda económica' },
-  { term:'PYMES', note:'Ronda de negocios y oportunidades productivas · Escobar' },
-  { term:'GENNEIA', note:'Suspensión de obras y discusión territorial · Maschwitz' },
-  { term:'EDUCACIÓN TÉCNICA', note:'Vacantes, robótica y formación tecnológica · Garín' },
+  { term:'PYMES Y ACTIVIDAD', note:'Producción, inversión y financiamiento empresarial · Debate económico nacional' },
+  { term:'ENERGÍA Y TARIFAS', note:'Inversiones, regulación y costo de los servicios · Agenda nacional' },
+  { term:'EDUCACIÓN Y UNIVERSIDADES', note:'Financiamiento, reformas y políticas educativas · Agenda nacional' },
   { term:'STREAMING POLÍTICO', note:'Actualidad y discusión ideológica · Gelatina / Blender / Neura / Carajo' },
-  { term:'AGENDA LOCAL', note:'Seguridad, salud, educación y gestión municipal · Escobar' }
+  { term:'AGENDA FEDERAL', note:'Gobiernos provinciales, políticas públicas y conflictos territoriales · Cobertura nacional' }
 ];
 function RadarLane({number,title,subtitle,items,kind}:{number:string;title:string;subtitle:string;items:{term:string;note:string}[];kind:string}) {
   return <section className={"radar-lane " + kind} aria-label={title}>
