@@ -215,3 +215,193 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
     line-height:1.55;
   }
 }
+
+
+/* Static category and article pages remain readable without the React application. */
+.prerendered-article,
+.prerendered-category {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: clamp(24px, 5vw, 64px) clamp(18px, 5vw, 56px);
+  color: #211c1b;
+}
+.prerendered-article > nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 0 0 34px;
+  font-size: 12px;
+  color: #786b60;
+}
+.prerendered-article a,
+.prerendered-category a {
+  color: #641f32;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.prerendered-article > article {
+  max-width: 780px;
+  margin: 0 auto;
+}
+.prerendered-article h1,
+.prerendered-category h1 {
+  margin: 12px 0 20px;
+  color: #641f32;
+  font: 700 clamp(34px, 5.5vw, 64px)/1.06 'Playfair Display', serif;
+  letter-spacing: -.035em;
+}
+.prerendered-article p {
+  font-size: 17px;
+  line-height: 1.8;
+  margin: 0 0 1.15em;
+}
+.prerendered-article figure {
+  margin: 28px 0;
+}
+.prerendered-article figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 620px;
+  object-fit: contain;
+}
+.prerendered-article figcaption {
+  margin-top: 8px;
+  color: #786b60;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.prerendered-article h2 {
+  margin: 28px 0 12px;
+  color: #641f32;
+  font: 700 24px/1.2 'Playfair Display', serif;
+}
+.prerendered-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d8cfc3;
+}
+.prerendered-brand {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-decoration: none !important;
+}
+.prerendered-brand i {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+.prerendered-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+}
+.prerendered-header nav a {
+  font-size: 11px;
+  font-weight: 700;
+}
+.prerendered-category__intro {
+  max-width: 760px;
+  margin: 54px auto 34px;
+}
+.prerendered-category__intro > p:last-child {
+  max-width: 640px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #65594f;
+}
+.prerendered-category__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+.prerendered-card {
+  min-width: 0;
+  overflow: hidden;
+  background: #eee7dc;
+  border: 1px solid #ded4c7;
+  border-radius: 8px;
+}
+.prerendered-card__link {
+  display: block;
+  height: 100%;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.prerendered-card__link > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #e2d9cd;
+}
+.prerendered-card__copy {
+  padding: 20px;
+}
+.prerendered-card__meta {
+  margin: 0 0 10px;
+  color: #8a6c4a;
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.prerendered-card h2 {
+  margin: 0 0 10px;
+  color: #641f32;
+  font: 700 25px/1.16 'Playfair Display', serif;
+}
+.prerendered-card__copy > p:not(.prerendered-card__meta) {
+  margin: 0 0 16px;
+  color: #51483f;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.prerendered-card__copy > span {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+.prerendered-empty {
+  grid-column: 1 / -1;
+  padding: 24px;
+  background: #eee7dc;
+  color: #65594f;
+}
+.prerendered-footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid #d8cfc3;
+  font-size: 13px;
+}
+@media (max-width: 680px) {
+  .prerendered-article,
+  .prerendered-category {
+    padding: 22px 16px 36px;
+  }
+  .prerendered-article p {
+    font-size: 16px;
+    line-height: 1.72;
+  }
+  .prerendered-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .prerendered-header nav {
+    gap: 8px 14px;
+  }
+  .prerendered-category__intro {
+    margin: 36px auto 24px;
+  }
+  .prerendered-category__grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .prerendered-card h2 {
+    font-size: 23px;
+  }
+}

@@ -8,7 +8,12 @@ type Article = { id: string; title: string; category: string; author: string; da
 const sectionPaths: Record<string,string> = {'Inicio':'','Agenda política':'agenda','Turismo, estilo de vida y gastronomía':'turismo-estilo-gourmet','Ciencia, tecnología e IA':'ciencia-ia','Empresas y negocios':'empresas-negocios','Economía y finanzas':'economia-finanzas','Comunicación, medios y redes':'comunicacion-medios'};
 const slugify = (value:string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const articleSlug = (a:Article) => a.slug || slugify(a.title);
-const sectionFromHash = () => { const slug=window.location.hash.replace(/^#\/?/,''); return Object.entries(sectionPaths).find(([,path])=>path===slug)?.[0] || 'Inicio'; };
+const sectionFromHash = () => {
+  const firstPart = window.location.hash.replace(/^#\/?/, '').split('/').filter(Boolean)[0] || '';
+  let routeSlug = firstPart;
+  try { routeSlug = decodeURIComponent(firstPart); } catch { /* Keep the original route segment. */ }
+  return Object.entries(sectionPaths).find(([,path])=>path===routeSlug)?.[0] || 'Inicio';
+};
 const categories = ['Agenda política','Turismo, estilo de vida y gastronomía','Ciencia, tecnología e IA','Empresas y negocios','Economía y finanzas','Comunicación, medios y redes'];
 const seed: Article[] = [
  { id:'a1', title:'La agenda pública también se construye desde las preguntas', category:'Agenda política', author:'Redacción', date:'2026-11-16', excerpt:'Ideas, decisiones y debates que marcan la conversación política en Argentina y la región.', body:'La agenda pública no es solamente una sucesión de anuncios. También es el espacio donde se discuten prioridades, se contrastan perspectivas y se exige responsabilidad a quienes toman decisiones. Comunicar política requiere contexto, pluralidad y capacidad de escuchar.', published:true },

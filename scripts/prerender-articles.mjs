@@ -57,6 +57,7 @@ for (const article of articles) {
       await fs.writeFile(path.join('dist', 'images', filename), Buffer.from(match[2], 'base64'));
       image = `${SITE}/images/${filename}`;
       articleImage = `/images/${filename}`;
+      article.image = articleImage;
     }
   }
   const canonical = url;
@@ -85,7 +86,7 @@ for (const article of articles) {
   const sourceLinks = Array.isArray(article.sources) && article.sources.length
     ? `<section><h2>Fuentes</h2><ul>${article.sources.map(source => `<li><a href="${escapeHtml(source)}" rel="nofollow noopener">${escapeHtml(source)}</a></li>`).join('')}</ul></section>`
     : '';
-  const articleHtml = `<main id="root"><article class="prerendered-article">
+  const articleHtml = `<div id="root"><main class="prerendered-article">
     <nav aria-label="Navegación"><a href="/">Comunicadores Libres</a> / ${escapeHtml(article.category)}</nav>
     <article>
       <p>${escapeHtml(article.category)} · ${escapeHtml(article.date || '')}</p>
@@ -96,7 +97,7 @@ for (const article of articles) {
       <div>${paragraphHtml(article.body)}</div>
       ${sourceLinks}
     </article>
-  </article></main>`;
+  </main></div>`;
 
   let html = baseHtml.replace('<div id="root"></div>', articleHtml);
   html = html.replace(/<title>[^<]*<\/title>/, `<title>${escapeHtml(title)} | Comunicadores Libres</title>`);
@@ -115,9 +116,88 @@ for (const article of articles) {
   generatedUrls.push({ url, date: article.date });
 }
 
+
+const categoryUrls = [];
+const categoryNavigation = Object.entries(CATEGORY_PATHS)
+  .map(([name, slug]) => '<a href="/' + slug + '/">' + escapeHtml(name) + '</a>')
+  .join('');
+
+for (const [category, categoryPath] of Object.entries(CATEGORY_PATHS)) {
+  const categoryArticles = articles
+    .filter(article => article.category === category)
+    .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+  const url = SITE + '/' + categoryPath + '/';
+  const description = 'Noticias, análisis y actualidad sobre ' + category.toLowerCase() + ' en Comunicadores Libres.';
+  const cards = categoryArticles.map(article => {
+    const articleLink = articleUrl(article).url;
+    const image = article.image
+      ? '<img src="' + escapeHtml(article.image) + '" alt="' + escapeHtml(article.imageAlt || article.title) + '" loading="lazy" decoding="async">'
+      : '';
+    return '<article class="prerendered-card">' +
+      '<a class="prerendered-card__link" href="' + escapeHtml(articleLink) + '">' +
+      image +
+      '<div class="prerendered-card__copy">' +
+      '<p class="prerendered-card__meta">' + escapeHtml(article.date || '') + ' · ' + escapeHtml(article.author || 'Redacción') + '</p>' +
+      '<h2>' + escapeHtml(article.title) + '</h2>' +
+      '<p>' + escapeHtml(article.excerpt || '') + '</p>' +
+      '<span>LEER ARTÍCULO ↗</span></div></a></article>';
+  }).join('\n');
+  const emptyState = '<p class="prerendered-empty">Esta sección todavía no tiene publicaciones disponibles.</p>';
+  const categorySchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: category,
+    description,
+    url,
+    isPartOf: { '@type': 'WebSite', name: 'Comunicadores Libres', url: SITE + '/' },
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: categoryArticles.map((article, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: article.title,
+        url: articleUrl(article).url
+      }))
+    }
+  };
+  const categoryMarkup =
+    '<div id="root"><main class="prerendered-category">' +
+    '<header class="prerendered-header">' +
+    '<a class="prerendered-brand" href="/">COMUNICADORES <i>LIBRES</i></a>' +
+    '<nav aria-label="Secciones">' + categoryNavigation + '</nav>' +
+    '</header>' +
+    '<section class="prerendered-category__intro">' +
+    '<p class="eyebrow">SECCIÓN EDITORIAL</p>' +
+    '<h1>' + escapeHtml(category) + '</h1>' +
+    '<p>' + escapeHtml(description) + '</p>' +
+    '</section>' +
+    '<section class="prerendered-category__grid" aria-label="Publicaciones">' +
+    (cards || emptyState) +
+    '</section>' +
+    '<footer class="prerendered-footer"><a href="/">Volver a Comunicadores Libres</a></footer>' +
+    '</main></div>';
+  let categoryHtml = baseHtml.replace('<div id="root"></div>', categoryMarkup);
+  categoryHtml = categoryHtml.replace(/<title>[^<]*<\/title>/, '<title>' + escapeHtml(category) + ' | Comunicadores Libres</title>');
+  categoryHtml = categoryHtml.replace(/<link rel="canonical" href="[^"]*"\s*\/>/, '<link rel="canonical" href="' + url + '" />');
+  categoryHtml = categoryHtml.replace(/<meta name="description" content="[^"]*"\s*\/>/, '<meta name="description" content="' + escapeHtml(description) + '" />');
+  categoryHtml = categoryHtml.replace(/<meta property="og:type" content="[^"]*"\s*\/>/, '<meta property="og:type" content="website" />');
+  categoryHtml = categoryHtml.replace(/<meta property="og:title" content="[^"]*"\s*\/>/, '<meta property="og:title" content="' + escapeHtml(category) + ' | Comunicadores Libres" />');
+  categoryHtml = categoryHtml.replace(/<meta property="og:description" content="[^"]*"\s*\/>/, '<meta property="og:description" content="' + escapeHtml(description) + '" />');
+  categoryHtml = categoryHtml.replace(/<meta property="og:url" content="[^"]*"\s*\/>/, '<meta property="og:url" content="' + url + '" />');
+  categoryHtml = categoryHtml.replace(
+    '</head>',
+    '<script type="application/ld+json">' + JSON.stringify(categorySchema).replace(/</g, '\\u003c') + '</script>\n  </head>'
+  );
+  const categoryDir = path.join('dist', categoryPath);
+  await fs.mkdir(categoryDir, { recursive: true });
+  await fs.writeFile(path.join(categoryDir, 'index.html'), categoryHtml, 'utf8');
+  categoryUrls.push({ url, date: categoryArticles[0]?.date || null });
+}
+
 const sitemapEntries = [
-  `  <url><loc>${SITE}/</loc></url>`,
-  ...generatedUrls.map(item => `  <url><loc>${item.url}</loc>${item.date ? `<lastmod>${item.date}</lastmod>` : ''}</url>`)
+  '  <url><loc>' + SITE + '/</loc></url>',
+  ...categoryUrls.filter(item => item.date).map(item => '  <url><loc>' + item.url + '</loc><lastmod>' + item.date + '</lastmod></url>'),
+  ...generatedUrls.map(item => '  <url><loc>' + item.url + '</loc>' + (item.date ? '<lastmod>' + item.date + '</lastmod>' : '') + '</url>')
 ];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapEntries.join('\n')}\n</urlset>\n`;
 await fs.writeFile('dist/sitemap.xml', sitemap, 'utf8');
