@@ -28,7 +28,7 @@ const articleUrl = article => {
   return { category, slug, url: `${SITE}/${category}/${slug}/` };
 };
 
-const paragraphHtml = body => String(body || '').split(/\n+/)
+const paragraphHtml = body => String(body || '').replace(/\\n/g, '\n').split(/\n+/)
   .map(part => part.trim()).filter(Boolean)
   .map(part => `<p>${escapeHtml(part)}</p>`).join('\n');
 

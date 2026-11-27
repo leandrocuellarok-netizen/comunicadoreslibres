@@ -28,6 +28,7 @@ const criticalHtml = await read('agenda/contacto-prensa-juan-carlos-giordano/ind
 assert.match(criticalHtml, /class="prerendered-article"/, 'Giordano article must be statically rendered');
 assert.ok(criticalHtml.includes('Contacto de prensa: diputado Juan Carlos Giordano e Izquierda Socialista'), 'Giordano title must be present before JavaScript');
 assert.ok(criticalHtml.includes('INFORMACIÓN PARA PERIODISTAS'), 'Giordano body must be present before JavaScript');
+assert.ok(criticalHtml.includes('<p>INFORMACIÓN PARA PERIODISTAS</p>'), 'Giordano escaped line breaks must render as separate paragraphs');
 assert.ok(criticalHtml.includes('href="' + criticalUrl + '"'), 'Giordano canonical must match its public URL');
 
 let articleCount = 0;
