@@ -40,28 +40,28 @@ const read = (): Article[] => { try { const v = localStorage.getItem('cl_article
 const cities = [{name:'ARGENTINA',zone:'America/Argentina/Buenos_Aires'},{name:'VENEZUELA',zone:'America/Caracas'},{name:'MÉXICO',zone:'America/Mexico_City'},{name:'EE.UU.',zone:'America/New_York'},{name:'CHINA',zone:'Asia/Shanghai'},{name:'FRANCIA',zone:'Europe/Paris'}];
 function WorldClock(){const [now,setNow]=useState(new Date());useEffect(()=>{const id=window.setInterval(()=>setNow(new Date()),1000);return()=>window.clearInterval(id)},[]);return <section className="clock-panel"><div className="widget-title"><span>RELOJ INTERNACIONAL</span><small>HORARIOS EN TIEMPO REAL</small></div><div className="clock-grid">{cities.map(c=><div className="clock-city" key={c.name}><span>{c.name}</span><strong>{new Intl.DateTimeFormat('es-AR',{timeZone:c.zone,hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(now)}</strong><small>{new Intl.DateTimeFormat('es-AR',{timeZone:c.zone,day:'2-digit',month:'short'}).format(now)}</small></div>)}</div></section>}
 const radarMainstream = [
-  { term:'MILEI', note:'Viaje a Paraguay y agenda regional · La Nación' },
-  { term:'SANTILLI', note:'Primer informe de gestión en el Senado · Clarín / TN / C5N' },
-  { term:'SENADO', note:'Sesión, ludopatía y cruces con la oposición · Clarín / La Nación' },
-  { term:'PASO', note:'Reforma electoral y posible suspensión · La Nación / C5N' },
-  { term:'PRESUPUESTO 2027', note:'Debate en Diputados y partidas sensibles · Clarín / La Nación' },
-  { term:'DÓLAR', note:'Cotización, mercados y riesgo país · Clarín / Ámbito' },
-  { term:'RECESIÓN', note:'Actividad y recorte de proyecciones del PBI · TN / El Cronista' },
-  { term:'CAPUTO', note:'Rumbo económico y causa Revolución Federal · Clarín / Página|12' },
-  { term:'CHINA / SWAP', note:'Uso de parte del acuerdo cambiario · Clarín' },
-  { term:'VIOLENCIA 25N', note:'Violencia de género y agenda pública · C5N / medios nacionales' }
+  { term:'LEY DE LUDOPATÍA', note:'El Senado convirtió en ley la prevención de apuestas online · Infobae / TN' },
+  { term:'SUSPENSIÓN DE LAS PASO', note:'El Senado aprobó cambios electorales para 2027 · Infobae / Noticias Argentinas' },
+  { term:'DEUDORES ALIMENTARIOS', note:'Registro nacional aprobado por unanimidad · Infobae / Noticias Argentinas' },
+  { term:'FICHA LIMPIA', note:'Reforma electoral y límites a candidaturas · Noticias Argentinas' },
+  { term:'VANDALISMO RURAL', note:'El Senado aprobó penas de hasta diez años · Noticias Argentinas' },
+  { term:'BATERÍAS EN MASCHWITZ', note:'Sujarchuk suspendió por 60 días las obras de Genneia · El Diario / Que Pasa' },
+  { term:'RONDA DE NEGOCIOS', note:'Escobar reunió a 277 empresas de la Provincia · El Diario de Escobar' },
+  { term:'ESCUELA TÉCNICA N°4', note:'Garín abrió inscripción para sorteo de vacantes · El Diario de Escobar' },
+  { term:'INDUSTRIA', note:'La producción fabril cayó 3% interanual en octubre · Noticias Argentinas' },
+  { term:'TRABAJO Y EMPLEO', note:'Despidos en Plantium y debate sobre actividad industrial · El Diario de Escobar' }
 ];
 const radarStreaming = [
-  { term:'SANTILLI', note:'Informe en el Senado · Carajo' },
-  { term:'CAPUTO', note:'Defensa del rumbo económico · Carajo / Gelatina' },
-  { term:'RECESIÓN', note:'Debate sobre actividad y recesión · Gelatina' },
-  { term:'DÓLAR', note:'Tipo de cambio y explicación oficial · Carajo' },
-  { term:'PASO', note:'Reforma electoral y escenario 2027 · Neura' },
-  { term:'MACRI', note:'Entrevista y escenario político · Neura' },
-  { term:'ACTUALIDAD', note:'Noticias y policiales · Qué Día! · Blender' },
-  { term:'YPF / RIGI', note:'Proyecto en Vaca Muerta · Carajo' },
-  { term:'DEFENSA / ITALIA', note:'Compra de fragatas y agenda naval · Carajo' },
-  { term:'MILEI / LULA', note:'Relación bilateral y agenda regional · Carajo' }
+  { term:'LUDOPATÍA Y APUESTAS', note:'Debate sobre regulación, menores y publicidad · Streams políticos' },
+  { term:'REFORMA ELECTORAL', note:'Suspensión de PASO y escenario 2027 · Agenda política' },
+  { term:'SENADO EN VIVO', note:'Votaciones y acuerdos entre bloques · Cobertura política' },
+  { term:'FICHA LIMPIA', note:'Candidaturas, transparencia y sistema electoral · Debate público' },
+  { term:'ECONOMÍA REAL', note:'Industria, consumo y empleo · Agenda económica' },
+  { term:'PYMES', note:'Ronda de negocios y oportunidades productivas · Escobar' },
+  { term:'GENNEIA', note:'Suspensión de obras y discusión territorial · Maschwitz' },
+  { term:'EDUCACIÓN TÉCNICA', note:'Vacantes, robótica y formación tecnológica · Garín' },
+  { term:'STREAMING POLÍTICO', note:'Actualidad y discusión ideológica · Gelatina / Blender / Neura / Carajo' },
+  { term:'AGENDA LOCAL', note:'Seguridad, salud, educación y gestión municipal · Escobar' }
 ];
 function RadarLane({number,title,subtitle,items,kind}:{number:string;title:string;subtitle:string;items:{term:string;note:string}[];kind:string}) {
   return <section className={"radar-lane " + kind} aria-label={title}>
@@ -78,7 +78,7 @@ function MediaRadar(){
     <div className="media-radar-frame">
       <div className="media-radar-header">
         <div className="media-radar-brandline"><span>VILANOVA AI SOLUTION</span><i>INTELIGENCIA MEDIÁTICA</i></div>
-        <div className="media-radar-headrow"><div><p className="media-radar-kicker">COMUNICADORES LIBRES · OBSERVATORIO DE AGENDA</p><h2 id="media-radar-title">RADAR DE MEDIOS</h2><p className="media-radar-subtitle">INICIATIVA DE VILANOVA GROUP</p></div><div className="media-radar-window"><span className="media-radar-live"><b></b> CORTE DE 24 HORAS</span><strong>25 NOV · 09:15 — 26 NOV · 09:15</strong><small>HORA ARGENTINA (UTC−3)</small></div></div>
+        <div className="media-radar-headrow"><div><p className="media-radar-kicker">COMUNICADORES LIBRES · OBSERVATORIO DE AGENDA</p><h2 id="media-radar-title">RADAR DE MEDIOS</h2><p className="media-radar-subtitle">INICIATIVA DE VILANOVA GROUP</p></div><div className="media-radar-window"><span className="media-radar-live"><b></b> CORTE DE 24 HORAS</span><strong>26 NOV · 10:30 — 27 NOV · 10:30</strong><small>HORA ARGENTINA (UTC−3)</small></div></div>
       </div>
       <div className="media-radar-body">
         <div className="media-radar-tracked"><b>CONGLOMERADOS OBSERVADOS</b><span>Grupo Clarín · Grupo América · Grupo Indalo · S.A. La Nación · Grupo Octubre · Editorial Perfil · TXH Medios</span></div>
