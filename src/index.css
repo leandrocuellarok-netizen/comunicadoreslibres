@@ -130,3 +130,88 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
 
 /* Embedded editorial video */
 .article-video{margin:2rem 0}.article-video h2{margin-bottom:1rem}.video-frame{position:relative;width:100%;aspect-ratio:16/9;background:#071326;overflow:hidden;border-radius:12px}.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.article-video p{margin-top:.75rem}
+
+
+/* Corrección editorial móvil: lectura de artículos y enlaces extensos */
+.article{
+  width:100%;
+  min-width:0;
+  overflow-wrap:anywhere;
+}
+.article h1,.article .lead,.article .bodycopy,.article .byline{
+  max-width:100%;
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+.article .bodycopy{
+  white-space:pre-wrap;
+  line-height:1.82;
+}
+.article .article-sources a,.article .bodycopy a,.article .byline a{
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+.article .event-visual,.article .event-visual img,.article .article-video,.article .video-frame{
+  max-width:100%;
+}
+@media(max-width:650px){
+  .article{
+    padding:28px 20px 56px;
+    margin:0 auto;
+  }
+  .article .back{
+    margin:0 0 28px;
+    padding:10px 0;
+    max-width:100%;
+    white-space:normal;
+    text-align:left;
+    line-height:1.5;
+  }
+  .article>.eyebrow{
+    font-size:9px;
+    line-height:1.6;
+    letter-spacing:.14em;
+  }
+  .article h1{
+    font-size:clamp(32px,8.5vw,40px);
+    line-height:1.08;
+    letter-spacing:-.025em;
+    margin:14px 0 16px;
+  }
+  .article .byline{
+    font-size:12px;
+    line-height:1.6;
+  }
+  .article .lead{
+    font-size:19px;
+    line-height:1.48;
+    margin:22px 0;
+  }
+  .article .bodycopy{
+    font-size:16px;
+    line-height:1.78;
+    margin:0 0 1.15em;
+  }
+  .article .event-visual{
+    margin:1.4rem 0 1.8rem;
+  }
+  .article .event-visual img{
+    height:auto;
+    max-height:none;
+    object-fit:contain;
+  }
+  .article .event-visual figcaption{
+    font-size:11px;
+    line-height:1.5;
+  }
+  .article .article-sources{
+    min-width:0;
+    max-width:100%;
+  }
+  .article .article-sources a{
+    display:inline-block;
+    max-width:100%;
+    font-size:14px;
+    line-height:1.55;
+  }
+}
