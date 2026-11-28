@@ -1,31 +1,37 @@
 # Comunicadores Libres — operational handoff
 
-Updated: 2026-11-28 00:34 ART  
-Application code: `86c6e29e17106e28237e8a8b04b77e5afcbedda1`  
-Handoff note added in commit: `e41bc4fc6c8d75f03b99cc2a6e9cc58d77297e31`  
-Latest verified application build/deploy: [run 46103357171](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46103357171), success. Artifact: `github-pages-46103357171-1`.
+Updated: 2026-11-28 01:25 ART
 
-## Confirmed implementation
-- Static article pages now include the site header, links to all six sections, and a category breadcrumb. Smoke tests check these links across all 43 published article pages.
-- The homepage now receives build-time static fallback content: publication intro, section navigation, up to four featured and four latest article cards. React replaces the fallback when startup succeeds; if the app import fails, the fallback remains readable.
-- Latest Typecheck, Vite build, prerender and smoke tests passed. The build generated 43 article pages and updated `sitemap.xml`.
-- Deploy action reported success for commit `86c6e29e17106e28237e8a8b04b77e5afcbedda1` and returned `https://libres.sbs/` as the Pages environment URL.
-- Artifact names remain unique per run and attempt. `CNAME` contains `libres.sbs`; `robots.txt` points to the sitemap.
+## Repository and deployment
+- Main application code previously deployed: `86c6e29e17106e28237e8a8b04b77e5afcbedda1`; GitHub Pages run [46103357171](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46103357171) succeeded; artifact `github-pages-46103357171-1` (4,760,727 bytes).
+- Latest source commits: `ee39e6e4bb8c2019ae011851ed8902d4103f81da` (initial X metadata insertion), `e5753cbf8b5ac6d5a90abd87ca4f6dce5f7ecffe` (corrected insertion), `0c094e82556bb032c45d64f6c59ce05d1d36c1a2` (added smoke assertions). Treat the latter as the intended source state; a transient malformed intermediate commit was corrected immediately.
+- Current source change adds `twitter:title`, `twitter:description`, `twitter:image`, `article:published_time`, and `article:section` to every prerendered article. Build smoke tests now require the X/Twitter values to match Open Graph values and check publication time and section.
+- A Node fixture test for the metadata insertion and assertions passed. Full repository build/CI for the new commits has not yet been independently confirmed. The available GitHub workflow-run connector does not return push-triggered runs; combined commit statuses returned no status contexts. Verify the latest run before treating the metadata change as deployed.
+- Workflow still uses unique artifact names `github-pages-${{ github.run_id }}-${{ github.run_attempt }}`, deploys the same artifact after the build job, and has `concurrency.cancel-in-progress: true`. Avoid rapid sequential commits because older runs may be cancelled.
+- `CNAME` contains `libres.sbs`; `public/robots.txt` points to `https://libres.sbs/sitemap.xml`.
 
-## Verification limits
-- Public HTTP, TLS, redirects and rendered browser behavior are still unverified. The web inspection tool could not open `libres.sbs`; the execution container also failed DNS resolution for `libres.sbs` and unrelated hosts including `github.com`. Do not infer a domain-specific outage from this.
-- GitHub Pages' deployment result is not proof that the custom domain is reachable from readers' networks.
+## Public verification limits
+- Attempts to open the home, Agenda, Giordano article, Ciencia e IA, Empresas y Negocios, and sitemap via web inspection failed.
+- Container DNS resolution failed for `libres.sbs`, `github.com`, and `google.com`. This is an environment-wide lookup failure; do not infer a domain-specific outage.
+- HTTP status, redirect chain, TLS/certificate, visual rendering, mobile/desktop layout, and public deployment content remain unverified. Latest independently confirmed deployment remains the 86c6e29 run above.
 
-## Supabase and editorial risks — no production changes made
-- `public.articles`: 43 published records, zero drafts. Five published articles have no image; all 38 records with images have non-empty alt text. Forty-two records have no custom `og_image`; the prerenderer uses the article image or publication logo fallback.
-- Article INSERT/UPDATE/DELETE policies currently grant access to any authenticated role. The SELECT policy also exposes unpublished records to any authenticated role. Storage write/update/delete policies likewise accept any authenticated user.
-- Image bucket `cl-article-images` is public-read and has no configured file-size or MIME allowlist.
-- Auth aggregate: one user; no `app_metadata.role=editor` or `admin` is currently set. Do not switch policies to an editor-role check until the intended account is assigned an admin-controlled role, or the owner may lose CMS access.
-- Supabase Security Advisor warns about `public.rls_auto_enable()` being SECURITY DEFINER and executable by anon/authenticated. It is attached to the `ensure_rls` DDL event trigger. Review and revoke unnecessary EXECUTE grants only with owner approval.
-- Leaked-password protection is disabled. No RLS, Auth, Storage, secret or production-record changes have been made.
-- 73 local-only published records remain absent from Supabase; ID collisions `e1` and `e2` remain unresolved. Do not migrate or publish them without approval.
+## Supabase content inventory — read-only checks at 01:26 ART
+- `public.articles`: 43 records, all published, zero drafts.
+- All published records have title, author, date, slug, and SEO description. No duplicate category/slug pairs, unknown categories, empty excerpts, or noncanonical slug characters were found.
+- Five published articles have no image. All 38 records with images have non-empty alt text. Forty-two records lack a custom `og_image`; the prerenderer falls back to the article image or publication logo.
+- No production editorial data was changed.
 
-## Maintenance
-- `npm ci` reports 26 vulnerabilities (2 low, 12 moderate, 12 high). Detailed `npm audit` findings have not yet been collected; no dependency upgrades have been applied.
-- GitHub Actions emits Node.js 20 deprecation warnings for current action versions. Builds still pass; review action upgrades separately.
-- Next priorities: (1) obtain owner approval and assign the intended editor role before preparing/applying a reversible RLS and Storage hardening migration; (2) collect detailed dependency audit output; (3) independently verify public HTTP/TLS and critical routes from a working external network; (4) add images only when authorized source material and usage rights are available.
+## Security and operational risks — no production changes
+- Article INSERT/UPDATE/DELETE policies allow any authenticated user. The SELECT policy allows any authenticated user to read unpublished records.
+- Storage write/update/delete policies allow any authenticated user in `cl-article-images`; the bucket is public-read and has no size or MIME restrictions configured.
+- Auth aggregate: one user; zero users currently have `app_metadata.role=editor` or `admin`. Do not apply role-gated policies until the intended account is assigned an admin-controlled role and the owner authorizes the migration.
+- Security Advisor continues to flag `public.rls_auto_enable()` as SECURITY DEFINER and executable by anon/authenticated, and leaked-password protection as disabled. Performance Advisor reports four RLS initialization-plan warnings on article policies.
+- 73 unique local-only published records remain absent from Supabase; ID collisions `e1` and `e2` remain unresolved. Do not migrate or publish them without approval.
+- `npm ci` previously reported 26 vulnerabilities (2 low, 12 moderate, 12 high). Detailed audit findings remain uncollected; no dependency upgrades have been applied.
+
+## Next actions
+1. Confirm the latest push-triggered build, smoke tests, artifact, and deployment for the current main head; do not equate a green workflow with public-domain verification.
+2. Retry public HTTP/TLS checks from an external network with working DNS.
+3. Obtain explicit owner approval and assign the intended editorial role before changing RLS, Auth, or Storage policies.
+4. Collect detailed dependency audit findings before changing packages.
+5. Reconcile the 73 local-only records and two ID collisions only after owner approval.
