@@ -41,6 +41,10 @@ const articles = await response.json();
 const baseHtml = await fs.readFile('dist/index.html', 'utf8');
 const generatedUrls = [];
 
+const categoryNavigation = Object.entries(CATEGORY_PATHS)
+  .map(([name, slug]) => '<a href="/' + slug + '/">' + escapeHtml(name) + '</a>')
+  .join('');
+
 for (const article of articles) {
   const { category, slug, url } = articleUrl(article);
   if (!slug) continue;
@@ -87,7 +91,11 @@ for (const article of articles) {
     ? `<section><h2>Fuentes</h2><ul>${article.sources.map(source => `<li><a href="${escapeHtml(source)}" rel="nofollow noopener">${escapeHtml(source)}</a></li>`).join('')}</ul></section>`
     : '';
   const articleHtml = `<div id="root"><main class="prerendered-article">
-    <nav aria-label="Navegación"><a href="/">Comunicadores Libres</a> / ${escapeHtml(article.category)}</nav>
+    <header class="prerendered-header">
+      <a class="prerendered-brand" href="/">COMUNICADORES <i>LIBRES</i></a>
+      <nav aria-label="Secciones">${categoryNavigation}</nav>
+    </header>
+    <nav aria-label="Migas de pan"><a href="/">Inicio</a> / <a href="/${category}/">${escapeHtml(article.category)}</a></nav>
     <article>
       <p>${escapeHtml(article.category)} · ${escapeHtml(article.date || '')}</p>
       <h1>${escapeHtml(article.title)}</h1>
@@ -118,10 +126,6 @@ for (const article of articles) {
 
 
 const categoryUrls = [];
-const categoryNavigation = Object.entries(CATEGORY_PATHS)
-  .map(([name, slug]) => '<a href="/' + slug + '/">' + escapeHtml(name) + '</a>')
-  .join('');
-
 for (const [category, categoryPath] of Object.entries(CATEGORY_PATHS)) {
   const categoryArticles = articles
     .filter(article => article.category === category)

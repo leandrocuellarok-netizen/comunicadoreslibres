@@ -26,6 +26,9 @@ const criticalUrl = SITE + '/agenda/contacto-prensa-juan-carlos-giordano/';
 assert.ok(urls.includes(criticalUrl), 'Published Giordano article must appear in sitemap');
 const criticalHtml = await read('agenda/contacto-prensa-juan-carlos-giordano/index.html');
 assert.match(criticalHtml, /class="prerendered-article"/, 'Giordano article must be statically rendered');
+assert.match(criticalHtml, /class="prerendered-header"/, 'Giordano article must include static section navigation');
+assert.ok(criticalHtml.includes('href="/agenda/"'), 'Giordano article must link back to its category');
+assert.ok(criticalHtml.includes('aria-label="Secciones"'), 'Giordano article navigation must be labelled');
 assert.ok(criticalHtml.includes('Contacto de prensa: diputado Juan Carlos Giordano e Izquierda Socialista'), 'Giordano title must be present before JavaScript');
 assert.ok(criticalHtml.includes('INFORMACIÓN PARA PERIODISTAS'), 'Giordano body must be present before JavaScript');
 assert.ok(criticalHtml.includes('<p>INFORMACIÓN PARA PERIODISTAS</p>'), 'Giordano escaped line breaks must render as separate paragraphs');
@@ -45,6 +48,8 @@ for (const url of urls) {
   if (segments.length === 2) {
     articleCount += 1;
     assert.match(html, /class="prerendered-article"/, 'Article must be readable without JavaScript: ' + url);
+    assert.match(html, /class="prerendered-header"/, 'Article must include static section navigation: ' + url);
+    assert.ok(html.includes('href="/' + segments[0] + '/"'), 'Article must link to its category: ' + url);
     assert.ok(schemas.some(schema => schema['@type'] === 'NewsArticle'), 'NewsArticle schema must exist: ' + url);
   } else if (segments.length === 1) {
     assert.match(html, /class="prerendered-category"/, 'Category must be statically rendered: ' + url);
