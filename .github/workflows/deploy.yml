@@ -97,3 +97,10 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Verify deployed public routes
+        timeout-minutes: 5
+        env:
+          SITE_URL: https://libres.sbs/
+          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+        run: node scripts/smoke-test-live.mjs
