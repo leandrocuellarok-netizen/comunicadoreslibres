@@ -57,6 +57,18 @@ for (const url of urls) {
     assert.match(html, /class="prerendered-header"/, 'Article must include static section navigation: ' + url);
     assert.ok(html.includes('href="/' + segments[0] + '/"'), 'Article must link to its category: ' + url);
     assert.ok(schemas.some(schema => schema['@type'] === 'NewsArticle'), 'NewsArticle schema must exist: ' + url);
+    assert.match(html, /<meta name="twitter:card" content="summary_large_image"\s*\/>/, 'Twitter card must use a large image: ' + url);
+    const twitterTitle = html.match(/<meta name="twitter:title" content="([^"]*)"\s*\/>/);
+    const twitterDescription = html.match(/<meta name="twitter:description" content="([^"]*)"\s*\/>/);
+    const twitterImage = html.match(/<meta name="twitter:image" content="([^"]*)"\s*\/>/);
+    const ogTitle = html.match(/<meta property="og:title" content="([^"]*)"\s*\/>/);
+    const ogDescription = html.match(/<meta property="og:description" content="([^"]*)"\s*\/>/);
+    const ogImage = html.match(/<meta property="og:image" content="([^"]*)"\s*\/>/);
+    assert.ok(twitterTitle && twitterTitle[1] === ogTitle?.[1], 'Twitter and Open Graph titles must match: ' + url);
+    assert.ok(twitterDescription && twitterDescription[1] === ogDescription?.[1], 'Twitter and Open Graph descriptions must match: ' + url);
+    assert.ok(twitterImage && twitterImage[1] === ogImage?.[1], 'Twitter and Open Graph images must match: ' + url);
+    assert.match(html, /<meta property="article:published_time" content="\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z"\s*\/>/, 'Article publication time must be explicit: ' + url);
+    assert.match(html, /<meta property="article:section" content="[^"]+"\s*\/>/, 'Article section metadata must be explicit: ' + url);
   } else if (segments.length === 1) {
     assert.match(html, /class="prerendered-category"/, 'Category must be statically rendered: ' + url);
     assert.ok(schemas.some(schema => schema['@type'] === 'CollectionPage'), 'CollectionPage schema must exist: ' + url);
