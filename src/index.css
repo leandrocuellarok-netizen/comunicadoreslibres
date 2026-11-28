@@ -219,7 +219,8 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
 
 /* Static category and article pages remain readable without the React application. */
 .prerendered-article,
-.prerendered-category {
+.prerendered-category,
+.prerendered-home-fallback {
   width: min(100%, 1120px);
   margin: 0 auto;
   padding: clamp(24px, 5vw, 64px) clamp(18px, 5vw, 56px);
@@ -245,7 +246,8 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
   margin: 0 auto;
 }
 .prerendered-article h1,
-.prerendered-category h1 {
+.prerendered-category h1,
+.prerendered-home-fallback h1 {
   margin: 12px 0 20px;
   color: #641f32;
   font: 700 clamp(34px, 5.5vw, 64px)/1.06 'Playfair Display', serif;
@@ -380,7 +382,8 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
 }
 @media (max-width: 680px) {
   .prerendered-article,
-  .prerendered-category {
+  .prerendered-category,
+  .prerendered-home-fallback {
     padding: 22px 16px 36px;
   }
   .prerendered-article p {
@@ -414,3 +417,7 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
 .institutional-card{max-width:620px;padding:18px 20px;background:rgba(255,255,255,.045);border:1px solid rgba(233,217,192,.22)}
 footer .institutional-card a{color:#f0d7a7;text-decoration:underline;text-underline-offset:3px;font:700 18px 'Playfair Display',Georgia,serif}
 footer .institutional-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-serif;color:#e9d9c0}
+
+
+.prerendered-home-section { margin: 42px auto; }
+.prerendered-home-section > h2 { margin: 8px 0 22px; color: #641f32; font: 700 clamp(26px, 3.5vw, 38px)/1.15 'Playfair Display', serif; }

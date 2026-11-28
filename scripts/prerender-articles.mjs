@@ -33,7 +33,7 @@ const paragraphHtml = body => String(body || '').replace(/\\n/g, '\n').split(/\n
   .map(part => `<p>${escapeHtml(part)}</p>`).join('\n');
 
 const response = await fetch(
-  `${SUPABASE_URL}/rest/v1/articles?select=id,title,category,author,date,excerpt,body,published,image,imageAlt,imageCredit,sources,seo_title,seo_description,slug,keywords,og_image,geo_region,geo_place&published=eq.true&order=date.desc`,
+  `${SUPABASE_URL}/rest/v1/articles?select=id,title,category,author,date,excerpt,body,published,featured,image,imageAlt,imageCredit,sources,seo_title,seo_description,slug,keywords,og_image,geo_region,geo_place&published=eq.true&order=date.desc`,
   { headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` } }
 );
 if (!response.ok) throw new Error(`Supabase articles query failed: ${response.status} ${await response.text()}`);
@@ -124,6 +124,49 @@ for (const article of articles) {
   generatedUrls.push({ url, date: article.date });
 }
 
+
+const renderHomeCards = list => list.map(article => {
+  const { category, slug } = articleUrl(article);
+  const image = article.image
+    ? '<img src="' + escapeHtml(article.image) + '" alt="' + escapeHtml(article.imageAlt || article.title) + '" loading="lazy" decoding="async">'
+    : '';
+  return '<article class="prerendered-card">' +
+    '<a class="prerendered-card__link" href="/' + category + '/' + slug + '/">' +
+    image +
+    '<div class="prerendered-card__copy">' +
+    '<p class="prerendered-card__meta">' + escapeHtml(article.date || '') + ' · ' + escapeHtml(article.author || 'Redacción') + '</p>' +
+    '<h2>' + escapeHtml(article.title) + '</h2>' +
+    '<p>' + escapeHtml(article.excerpt || '') + '</p>' +
+    '<span>LEER ARTÍCULO ↗</span></div></a></article>';
+}).join('\n');
+
+const homeFeatured = articles.filter(article => article.featured).slice(0, 4);
+const homeLatest = articles.filter(article => !article.featured).slice(0, 4);
+const homeEmpty = '<p class="prerendered-empty">Todavía no hay publicaciones disponibles.</p>';
+const homeMarkup = \`<div id="root"><main class="prerendered-home-fallback">
+  <header class="prerendered-header">
+    <a class="prerendered-brand" href="/">COMUNICADORES <i>LIBRES</i></a>
+    <nav aria-label="Secciones">\${categoryNavigation}</nav>
+  </header>
+  <section class="prerendered-category__intro">
+    <p class="eyebrow">UNA PLATAFORMA EDITORIAL INDEPENDIENTE</p>
+    <h1>Saber comunicar, buscar perspectivas y ser libres.</h1>
+    <p>El hogar digital de una comunidad que, desde Argentina, conecta ideas plurales y distintas perspectivas de destacados comunicadores argentinos e internacionales. También acercamos información directa desde San Luis a través de un corresponsal acreditado de Comunicadores Libres.</p>
+  </section>
+  <section class="prerendered-home-section">
+    <p class="eyebrow">SELECCIÓN EDITORIAL</p>
+    <h2>Noticias destacadas</h2>
+    <div class="prerendered-category__grid">\${renderHomeCards(homeFeatured) || homeEmpty}</div>
+  </section>
+  <section class="prerendered-home-section">
+    <p class="eyebrow">DESDE NUESTRA REDACCIÓN</p>
+    <h2>Últimas publicaciones</h2>
+    <div class="prerendered-category__grid">\${renderHomeCards(homeLatest) || homeEmpty}</div>
+  </section>
+  <footer class="prerendered-footer"><a href="/agenda/">Explorar publicaciones y agenda política</a></footer>
+</main></div>\`;
+const homeHtml = baseHtml.replace('<div id="root"></div>', homeMarkup);
+await fs.writeFile('dist/index.html', homeHtml, 'utf8');
 
 const categoryUrls = [];
 for (const [category, categoryPath] of Object.entries(CATEGORY_PATHS)) {

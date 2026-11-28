@@ -7,7 +7,13 @@ const DIST = path.resolve('dist');
 const read = relative => fs.readFile(path.join(DIST, relative), 'utf8');
 
 const home = await read('index.html');
-assert.match(home, /<div id="root"><\/div>/, 'Homepage root placeholder must exist');
+assert.match(home, /class="prerendered-home-fallback"/, 'Homepage must contain meaningful static fallback content');
+assert.match(home, /Saber comunicar, buscar perspectivas y ser libres\./, 'Homepage fallback must include the publication identity');
+assert.match(home, /class="prerendered-header"/, 'Homepage fallback must include section navigation');
+assert.match(home, /class="prerendered-card"/, 'Homepage fallback must include published article cards');
+assert.ok(home.includes('href="/agenda/"'), 'Homepage fallback must link to a section');
+const mainEntry = await fs.readFile(path.resolve('src/main.tsx'), 'utf8');
+assert.ok(mainEntry.includes("root.querySelector('.prerendered-home-fallback')"), 'Startup failure must preserve the homepage fallback');
 assert.match(home, /<link rel="canonical" href="https:\/\/libres\.sbs\/"\s*\/>/, 'Homepage canonical must be present');
 
 const sitemap = await read('sitemap.xml');

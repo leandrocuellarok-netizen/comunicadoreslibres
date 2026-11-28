@@ -31,7 +31,15 @@ if (root && !hasPrerenderedPage) {
     );
   }).catch(error => {
     console.error('No se pudo iniciar Comunicadores Libres:', error);
-    root.setAttribute('role', 'alert');
-    root.textContent = 'No se pudo cargar la aplicación. Actualizá la página o volvé al inicio.';
+    const fallback = root.querySelector('.prerendered-home-fallback');
+    if (fallback) {
+      const notice = document.createElement('p');
+      notice.setAttribute('role', 'alert');
+      notice.textContent = 'La versión interactiva no se pudo iniciar. Podés seguir leyendo las publicaciones con los enlaces de esta página.';
+      fallback.appendChild(notice);
+    } else {
+      root.setAttribute('role', 'alert');
+      root.textContent = 'No se pudo cargar la aplicación. Actualizá la página o volvé al inicio.';
+    }
   });
 }
