@@ -116,6 +116,15 @@ for (const article of articles) {
   html = html.replace(/<meta property="og:description" content="[^"]*"\s*\/>/, `<meta property="og:description" content="${escapeHtml(description)}" />`);
   html = html.replace(/<meta property="og:url" content="[^"]*"\s*\/>/, `<meta property="og:url" content="${canonical}" />`);
   html = html.replace(/<meta property="og:image" content="[^"]*"\s*\/>/, `<meta property="og:image" content="${escapeHtml(image)}" />`);
+  html = html.replace(/<meta name="twitter:card" content="[^"]*"\s*\/>/, '<meta name="twitter:card" content="summary_large_image" />');
+  const socialMetadata =
+    '<meta name="twitter:title" content="' + escapeHtml(title) + '" />\n' +
+    '<meta name="twitter:description" content="' + escapeHtml(description) + '" />\n' +
+    '<meta name="twitter:image" content="' + escapeHtml(image) + '" />\n' +
+    (published ? '<meta property="article:published_time" content="' + published + '" />\n' : '') +
+    '<meta property="article:section" content="' + escapeHtml(article.category) + '" />';
+  html = html.replace('</head>', socialMetadata + '
+  </head>');
   html = html.replace('</head>', `<script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>\n  </head>`);
 
   const outputDir = path.join('dist', category, slug);
