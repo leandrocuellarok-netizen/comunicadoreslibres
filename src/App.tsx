@@ -45,28 +45,28 @@ const read = (): Article[] => { try { const v = localStorage.getItem('cl_article
 const cities = [{name:'ARGENTINA',zone:'America/Argentina/Buenos_Aires'},{name:'VENEZUELA',zone:'America/Caracas'},{name:'MÉXICO',zone:'America/Mexico_City'},{name:'EE.UU.',zone:'America/New_York'},{name:'CHINA',zone:'Asia/Shanghai'},{name:'FRANCIA',zone:'Europe/Paris'}];
 function WorldClock(){const [now,setNow]=useState(new Date());useEffect(()=>{const id=window.setInterval(()=>setNow(new Date()),1000);return()=>window.clearInterval(id)},[]);return <section className="clock-panel"><div className="widget-title"><span>RELOJ INTERNACIONAL</span><small>HORARIOS EN TIEMPO REAL</small></div><div className="clock-grid">{cities.map(c=><div className="clock-city" key={c.name}><span>{c.name}</span><strong>{new Intl.DateTimeFormat('es-AR',{timeZone:c.zone,hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(now)}</strong><small>{new Intl.DateTimeFormat('es-AR',{timeZone:c.zone,day:'2-digit',month:'short'}).format(now)}</small></div>)}</div></section>}
 const radarMainstream = [
-  { term:'LEY DE LUDOPATÍA', note:'El Senado convirtió en ley la prevención de apuestas online · Infobae / TN' },
-  { term:'SUSPENSIÓN DE LAS PASO', note:'El Senado aprobó cambios electorales para 2027 · Infobae / Noticias Argentinas' },
-  { term:'DEUDORES ALIMENTARIOS', note:'Registro nacional aprobado por unanimidad · Infobae / Noticias Argentinas' },
-  { term:'FICHA LIMPIA', note:'Reforma electoral y límites a candidaturas · Noticias Argentinas' },
-  { term:'VANDALISMO RURAL', note:'El Senado aprobó penas de hasta diez años · Noticias Argentinas' },
-  { term:'PRESUPUESTO NACIONAL', note:'Debate fiscal, gasto público y prioridades del Gobierno · Cobertura nacional' },
-  { term:'INFLACIÓN Y PRECIOS', note:'Índice de precios, consumo y costo de vida · INDEC / grandes medios' },
-  { term:'EDUCACIÓN', note:'Universidades, financiamiento y debate educativo nacional · Grandes medios' },
-  { term:'INDUSTRIA', note:'La producción fabril cayó 3% interanual en octubre · Noticias Argentinas' },
-  { term:'MERCADO LABORAL', note:'Empleo, salarios y actividad económica · INDEC / cobertura nacional' }
+  { term:'SUSPENSIÓN DE LAS PASO 2027', note:'El Senado dio media sanción y el proyecto seguirá en Diputados · Página/12 / El Destape' },
+  { term:'LEY DE PREVENCIÓN DE LA LUDOPATÍA', note:'Apuestas online, protección de menores y publicidad · El Destape / cobertura parlamentaria' },
+  { term:'PRESUPUESTO 2027', note:'Diputados aprobó el proyecto y lo giró al Senado · TN / Infobae' },
+  { term:'FINANCIAMIENTO UNIVERSITARIO', note:'La oposición elevó las partidas y abrió una nueva disputa legislativa · TN / Infobae' },
+  { term:'REFORMA DE LA CARTA ORGÁNICA DEL BCRA', note:'El Congreso aprobó cambios en las funciones del Banco Central · El Destape' },
+  { term:'ÍNDICE DE CIUDADES LOGÍSTICAS', note:'Mercado Libre, CAF y UTN presentaron una herramienta de desarrollo territorial · Zona Norte Diario' },
+  { term:'EMPLEO LOGÍSTICO EN ESCOBAR', note:'El centro de Mercado Libre proyecta más de 1.300 puestos directos hacia 2028 · Zona Norte Diario' },
+  { term:'INTELIGENCIA ARTIFICIAL Y POLÍTICA PÚBLICA', note:'Cierre de la Semana de la IA: ética, cooperación y adopción · Argentina.gob.ar' },
+  { term:'FORMACIÓN DE ESPECIALISTAS EN IA', note:'Un informe de UdeSA estima la demanda futura de perfiles especializados · Coderhouse' },
+  { term:'INVESTIGACIÓN ORIENTADA', note:'Santa Fe abrió una convocatoria para vincular ciencia y producción · Reconquista Hoy' }
 ];
 const radarStreaming = [
-  { term:'LUDOPATÍA Y APUESTAS', note:'Debate sobre regulación, menores y publicidad · Streams políticos' },
-  { term:'REFORMA ELECTORAL', note:'Suspensión de PASO y escenario 2027 · Agenda política' },
-  { term:'SENADO EN VIVO', note:'Votaciones y acuerdos entre bloques · Cobertura política' },
-  { term:'FICHA LIMPIA', note:'Candidaturas, transparencia y sistema electoral · Debate público' },
-  { term:'ECONOMÍA REAL', note:'Industria, consumo y empleo · Agenda económica' },
-  { term:'PYMES Y ACTIVIDAD', note:'Producción, inversión y financiamiento empresarial · Debate económico nacional' },
-  { term:'ENERGÍA Y TARIFAS', note:'Inversiones, regulación y costo de los servicios · Agenda nacional' },
-  { term:'EDUCACIÓN Y UNIVERSIDADES', note:'Financiamiento, reformas y políticas educativas · Agenda nacional' },
-  { term:'STREAMING POLÍTICO', note:'Actualidad y discusión ideológica · Gelatina / Blender / Neura / Carajo' },
-  { term:'AGENDA FEDERAL', note:'Gobiernos provinciales, políticas públicas y conflictos territoriales · Cobertura nacional' }
+  { term:'REGLAS ELECTORALES 2027', note:'Suspensión de las PASO y disputa por el sistema electoral · Debate político digital' },
+  { term:'APUESTAS ONLINE E INFLUENCERS', note:'Regulación, menores y publicidad en plataformas · Debate público' },
+  { term:'UNIVERSIDAD PÚBLICA', note:'Fondos, autonomía y negociación parlamentaria · Conversación política' },
+  { term:'PRESUPUESTO Y CIENCIA', note:'Partidas para universidades, CONICET, INTA e INTI · Debate legislativo' },
+  { term:'SOBERANÍA TECNOLÓGICA', note:'IA, desarrollo nacional y cooperación científica · Agenda digital' },
+  { term:'IA Y FUTURO DEL TRABAJO', note:'Productividad, formación y transformación de empleos · Debate público' },
+  { term:'PYMES BONAERENSES', note:'Actividad productiva y dificultades de las pequeñas empresas · Agenda provincial' },
+  { term:'LOGÍSTICA Y EMPLEO LOCAL', note:'Inversiones, infraestructura y oportunidades en Escobar · Agenda federal' },
+  { term:'VIDEOJUEGOS E INTELIGENCIA ARTIFICIAL', note:'Historia argentina y nuevas experiencias educativas · Agencia UNQ' },
+  { term:'FORMACIÓN DIGITAL DEL ESTADO', note:'Capacitación de empleados públicos en inteligencia artificial · Agencia San Luis' }
 ];
 function RadarLane({number,title,subtitle,items,kind}:{number:string;title:string;subtitle:string;items:{term:string;note:string}[];kind:string}) {
   return <section className={"radar-lane " + kind} aria-label={title}>
@@ -83,14 +83,14 @@ function MediaRadar(){
     <div className="media-radar-frame">
       <div className="media-radar-header">
         <div className="media-radar-brandline"><span>VILANOVA AI SOLUTION</span><i>INTELIGENCIA MEDIÁTICA</i></div>
-        <div className="media-radar-headrow"><div><p className="media-radar-kicker">COMUNICADORES LIBRES · OBSERVATORIO DE AGENDA</p><h2 id="media-radar-title">RADAR DE MEDIOS</h2><p className="media-radar-subtitle">INICIATIVA DE VILANOVA GROUP</p></div><div className="media-radar-window"><span className="media-radar-live"><b></b> CORTE DE 24 HORAS</span><strong>26 NOV · 10:30 — 27 NOV · 10:30</strong><small>HORA ARGENTINA (UTC−3)</small></div></div>
+        <div className="media-radar-headrow"><div><p className="media-radar-kicker">COMUNICADORES LIBRES · OBSERVATORIO DE AGENDA</p><h2 id="media-radar-title">RADAR DE MEDIOS</h2><p className="media-radar-subtitle">INICIATIVA DE VILANOVA GROUP</p></div><div className="media-radar-window"><span className="media-radar-live"><b></b> VENTANA ANALIZADA · 24 H</span><strong>27 NOV · 06:00 — 28 NOV · 06:00</strong><small>HORA ARGENTINA (UTC−3)</small></div></div>
       </div>
       <div className="media-radar-body">
         <div className="media-radar-tracked"><b>CONGLOMERADOS OBSERVADOS</b><span>Grupo Clarín · Grupo América · Grupo Indalo · S.A. La Nación · Grupo Octubre · Editorial Perfil · TXH Medios</span></div>
         <RadarLane number="01" title="GRANDES MEDIOS" subtitle="Conglomerados, portales y señales informativas del período" items={radarMainstream} kind="radar-mainstream"/>
         <RadarLane number="02" title="STREAMS POLÍTICOS" subtitle="Actualidad, debate e ideología · Gelatina, Blender, Neura y Carajo" items={radarStreaming} kind="radar-streaming"/>
         <div className="media-radar-footer"><span>OBSERVACIÓN EDITORIAL · NO ES UN RANKING DE AUDIENCIA</span><div><a href="https://www.clarin.com/" target="_blank" rel="noreferrer">CLARÍN / TN</a><a href="https://www.americatv.com.ar/" target="_blank" rel="noreferrer">AMÉRICA / A24</a><a href="https://www.c5n.com/" target="_blank" rel="noreferrer">C5N / ÁMBITO</a><a href="https://www.lanacion.com.ar/" target="_blank" rel="noreferrer">LA NACIÓN</a><a href="https://www.cronista.com/" target="_blank" rel="noreferrer">EL CRONISTA</a><a href="https://www.pagina12.com.ar/" target="_blank" rel="noreferrer">PÁGINA|12</a><a href="https://www.perfil.com/" target="_blank" rel="noreferrer">PERFIL</a><a href="https://www.cronica.com.ar/" target="_blank" rel="noreferrer">CRÓNICA</a><a href="https://prim.profblu.com/c/gelatina" target="_blank" rel="noreferrer">GELATINA</a><a href="https://prim.profblu.com/c/blender" target="_blank" rel="noreferrer">BLENDER</a><a href="https://www.youtube.com/@NeuraMedia" target="_blank" rel="noreferrer">NEURA</a><a href="https://www.carajostream.tv/" target="_blank" rel="noreferrer">CARAJO</a></div></div>
-        <p className="media-radar-method">Relevamiento de titulares, portadas y publicaciones oficiales de los conglomerados indicados en el PDF, junto con emisiones y recortes recientes de Gelatina, Blender, Neura y Carajo. Orden editorial de temas observados; no representa un conteo estadístico ni un ranking de audiencia.</p>
+        <p className="media-radar-method">Ventana de análisis: 27/11/2026 06:00 a 28/11/2026 06:00, hora argentina. El carril de grandes medios reúne asuntos respaldados por titulares y publicaciones fechadas en el período. El carril de debate digital organiza ejes relevantes para el ecosistema de streams; no afirma un conteo de menciones ni sustituye la verificación de cada emisión. Orden editorial cualitativo: no es un ranking estadístico ni de audiencia.</p>
       </div>
     </div>
   </section>;
