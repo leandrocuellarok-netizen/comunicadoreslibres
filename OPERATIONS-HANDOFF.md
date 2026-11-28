@@ -1,45 +1,42 @@
 # Comunicadores Libres — operational handoff
 
-Updated: 2026-11-28 05:37 ART
+Updated: 2026-11-28 06:40 ART
 
-## Repository and deployment
-- Main head at the start of this run: `8627003fe1228f124a0434a23e8cfae24926bb15`.
-- GitHub Actions run [46121965101](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46121965101) built and deployed that exact commit successfully. Build and Deploy jobs both passed. Artifact: `github-pages-46121965101-1`, 4,762,314 bytes. This proves the Pages deployment action completed, not that the custom domain serves it.
-- The same run executed the detailed dependency audit successfully. Audit findings are recorded below.
-- This handoff update is commit `e4f4bf3f5f00287825579f706c36ca52d1b43b41`; GitHub Actions run [46126507557](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46126507557) completed successfully for it. Build, audit, typecheck, prerender/smoke tests, artifact upload, and Deploy all passed. Artifact `github-pages-46126507557-1` (4,762,328 bytes).
-- Artifact naming remains unique per run attempt: `github-pages-${{ github.run_id }}-${{ github.run_attempt }}`; the deploy job consumes that exact name. One hourly schedule remains. `concurrency.cancel-in-progress: true` is enabled; three rapid push runs were cancelled around 04:28Z, followed by successful final runs. No change to concurrency was made.
-- Both root `CNAME` and `public/CNAME` contain `libres.sbs`. `public/robots.txt` allows crawling and points to `https://libres.sbs/sitemap.xml`. GitHub Pages settings and HTTPS enforcement could not be read through the current GitHub connection.
-- Workflow uses Node 22, `npm ci`, typecheck, Vite build/prerender/smoke tests, uniquely named artifact upload, and a separate deploy job. The workflow's audit step is non-blocking and skipped for scheduled runs.
+## Current main and deployment
+- Main head: `5cfe781e5832afa12ba7014fdc2a6ee1f5643321`.
+- Dependency remediation PR [#2](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/pull/2) was merged by squash as that commit. The production change is limited to `package-lock.json` plus a one-line `src/App.tsx` lint correction (remove an unused catch binding).
+- GitHub Actions run [46131405305](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46131405305) completed Build and Deploy successfully for the exact main commit. Artifact: `github-pages-46131405305-1`, 4,761,152 bytes. Deploy logs confirm the deploy job consumed that exact artifact, created a deployment for the same SHA, reported success, and evaluated the environment URL as `https://libres.sbs/`. This is deployment evidence, not independent public HTTP/browser verification.
+- Maintenance branch CI run [46131181574](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46131181574) passed after the lint correction: `npm ci`, non-forced `npm audit fix`, second `npm ci`, audit, typecheck, lint, build, prerender, and smoke tests.
+- Post-fix npm audit: 0 critical, 0 high, 0 moderate, 0 low (0 total), down from 26 (12 high, 12 moderate, 2 low). No `--force`, major-version override, package.json dependency-range change, or production data change was used. Lockfile now resolves Vite 7.3.8, PostCSS 8.5.34, typescript-eslint 8.74.0, react-router-dom 7.18.7, ws 8.23.1, js-yaml 4.3.2, and brace-expansion 1.1.22.
+- The successful main build generated 43 published article pages and sitemap.xml. Smoke tests passed for homepage, 3 required category routes, 43 article URLs, sitemap canonicals, and JSON-LD.
+- Artifact naming remains unique per attempt: `github-pages-${{ github.run_id }}-${{ github.run_attempt }}`; deploy consumes the matching name. Workflow still has `concurrency.cancel-in-progress: true`; rapid pushes can cancel earlier runs.
+- One scheduled event was found at 2026-11-28T02:42:31Z (run 46099391136); no later scheduled events appeared in the latest 25-run history through 2026-11-28T09:39Z. Treat GitHub schedule delivery as best-effort.
+- CI still emits non-blocking Node.js 20 action deprecation warnings and Node deprecation warnings for `punycode` and legacy `url.parse()`. No action-version changes were made.
 
-## Routing and rendering — source inspection only
-- `scripts/prerender-articles.mjs` generates static HTML for the current 43 published Supabase articles and six category pages, plus sitemap output.
-- `src/main.tsx` detects `.prerendered-article` and `.prerendered-category` and does not mount React on those pages. The homepage's static fallback is replaced by React after startup; if startup fails, a readable fallback and alert are retained.
-- Source inspection indicates the homepage starts with bundled article data and merges Supabase results; a failed query is logged without clearing the initial list. This is not a live browser test.
-- The code search returned no references to `react-router-dom`; the dependency appears unused, but removal still requires a lockfile update and CI regression tests.
-- The 73 local-only published records remain absent from Supabase prerender output and sitemap; do not generate/index or migrate them without explicit editorial approval. ID collisions `e1` and `e2` remain held for manual resolution.
+## Routing and public verification
+- `scripts/prerender-articles.mjs` generates static HTML for 43 published Supabase articles and six category pages. `src/main.tsx` preserves static article/category HTML by not mounting React on those routes; homepage React startup retains a readable static fallback on import failure.
+- Fresh direct web opens for `https://libres.sbs/`, `/agenda/`, the Giordano article, `/ciencia-ia/`, `/empresas-negocios/`, and `/sitemap.xml` remain inaccessible to the web inspection service.
+- Container `curl` also cannot resolve `libres.sbs`, `github.com`, or `google.com`; this environment has a general DNS/network limitation, not evidence of a domain-specific outage.
+- Independent positive signal: Supabase edge logs over the recent 24-hour window show 188 GET and 76 OPTIONS requests to `/rest/v1/articles`, all HTTP 200. A separate filter found 230 requests to that endpoint with Referer `https://libres.sbs/`, all HTTP 200; 192 had mobile user-agent markers. This confirms some browsers reached the site sufficiently to request article data, but does not verify the critical static article route, rendered pixels, navigation, TLS, or that each request hit the just-deployed commit.
+- Supabase edge logs show no non-2xx/3xx status for logged requests in the queried window; the PostgreSQL log query found no event messages containing ERROR. This is not a substitute for full browser monitoring.
+- Both root `CNAME` and `public/CNAME` contain `libres.sbs`; `public/robots.txt` allows crawling and points to the sitemap. Because deployment uses a custom GitHub Actions workflow, GitHub documentation says CNAME files are ignored for domain configuration; the custom domain must be configured in repository Pages settings. The current GitHub connection cannot read Pages settings or HTTPS enforcement. Do not change DNS.
+- Search Console connector is authorized only for `https://www.syscom.sbs/`, not Comunicadores Libres. No site-specific indexing/performance data is available; do not claim indexing.
 
-## Public verification limits
-- Fresh direct web opens failed for `https://libres.sbs/`, `/agenda/`, the Giordano article, `/ciencia-ia/`, and `/empresas-negocios/`. The default `github.io` URL also failed in the inspection tool.
-- No HTTP status, redirect chain, DNS answer, TLS certificate, browser rendering, navigation, or mobile/desktop behavior could be observed. Previous container DNS checks failed for unrelated domains as well; do not infer that libres.sbs is down from this environment limitation.
-- Search Console connector is connected only to property `https://www.syscom.sbs/`, not `https://libres.sbs/`; no Search Console performance or indexing data for Comunicadores Libres is available. The owner must add/authorize the correct URL-prefix or domain property before site-specific GSC analysis.
-- No indexing claim is supported. A working external network and browser/HTTP probe are still required.
+## Editorial data and media
+- Supabase contains 43 articles, all published, zero drafts. All 43 have a slug, SEO description, and author. Of articles with an image, none is missing imageAlt.
+- Five published articles have no image; three are featured: `ludopatia-especialistas-consultas-entrevistas`, `contacto-prensa-juan-carlos-giordano`, and `tercera-via-argentina-talerico-merlo`. Two non-featured without images: `diego-salazar-problema-economia-argentina` and `cazvid-reclutamiento-en-video`. Do not invent or source replacement imagery without rights/owner authorization.
+- Existing image field distribution: 37 external URLs (28 images.unsplash.com, 7 www.argentina.gob.ar, 1 www.bcra.gob.ar, 1 raw.githubusercontent.com), 1 data URI, 5 missing. No requests to the `cl-article-images` public storage path appeared in the queried logs; visible image rendering and external asset availability remain unverified.
+- 73 unique local-only published records remain absent from Supabase prerender output and sitemap. ID collisions `e1` and `e2` remain held for manual resolution. Do not migrate, publish, or reconcile them without explicit editorial approval.
 
-## Dependency audit — confirmed from GitHub Actions logs
-- Runs [46117175882](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46117175882) and [46121965101](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46121965101) both reported: 0 critical, 12 high, 12 moderate, 2 low; 26 total. Every listed vulnerability had `fixAvailable=true` in the audit report.
-- Direct flagged dependencies: `react-router-dom@7.13.1` (high, runtime dependency, no source-code references found); `vite@7.3.1` (high, dev dependency); `postcss@8.5.8` (high, dev dependency); `typescript-eslint@8.8.1` (moderate, dev dependency).
-- A high-severity transitive runtime dependency is `ws@8.18.3`, pulled through `@supabase/realtime-js`. Other flagged packages are primarily build/lint tooling: brace-expansion, browserslist, flatted, glob, js-yaml, minimatch, nanoid, picomatch, postcss-selector-parser, source-map-js, sucrase, yaml, and related ESLint/Babel packages.
-- The direct `react-router-dom` dependency is not referenced in repository code search, but it has not been removed. No package or lockfile changes were made. The container cannot resolve `registry.npmjs.org`; the connected CI runner can run the audit, but no workflow-dispatch capability is available here to execute a dependency-fix job. Do not use `npm audit fix --force`.
-- Next safe dependency action: create a separate, reviewable PR that applies semver-compatible audit fixes, then run `npm ci`, typecheck, lint, build, smoke tests, and a second audit. Remove unused `react-router-dom` only as part of that tested lockfile change.
-
-## Supabase — read-only findings
-- Project status is `ACTIVE_HEALTHY`.
-- Security Advisor currently reports three warnings: `public.rls_auto_enable()` EXECUTE grants for `anon` and `authenticated`, plus leaked-password protection disabled. Performance Advisor reports four RLS initialization-plan warnings.
-- Read-only policy inspection confirms article INSERT, UPDATE, and DELETE policies check only `auth.role() = 'authenticated'`; they do not enforce an editor/admin role despite their names. SELECT allows public reads of published articles and authenticated reads of unpublished articles.
-- `rls_auto_enable()` returns `event_trigger` and enables RLS on newly created tables in `public`. The Advisor's generic RPC warning must be interpreted in light of that return type; no exploit has been demonstrated.
-- No RLS, Auth, Storage, credential, or production-record changes were made. Hardening requires explicit owner approval and an owner-assigned admin/editor role. Keep production security settings unchanged until then.
+## Supabase security — unchanged, approval required
+- Project status: ACTIVE_HEALTHY.
+- Article INSERT/UPDATE/DELETE policies still authorize any authenticated user rather than an owner-assigned editor/admin role. Storage write/update/delete policies have the same broad authenticated check; bucket `cl-article-images` is public-read and has no server-side file-size or MIME allowlist.
+- Security Advisor still flags EXECUTE grants for `public.rls_auto_enable()` to anon/authenticated and leaked-password protection disabled; the function returns event_trigger and no exploit has been demonstrated. Performance Advisor has four RLS initialization-plan warnings.
+- No RLS, Auth, Storage, credential, DNS, or production-record changes were made. Obtain explicit owner approval and assign the editor/admin role before hardening these settings.
 
 ## Next actions
-1. Run a tested dependency-update PR using CI network access; prioritize direct high-severity build dependencies and the `ws` transitive runtime dependency.
-2. Retry public HTTP/TLS and browser route verification from a network with working DNS; inspect Search Console only if connected and authorized.
-3. Obtain explicit approval and an owner-assigned admin role before preparing/applying role-gated article and Storage policies, function grant changes, or Auth hardening.
-4. Keep DNS, production content/media, Supabase security settings, and credentials unchanged until the relevant approvals are explicit.
+1. Obtain independent HTTP/TLS and real-browser checks for root, category pages, the Giordano direct URL/refresh, navigation, and mobile/desktop. The present inspection environment cannot perform those checks.
+2. Have a repository administrator verify Settings → Pages custom domain `libres.sbs` and Enforce HTTPS, or provide the required GitHub Pages admin-level access. Keep DNS unchanged until authoritative records are verified.
+3. Review rights and availability for the five missing article images; verify external image URLs and social preview dimensions before claiming media completeness.
+4. Add/authorize the correct Search Console property before site-specific indexing and performance analysis.
+5. Obtain explicit approval before RLS/Auth/Storage hardening or editorial reconciliation of the 73 local-only records and two ID collisions.
