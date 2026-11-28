@@ -1,39 +1,41 @@
 # Comunicadores Libres — operational handoff
 
-Updated: 2026-11-28 02:29 ART
+Updated: 2026-11-28 03:29 ART
 
 ## Repository and deployment
-- Current `main` head: `3bef261ffa060b7c4a92eb3b89f8a868fd99d338`.
-- Latest completed GitHub Pages run: [46107801576](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46107801576), push event, success, deploying the current `main` head. Artifact: `github-pages-46107801576-1`, 4,762,322 bytes.
-- The deployed build includes the application changes from `0c094e82556bb032c45d64f6c59ce05d1d36c1a2` and its parent `e5753cbf8b5ac6d5a90abd87ca4f6dce5f7ecffe`: prerendered article pages now include explicit `twitter:title`, `twitter:description`, `twitter:image`, `article:published_time`, and `article:section`. Smoke tests require Twitter/X title, description, and image to match Open Graph, and require publication time and section metadata.
-- Latest build logs confirm Typecheck, Vite build, 43 prerendered published article pages, sitemap generation, smoke tests for homepage, three required category routes, 43 article URLs, sitemap canonicals and JSON-LD, artifact upload, and deployment all succeeded.
-- Three rapid push runs for the metadata change were cancelled by `concurrency.cancel-in-progress: true`; the subsequent final run for the new main head completed successfully. Avoid rapid sequential commits; verify the last run before reporting deployment.
-- Workflow still uses unique artifact names `github-pages-${{ github.run_id }}-${{ github.run_attempt }}`, deploys the matching artifact after the build job, and has one hourly schedule. `CNAME` contains `libres.sbs`; `public/robots.txt` points to `https://libres.sbs/sitemap.xml`.
-- GitHub Actions logs warn that several action versions target Node.js 20, which GitHub is forcing onto Node.js 24. This is a maintenance warning, not a failed job; review action upgrades separately.
+- Main head at the start of this run: `48ba5a2fa1ac71156cb7c0f81df9e90f918fdd71`.
+- Latest successful GitHub Pages run at the start of this run: [46112404571](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46112404571), deploying `48ba5a2fa1ac71156cb7c0f81df9e90f918fdd71`. Artifact: `github-pages-46112404571-1`, 4,762,318 bytes.
+- Typecheck, Vite build, prerender of 43 published article pages, smoke tests, sitemap generation, artifact upload, and Pages deployment all passed in that run. Smoke tests covered the homepage, three required category routes, all 43 article URLs, sitemap canonicals, and JSON-LD.
+- The deployed source includes the article metadata change from `0c094e82556bb032c45d64f6c59ce05d1d36c1a2`: Twitter/X title, description, image, publication time, and section are emitted and checked against Open Graph.
+- Workflow artifact naming remains unique per attempt: `github-pages-${{ github.run_id }}-${{ github.run_attempt }}`. The deploy job consumes that exact name. Three rapid push runs were cancelled by `concurrency.cancel-in-progress: true`; the final run for the latest main head succeeded.
+- `CNAME` contains `libres.sbs`; `public/robots.txt` points to `https://libres.sbs/sitemap.xml`. GitHub Pages custom-domain settings could not be independently read through the available connection.
+- Workflow has one hourly schedule. GitHub Actions currently warns that several action versions target Node.js 20 and are being forced onto Node.js 24; this is a maintenance warning, not a failed deployment.
+- Added a non-blocking detailed `npm audit --json` report to push/manual workflow runs only (not the hourly schedule). It prints package, severity, vulnerable range, available fix, and advisory URLs. The current commit's audit result is pending; no dependency was upgraded.
 
 ## Public verification limits
-- A fresh web search returned the homepage result for `site:libres.sbs` and reported it crawled today. Opening it exposed only the title and an iframe link; it did not expose the page body. An exact search for the critical Giordano article returned no results. Neither result establishes comprehensive indexing.
-- Direct web opens of `https://libres.sbs/`, the Giordano article URL, and `https://libres.sbs/sitemap.xml` failed. The execution environment also failed DNS resolution for `libres.sbs`, `github.com`, and `google.com`; do not infer a domain-specific outage.
-- HTTP status, redirect chain, TLS/certificate, browser-rendered content, mobile/desktop layout, and whether the custom domain serves the deployed artifact remain unverified. A successful GitHub Pages action is not proof of public reachability.
+- Direct opens of `https://libres.sbs/`, `/agenda/`, the Giordano article, `/ciencia-ia/`, and `/empresas-negocios/` failed in the web inspection tool.
+- Container DNS resolution also failed for `libres.sbs`, `github.com`, `google.com`, and `registry.npmjs.org`. This is an environment-wide resolution failure and does not prove that the publication's domain is down.
+- HTTP status, redirect chain, DNS answers, TLS certificate, browser-rendered content, navigation, and mobile/desktop presentation remain unverified. Do not claim public availability or indexing based on a green workflow.
+- Source inspection confirms that article/category prerendered pages are not remounted by React, preserving their static HTML. The homepage retains a static fallback while the interactive app starts. Live browser behavior is still unverified.
 
 ## Supabase content inventory — read-only
-- `public.articles`: 43 records, all published, zero drafts.
-- All published records have title, author, date, slug, and SEO description. No duplicate category/slug pairs, unknown categories, empty excerpts, or noncanonical slug characters were found.
-- Five published articles have no image. All 38 records with images have non-empty alt text. Forty-two records lack a custom `og_image`; prerendering uses the article image or publication logo fallback.
-- No production editorial data was changed.
+- `public.articles`: 43 published records, zero drafts.
+- All 43 have a slug, SEO description, and author; no duplicate category/slug pairs; zero published images with empty alt text.
+- Five published articles have no image. Forty-two records lack a custom `og_image`; prerendering uses the article image or publication-logo fallback.
+- One embedded data-URI image is WebP and has alt text. No other data-URI image formats were found.
+- No production editorial data or media was changed.
 
 ## Security and operational risks — production unchanged
-- Confirmed from live `pg_policies`: article INSERT, UPDATE, and DELETE allow any `authenticated` user; SELECT allows anonymous/authenticated users to read published articles and any authenticated user to read unpublished articles.
-- Storage INSERT, UPDATE, and DELETE policies for `cl-article-images` allow any authenticated user. Public SELECT is enabled for the bucket.
-- Bucket `cl-article-images` is public, with `file_size_limit = null` and `allowed_mime_types = null`.
-- `public.rls_auto_enable()` is SECURITY DEFINER and EXECUTE is granted to `anon` and `authenticated`; it is attached to the enabled `ensure_rls` DDL event trigger.
-- Previous Auth aggregate inspection found one user and zero users with `app_metadata.role=editor` or `admin`. Do not apply role-gated policies until the intended account is assigned an admin-controlled role and the owner explicitly authorizes the migration.
-- Leaked-password protection remains disabled. Security Advisor previously flagged four RLS initialization-plan warnings. No RLS, Auth, Storage, secret, or production-record changes have been made.
+- Auth aggregate: one user, zero users with `app_metadata.role` equal to `editor` or `admin`.
+- `public.articles` INSERT, UPDATE, and DELETE policies permit any authenticated user. SELECT permits public reads of published articles and authenticated reads of unpublished articles.
+- Storage INSERT, UPDATE, and DELETE policies permit any authenticated user to modify `cl-article-images`; public SELECT is enabled. Bucket size limit and allowed MIME types are unset.
+- `public.rls_auto_enable()` is a `SECURITY DEFINER` event-trigger function. Its body enables RLS on newly created tables in `public`; Supabase Security Advisor warns that EXECUTE is granted to `anon` and `authenticated`. No exploit has been demonstrated.
+- Current Supabase Security Advisor: three warnings (the two SECURITY DEFINER execution grants and leaked-password protection disabled). Performance Advisor: four RLS initialization-plan warnings.
+- Hardening requires explicit owner approval: assign an admin-controlled editor/admin role to the intended account, then apply role-gated article and Storage policies, revoke public/authenticated EXECUTE on the event-trigger function, set bucket MIME/size restrictions, and decide whether to enable leaked-password protection. No such changes have been made.
 - 73 unique local-only published records remain absent from Supabase; ID collisions `e1` and `e2` remain unresolved. Do not migrate or publish them without approval.
-- CI dependency installation still reports vulnerabilities and recommends reviewing `npm audit`; prior count was 26 (2 low, 12 moderate, 12 high). Full advisory details have not been captured; no dependency upgrades have been applied.
 
 ## Next actions
-1. Independently verify public HTTP/TLS and critical routes from a working external network; request Search Console access for `libres.sbs` if indexing diagnostics are required.
-2. Prepare editor-only RLS and Storage hardening only after explicit owner approval and assignment of the intended editor/admin role. Preserve the current policy definitions for rollback.
-3. Collect the full dependency audit report before changing packages; separately review GitHub Actions Node.js 20 deprecation warnings.
-4. Reconcile the 73 local-only records and two ID collisions only after explicit owner approval.
+1. Inspect the detailed dependency-audit output from this commit; make only targeted, tested dependency changes.
+2. Obtain explicit approval and an owner-assigned admin role before preparing/applying the reversible Supabase security migration.
+3. Retry public HTTP/TLS and route verification from a network with working DNS; inspect Search Console only if its connection/access is available.
+4. Keep production editorial data, DNS, Auth, RLS, Storage, and credentials unchanged until the required approvals are explicit.

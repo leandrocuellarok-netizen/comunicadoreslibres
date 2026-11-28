@@ -36,6 +36,42 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Detailed dependency audit (non-blocking)
+        if: github.event_name != 'schedule'
+        continue-on-error: true
+        run: |
+          npm audit --json > "$RUNNER_TEMP/npm-audit.json" || true
+          node - "$RUNNER_TEMP/npm-audit.json" <<'NODE'
+          const fs = require('node:fs');
+          let report;
+          try {
+            report = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
+          } catch (error) {
+            console.log('npm audit did not return valid JSON:', error.message);
+            process.exit(0);
+          }
+          const summary = report.metadata?.vulnerabilities || {};
+          console.log(
+            'npm audit summary:',
+            ['critical', 'high', 'moderate', 'low', 'info', 'total']
+              .map(key => key + '=' + (summary[key] ?? 0)).join(' ')
+          );
+          for (const [name, item] of Object.entries(report.vulnerabilities || {})) {
+            console.log(
+              'PACKAGE',
+              name,
+              'severity=' + item.severity,
+              'direct=' + item.isDirect,
+              'range=' + item.range,
+              'fixAvailable=' + JSON.stringify(item.fixAvailable)
+            );
+            const advisories = (item.via || [])
+              .filter(entry => typeof entry === 'object')
+              .map(entry => (entry.title || entry.name || 'advisory') + (entry.url ? ' ' + entry.url : ''));
+            for (const advisory of advisories) console.log('  ADVISORY', advisory);
+          }
+          if (report.error) console.log('npm audit error:', JSON.stringify(report.error));
+          NODE
       - name: Typecheck
         run: npm run typecheck
 
