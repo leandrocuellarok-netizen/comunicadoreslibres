@@ -98,6 +98,9 @@ jobs:
         with:
           artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
 
+      - name: Checkout live smoke test
+        uses: actions/checkout@v4
+
       - name: Verify deployed public routes
         timeout-minutes: 5
         env:
