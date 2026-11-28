@@ -123,8 +123,7 @@ for (const article of articles) {
     '<meta name="twitter:image" content="' + escapeHtml(image) + '" />\n' +
     (published ? '<meta property="article:published_time" content="' + published + '" />\n' : '') +
     '<meta property="article:section" content="' + escapeHtml(article.category) + '" />';
-  html = html.replace('</head>', socialMetadata + '
-  </head>');
+  html = html.replace('</head>', socialMetadata + '\n  </head>');
   html = html.replace('</head>', `<script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>\n  </head>`);
 
   const outputDir = path.join('dist', category, slug);
