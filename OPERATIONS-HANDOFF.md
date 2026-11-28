@@ -1,41 +1,34 @@
 # Comunicadores Libres — operational handoff
 
-Updated: 2026-11-28 03:29 ART
+Updated: 2026-11-28 04:29 ART
 
 ## Repository and deployment
-- Main head at the start of this run: `48ba5a2fa1ac71156cb7c0f81df9e90f918fdd71`.
-- Latest successful GitHub Pages run at the start of this run: [46112404571](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46112404571), deploying `48ba5a2fa1ac71156cb7c0f81df9e90f918fdd71`. Artifact: `github-pages-46112404571-1`, 4,762,318 bytes.
-- Typecheck, Vite build, prerender of 43 published article pages, smoke tests, sitemap generation, artifact upload, and Pages deployment all passed in that run. Smoke tests covered the homepage, three required category routes, all 43 article URLs, sitemap canonicals, and JSON-LD.
-- The deployed source includes the article metadata change from `0c094e82556bb032c45d64f6c59ce05d1d36c1a2`: Twitter/X title, description, image, publication time, and section are emitted and checked against Open Graph.
-- Workflow artifact naming remains unique per attempt: `github-pages-${{ github.run_id }}-${{ github.run_attempt }}`. The deploy job consumes that exact name. Three rapid push runs were cancelled by `concurrency.cancel-in-progress: true`; the final run for the latest main head succeeded.
-- `CNAME` contains `libres.sbs`; `public/robots.txt` points to `https://libres.sbs/sitemap.xml`. GitHub Pages custom-domain settings could not be independently read through the available connection.
-- Workflow has one hourly schedule. GitHub Actions currently warns that several action versions target Node.js 20 and are being forced onto Node.js 24; this is a maintenance warning, not a failed deployment.
-- Added a non-blocking detailed `npm audit --json` report to push/manual workflow runs only (not the hourly schedule). It prints package, severity, vulnerable range, available fix, and advisory URLs. The current commit's audit result is pending; no dependency was upgraded.
+- Main head at the start of this run: `4fff02e2b55e40bf11137e3dffd14b12b159f09d`.
+- This commit added a non-blocking, detailed `npm audit --json` step to push/manual workflow runs. Scheduled deploy runs skip this extra audit. The report prints severity counts, package names, vulnerable ranges, fix availability, and advisory URLs; no dependency was changed.
+- The deploy workflow still uses unique artifact names `github-pages-${{ github.run_id }}-${{ github.run_attempt }}`; the deploy job requests that same name. The workflow has one hourly schedule and retains `concurrency.cancel-in-progress: true`.
+- Latest confirmed successful Pages deployment available in the prior handoff is run [46112404571](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46112404571), deploying commit `48ba5a2fa1ac71156cb7c0f81df9e90f918fdd71`. No current-head deployment is confirmed for `4fff02e`. The connected GitHub actions functions exposed here do not list push/schedule runs; commit workflow lookup returned no PR runs and combined status was empty. Do not claim the current head is deployed.
+- `public/CNAME` contains `libres.sbs`; `public/robots.txt` points to `https://libres.sbs/sitemap.xml`. GitHub Pages custom-domain settings and HTTPS enforcement remain unverified.
+
+## Routing and rendering — source inspection only
+- `scripts/prerender-articles.mjs` generates static HTML for all 43 published Supabase articles and six category pages, plus the sitemap.
+- `src/main.tsx` detects `.prerendered-article` and `.prerendered-category` and does not mount React on those pages. This prevents React from replacing their static article/category HTML.
+- The homepage prerender is replaced by the React app at startup. Its initial article state comes from bundled seed/imported/editorial additions; the asynchronous Supabase query merges records when successful and logs an error without clearing the initial list when it fails. This is source-level evidence only, not a live browser test.
+- Article cards use the app's hash route for client-side article views. The 43 Supabase articles also have real static category/slug pages. The 73 local-only published records are not in Supabase prerender output or the sitemap; do not generate/index or migrate those records without explicit editorial approval. ID collisions `e1` and `e2` remain held for manual resolution.
 
 ## Public verification limits
-- Direct opens of `https://libres.sbs/`, `/agenda/`, the Giordano article, `/ciencia-ia/`, and `/empresas-negocios/` failed in the web inspection tool.
-- Container DNS resolution also failed for `libres.sbs`, `github.com`, `google.com`, and `registry.npmjs.org`. This is an environment-wide resolution failure and does not prove that the publication's domain is down.
-- HTTP status, redirect chain, DNS answers, TLS certificate, browser-rendered content, navigation, and mobile/desktop presentation remain unverified. Do not claim public availability or indexing based on a green workflow.
-- Source inspection confirms that article/category prerendered pages are not remounted by React, preserving their static HTML. The homepage retains a static fallback while the interactive app starts. Live browser behavior is still unverified.
+- Direct web opens of `https://libres.sbs/` and the Giordano article URL still fail in the inspection tool.
+- Container DNS lookup failed for `registry.npmjs.org`; previous checks also failed for `github.com`, `google.com`, and `libres.sbs`. This is consistent with an environment-wide DNS limitation, not proof of a domain outage.
+- HTTP status, redirect chain, external DNS answers, TLS certificate, browser rendering, navigation, and mobile/desktop behavior remain unverified. No indexing claim is supported.
 
-## Supabase content inventory — read-only
-- `public.articles`: 43 published records, zero drafts.
-- All 43 have a slug, SEO description, and author; no duplicate category/slug pairs; zero published images with empty alt text.
-- Five published articles have no image. Forty-two records lack a custom `og_image`; prerendering uses the article image or publication-logo fallback.
-- One embedded data-URI image is WebP and has alt text. No other data-URI image formats were found.
-- No production editorial data or media was changed.
+## Supabase — read-only findings
+- Security Advisor returned three warnings: `public.rls_auto_enable()` has EXECUTE grants for `anon` and `authenticated`, and leaked-password protection is disabled. Performance Advisor returned four RLS initialization-plan warnings.
+- Read-only `pg_policies` inspection confirms article INSERT, UPDATE, and DELETE policies check only `auth.role() = 'authenticated'`; they do not enforce an editor/admin role despite their “Authenticated editors” names. SELECT allows published public reads and all authenticated reads.
+- The function definition confirms `rls_auto_enable()` returns `event_trigger` and enables RLS on newly created tables in `public`. The Advisor's generic RPC warning should be interpreted in light of that event-trigger return type; no direct invocation or exploit was demonstrated.
+- No RLS, Auth, Storage, credential, or production-record changes were made. Security hardening still requires owner approval and an owner-assigned admin/editor role. The current project has no account with `app_metadata.role=editor` or `admin` in the last verified aggregate.
 
-## Security and operational risks — production unchanged
-- Auth aggregate: one user, zero users with `app_metadata.role` equal to `editor` or `admin`.
-- `public.articles` INSERT, UPDATE, and DELETE policies permit any authenticated user. SELECT permits public reads of published articles and authenticated reads of unpublished articles.
-- Storage INSERT, UPDATE, and DELETE policies permit any authenticated user to modify `cl-article-images`; public SELECT is enabled. Bucket size limit and allowed MIME types are unset.
-- `public.rls_auto_enable()` is a `SECURITY DEFINER` event-trigger function. Its body enables RLS on newly created tables in `public`; Supabase Security Advisor warns that EXECUTE is granted to `anon` and `authenticated`. No exploit has been demonstrated.
-- Current Supabase Security Advisor: three warnings (the two SECURITY DEFINER execution grants and leaked-password protection disabled). Performance Advisor: four RLS initialization-plan warnings.
-- Hardening requires explicit owner approval: assign an admin-controlled editor/admin role to the intended account, then apply role-gated article and Storage policies, revoke public/authenticated EXECUTE on the event-trigger function, set bucket MIME/size restrictions, and decide whether to enable leaked-password protection. No such changes have been made.
-- 73 unique local-only published records remain absent from Supabase; ID collisions `e1` and `e2` remain unresolved. Do not migrate or publish them without approval.
-
-## Next actions
-1. Inspect the detailed dependency-audit output from this commit; make only targeted, tested dependency changes.
-2. Obtain explicit approval and an owner-assigned admin role before preparing/applying the reversible Supabase security migration.
-3. Retry public HTTP/TLS and route verification from a network with working DNS; inspect Search Console only if its connection/access is available.
-4. Keep production editorial data, DNS, Auth, RLS, Storage, and credentials unchanged until the required approvals are explicit.
+## Dependency audit and next actions
+- The new CI audit report is not yet available to this run. The current GitHub connection does not expose push/schedule run listing, and local `npm audit` cannot reach `registry.npmjs.org` because DNS resolution fails. No dependency updates were made.
+1. Obtain the Actions run ID/job logs for the `4fff02e` push run and review the exact npm advisories before changing packages.
+2. Retry public HTTP/TLS and route verification from a network with working DNS; inspect Search Console only if its connection/access is available.
+3. Request explicit approval and an owner-assigned admin role before preparing/applying role-gated article and Storage policies, function grant changes, or Auth hardening.
+4. Keep DNS, production content/media, Supabase security settings, and credentials unchanged until the relevant approvals are explicit.
