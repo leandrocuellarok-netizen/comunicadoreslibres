@@ -70,8 +70,8 @@ const routeChecks = [
   { name: 'Agenda category', path: '/agenda/', type: 'category' },
   { name: 'Ciencia e IA category', path: '/ciencia-ia/', type: 'category', expectEmpty: !scienceArticle },
   { name: 'Empresas y negocios category', path: '/empresas-negocios/', type: 'category' },
-  { name: 'Giordano article direct', path: '/agenda/contacto-prensa-juan-carlos-giordano/', type: 'article', contains: 'INFORMACIÓN PARA PERIODISTAS' },
-  { name: 'Giordano article refresh', path: '/agenda/contacto-prensa-juan-carlos-giordano/', type: 'article', contains: 'INFORMACIÓN PARA PERIODISTAS' },
+  { name: 'Giordano article direct', path: '/agenda/contacto-prensa-juan-carlos-giordano/', type: 'article', contains: 'INFORMACIÓN PARA PERIODISTAS', titleContains: 'Contacto de prensa: diputado Juan Carlos Giordano e Izquierda Socialista' },
+  { name: 'Giordano article refresh', path: '/agenda/contacto-prensa-juan-carlos-giordano/', type: 'article', contains: 'INFORMACIÓN PARA PERIODISTAS', titleContains: 'Contacto de prensa: diputado Juan Carlos Giordano e Izquierda Socialista' },
   { name: 'Empresas y negocios article', path: new URL(businessArticle).pathname, type: 'article' }
 ];
 if (scienceArticle) routeChecks.push({ name: 'Ciencia e IA article', path: new URL(scienceArticle).pathname, type: 'article' });
@@ -90,6 +90,7 @@ for (const result of results) {
     assert.ok(page.body.includes('class="prerendered-article"'), check.name + ' must have static article markup');
     assert.ok(page.body.includes('<link rel="canonical" href="' + canonical(check.path) + '" />'), check.name + ' canonical must match its URL');
     assert.ok(page.body.includes('NewsArticle'), check.name + ' must contain NewsArticle structured data');
+    if (check.titleContains) assert.ok(page.body.includes('<h1>' + check.titleContains + '</h1>'), check.name + ' must include the expected article title');
     assert.ok(page.body.includes('href="/"'), check.name + ' must include a link back to the homepage');
     if (check.contains) assert.ok(page.body.includes(check.contains), check.name + ' must include the expected article body marker');
   }
