@@ -1,8 +1,9 @@
 # Comunicadores Libres — operational handoff
 
 Updated: 2026-11-28 00:34 ART  
-Main: `86c6e29e17106e28237e8a8b04b77e5afcbedda1`  
-Latest verified build/deploy: [run 46103357171](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46103357171), success. Artifact: `github-pages-46103357171-1`.
+Application code: `86c6e29e17106e28237e8a8b04b77e5afcbedda1`  
+Handoff note added in commit: `e41bc4fc6c8d75f03b99cc2a6e9cc58d77297e31`  
+Latest verified application build/deploy: [run 46103357171](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46103357171), success. Artifact: `github-pages-46103357171-1`.
 
 ## Confirmed implementation
 - Static article pages now include the site header, links to all six sections, and a category breadcrumb. Smoke tests check these links across all 43 published article pages.
