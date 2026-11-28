@@ -143,10 +143,10 @@ const renderHomeCards = list => list.map(article => {
 const homeFeatured = articles.filter(article => article.featured).slice(0, 4);
 const homeLatest = articles.filter(article => !article.featured).slice(0, 4);
 const homeEmpty = '<p class="prerendered-empty">Todavía no hay publicaciones disponibles.</p>';
-const homeMarkup = \`<div id="root"><main class="prerendered-home-fallback">
+const homeMarkup = `<div id="root"><main class="prerendered-home-fallback">
   <header class="prerendered-header">
     <a class="prerendered-brand" href="/">COMUNICADORES <i>LIBRES</i></a>
-    <nav aria-label="Secciones">\${categoryNavigation}</nav>
+    <nav aria-label="Secciones">${categoryNavigation}</nav>
   </header>
   <section class="prerendered-category__intro">
     <p class="eyebrow">UNA PLATAFORMA EDITORIAL INDEPENDIENTE</p>
@@ -156,15 +156,15 @@ const homeMarkup = \`<div id="root"><main class="prerendered-home-fallback">
   <section class="prerendered-home-section">
     <p class="eyebrow">SELECCIÓN EDITORIAL</p>
     <h2>Noticias destacadas</h2>
-    <div class="prerendered-category__grid">\${renderHomeCards(homeFeatured) || homeEmpty}</div>
+    <div class="prerendered-category__grid">${renderHomeCards(homeFeatured) || homeEmpty}</div>
   </section>
   <section class="prerendered-home-section">
     <p class="eyebrow">DESDE NUESTRA REDACCIÓN</p>
     <h2>Últimas publicaciones</h2>
-    <div class="prerendered-category__grid">\${renderHomeCards(homeLatest) || homeEmpty}</div>
+    <div class="prerendered-category__grid">${renderHomeCards(homeLatest) || homeEmpty}</div>
   </section>
   <footer class="prerendered-footer"><a href="/agenda/">Explorar publicaciones y agenda política</a></footer>
-</main></div>\`;
+</main></div>`;
 const homeHtml = baseHtml.replace('<div id="root"></div>', homeMarkup);
 await fs.writeFile('dist/index.html', homeHtml, 'utf8');
 
