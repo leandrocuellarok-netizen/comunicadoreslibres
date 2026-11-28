@@ -1,11 +1,12 @@
 # Comunicadores Libres — operational handoff
 
-Updated: 2026-11-28 05:30 ART
+Updated: 2026-11-28 05:37 ART
 
 ## Repository and deployment
 - Main head at the start of this run: `8627003fe1228f124a0434a23e8cfae24926bb15`.
 - GitHub Actions run [46121965101](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46121965101) built and deployed that exact commit successfully. Build and Deploy jobs both passed. Artifact: `github-pages-46121965101-1`, 4,762,314 bytes. This proves the Pages deployment action completed, not that the custom domain serves it.
 - The same run executed the detailed dependency audit successfully. Audit findings are recorded below.
+- This handoff update is commit `e4f4bf3f5f00287825579f706c36ca52d1b43b41`; GitHub Actions run [46126507557](https://github.com/leandrocuellarok-netizen/comunicadoreslibres/actions/runs/46126507557) completed successfully for it. Build, audit, typecheck, prerender/smoke tests, artifact upload, and Deploy all passed. Artifact `github-pages-46126507557-1` (4,762,328 bytes).
 - Artifact naming remains unique per run attempt: `github-pages-${{ github.run_id }}-${{ github.run_attempt }}`; the deploy job consumes that exact name. One hourly schedule remains. `concurrency.cancel-in-progress: true` is enabled; three rapid push runs were cancelled around 04:28Z, followed by successful final runs. No change to concurrency was made.
 - Both root `CNAME` and `public/CNAME` contain `libres.sbs`. `public/robots.txt` allows crawling and points to `https://libres.sbs/sitemap.xml`. GitHub Pages settings and HTTPS enforcement could not be read through the current GitHub connection.
 - Workflow uses Node 22, `npm ci`, typecheck, Vite build/prerender/smoke tests, uniquely named artifact upload, and a separate deploy job. The workflow's audit step is non-blocking and skipped for scheduled runs.
@@ -20,6 +21,7 @@ Updated: 2026-11-28 05:30 ART
 ## Public verification limits
 - Fresh direct web opens failed for `https://libres.sbs/`, `/agenda/`, the Giordano article, `/ciencia-ia/`, and `/empresas-negocios/`. The default `github.io` URL also failed in the inspection tool.
 - No HTTP status, redirect chain, DNS answer, TLS certificate, browser rendering, navigation, or mobile/desktop behavior could be observed. Previous container DNS checks failed for unrelated domains as well; do not infer that libres.sbs is down from this environment limitation.
+- Search Console connector is connected only to property `https://www.syscom.sbs/`, not `https://libres.sbs/`; no Search Console performance or indexing data for Comunicadores Libres is available. The owner must add/authorize the correct URL-prefix or domain property before site-specific GSC analysis.
 - No indexing claim is supported. A working external network and browser/HTTP probe are still required.
 
 ## Dependency audit — confirmed from GitHub Actions logs
