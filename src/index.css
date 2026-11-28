@@ -405,3 +405,12 @@ footer .recommended-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-ser
     font-size: 23px;
   }
 }
+
+
+/* Páginas institucionales y corresponsalías */
+.institutional-pages{grid-column:1/-1;width:100%;margin:1rem 0;padding:1.5rem 0;border-top:1px solid rgba(233,217,192,.28)}
+.institutional-heading .eyebrow{margin:0 0 .4rem;color:#d8b981}
+.institutional-heading h2{margin:0 0 1.2rem;font:700 27px 'Playfair Display',Georgia,serif;color:#f3e8d6}
+.institutional-card{max-width:620px;padding:18px 20px;background:rgba(255,255,255,.045);border:1px solid rgba(233,217,192,.22)}
+footer .institutional-card a{color:#f0d7a7;text-decoration:underline;text-underline-offset:3px;font:700 18px 'Playfair Display',Georgia,serif}
+footer .institutional-card p{margin:.7rem 0 0;font:400 13px/1.6 'DM Sans',sans-serif;color:#e9d9c0}
